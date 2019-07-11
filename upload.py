@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 
 import re
-
 from git import Repo
 
 from sort import Sorter

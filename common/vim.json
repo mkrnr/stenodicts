@@ -1,0 +1,21 @@
+{
+"HR*PB": "{^<^}",
+"KR-RT": "{^}^{^}",
+"KW-L": "{^=^}",
+"OEU": "{^/^}",
+"P-P": "{^.^}",
+"PHR-B": "{^}{#Alt_L(k)}",
+"PHR-R": "{^}{#Alt_L(j)}",
+"SPWAO*UT": "{^}{#Escape}:%s/",
+"SR*F": "{^}{#Escape}{^}:w{#Return}",
+"SREUPL": "vim",
+"STPR*F": "{^}{#Escape}{^}:w{#Return}",
+"STPR-F": "{^gT^}",
+"STPR-FPLT": "{^}{#Escape}:{^}",
+"STPR-L": "{^gt^}",
+"STPREFBG": "{^}{#Escape}{^}:x{^}",
+"STPROEUFRL": "{^}{#Escape}{^\"^}{^*^}{^y^}{^i^}{^w^}{#Control_L(Alt_L(Shift_L(Super_L(s))))}",
+"T*EULD": "{^}~{^}",
+"TKPWR*PB": "{^>^}",
+"TPHRORB": "{^}${^}"
+}
