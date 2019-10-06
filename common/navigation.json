@@ -1,8 +1,8 @@
 {
+"H-F": "{#Escape}",
 "KHR*T": "{#Control_L(w)}",
 "KPH*BG": "{#Super_L(k)}",
 "KPH-BG": "{#Super_L(c)}",
-"P": "{#Escape}",
 "SH-FT": "{#Control_L(Home)}",
 "STK-B": "{#Caps_Lock(p)}",
 "STK-D": "{#Caps_Lock(period)}",
