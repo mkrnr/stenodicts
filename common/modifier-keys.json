@@ -85,6 +85,7 @@
 "KHRA/TPW": "{#Alt_L(Control_L(Tab))}",
 "KHRA/U": "{#Alt_L(Control_L(u))}",
 "KHRA/W": "{#Alt_L(Control_L(w))}",
+"KPO": "{#control(c)}",
 "KPWHR": "{#}",
 "KPWHR/1": "{#Super_L(Control_L(8)}",
 "KPWHR/1234": "{#Super_L(Control_L(0)}",

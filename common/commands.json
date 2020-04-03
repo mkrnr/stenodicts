@@ -1,6 +1,14 @@
 {
+"KPWR-R": "{#Super_L(return)}",
+"KPWRO": "{#windows}",
+"KWA": "{#control(c)}",
+"KWAO": "{#control(x)}",
+"KWHR": "{#Control_L(w)}",
+"KWO": "{#control(v)}",
 "PHRO*F": "{PLOVER:SUSPEND}",
 "PHRO*PB": "{PLOVER:RESUME}",
 "PHROLG": "{PLOVER:TOGGLE}",
+"PHRUP": "{PLOVER:LOOKUP}",
+"TKPWHRO": "{#Alt_L(F4)}",
 "TKUPT": "{PLOVER:ADD_TRANSLATION}"
 }
