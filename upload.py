@@ -2,6 +2,7 @@
 
 import codecs
 import glob
+import os
 from pathlib import Path
 import re
 
@@ -18,15 +19,18 @@ if stenodicts_website_path.exists():
     for md_file_string in glob.iglob('*/*.md', recursive=True):
         print(md_file_string)
         md_file_path = Path(md_file_string)
-        with codecs.open(stenodicts_website_path / md_file_path.name, "w", "utf-8") as output_file:    
+        with codecs.open(str(stenodicts_website_path / md_file_path.name), "w", "utf-8") as output_file:    
             output_file.write("---\n")
             output_file.write("layout: page\n")
             output_file.write("title: " + md_file_path.stem + "\n")
             output_file.write("permalink: /" + md_file_path.stem + "/\n")
             output_file.write("---\n\n")
 
-            with open(md_file_path, 'r') as md_file:
+            with open(str(md_file_path), 'r') as md_file:
                 output_file.write(md_file.read())
+
+os.system('cd ../stenodicts-website && JEKYLL_ENV=production bundle exec jekyll build')
+os.system('rsync -avh ../stenodicts-website/_site/ webspace:/www/htdocs/\\*/mkrnr.com/stenodicts --delete')
 
 repo = Repo('.')
 
@@ -60,3 +64,4 @@ if len(files_to_commit) > 0:
         print('exiting')
 else:
     print('no untracked dictionary changes')
+

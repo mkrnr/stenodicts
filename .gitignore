@@ -4,3 +4,4 @@ __pycache__
 *.pyc
 
 common/inbox.json
+common/generated
