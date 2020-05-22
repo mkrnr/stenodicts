@@ -1,39 +1,38 @@
+## Character Keys
 
-| Stroke   | Description | Translation         |
-|----------|-------------|---------------------|
-| AFT      |             | {^*^}               |
-| H-RB     |             | {^#^}               |
-| HR-D     |             | {^~^}               |
-| HR-RB    |             | {^/^}               |
-| K-BG     |             | {^,^}               |
-| K-L      |             | {^:^}               |
-| K-PL     |             | {^?^}               |
-| KPR      |             | {^^^}               |
-| KPR-FR   |             | {^\\{^}             |
-| KPR-LG   |             | {^\\}^}             |
-| KW-L     |             | {^=^}               |
-| KWRAOURS |             | Euros               |
-| KWRAPBD  |             | {^&^}               |
-| KWRUL    |             | you'll              |
-| P-BG     |             | {^!^}               |
-| P-PL     |             | {^.^}               |
-| P-RS     |             | {^%^}               |
-| PHR-S    |             | {^+^}               |
-| PR-FR    |             | {^(^}               |
-| PR-LG    |             | {^)^}               |
-| PR-PG    |             | {^`^}               |
-| PW-R     |             | {#bar}              |
-| PWHR-RB  |             | {^\\^}              |
-| PWR      |             | {#shift(backslash)} |
-| S-BG     |             | _                   |
-| S-RT     |             | <                   |
-| SPR-FR   |             | {^[^}               |
-| SPR-LG   |             | {^]^}               |
-| T-B      |             | {#tab}              |
-| T-BG     |             | {^!^}               |
-| T-PL     |             | {^.^}               |
-| TKPW-RT  |             | >                   |
-| TPW      |             | {^\t^}              |
-| TWH      |             | {^$^}               |
-| W-BG     |             | {^,^}               |
-| W-PL     |             | {^?^}               |
+| Stroke  | Description         | Translation              |
+|---------|---------------------|--------------------------|
+| KWRAPBD | And                 | {^&^}                    |
+| TKPW-RT | Angle Bracket Right | >                        |
+| S-RT    | Angle Bracket Left  | <                        |
+| PR-PG   | Back Quote          | {^`^}                    |
+| PWHR-RB | Backslash           | {#backslash}             |
+| KPR-FR  | Brace Left          | {#shift(bracketleft)}    |
+| KPR-LG  | Brace Right         | {#shift(bracketright)} |
+| SPR-FR  | Bracket Left        | {^[^}                    |
+| SPR-LG  | Bracket Right       | {^]^}                    |
+| KPR     | Caret               | {^^^}                    |
+| K-L     | Colon               | {^:^}                    |
+| W-BG    | Comma               | {^,^}                    |
+| TWH     | Dollar              | {^$^}                    |
+| KW-L    | Equal               | {^=^}                    |
+| KWR-R   | Euro                | {^€^}                    |
+| P-BG    | Exclamation Mark    | {^!^}                    |
+| P-RS    | Percent             | {^%^}                    |
+| P-PL    | Period              | {^.^}                    |
+| PW-R    | Pipe                | {#bar}                   |
+| PHR-S   | Plus                | {^+^}                    |
+| H-RB    | Pound               | {^#^}                    |
+| HR-RB   | Slash               | {^/^}                    |
+| AFT     | Star                | {^*^}                    |
+| HR-D    | Tilde               | {^~^}                    |
+| PR-FR   | Parenthesis Left    | {^(^}                    |
+| PR-LG   | Parenthesis Right   | {^)^}                    |
+| W-PL    | Question Mark       | {^?^}                    |
+| KWOU    | Single Quote        | {^'^}                    |
+| SP      | Space               | {#Space}                 |
+| T-B     | Tab (Keyboard Key)  | {#tab}                   |
+| TPW     | Tab (Undoable)      | {^\t^}                   |
+| S-BG    | Underscore          | _                        |
+| PWR     | Vertikal Bar        | {#shift(backslash)}      |
+| SK-F    | F1                  | {#F1}                    |
