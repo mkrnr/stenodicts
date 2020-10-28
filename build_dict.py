@@ -5,12 +5,13 @@ import glob
 import json
 import os
 from pathlib import Path
+import re
 import sys
 
 
 class DictBuilder(object):
     
-    def build_from_md(self, md_file_path):
+    def get_dict_from_md(self, md_file_path):
         with codecs.open(md_file_path, "r", "utf-8") as md_file:    
             md_lines = md_file.readlines() 
             strokes_dict = {}
@@ -24,14 +25,24 @@ class DictBuilder(object):
                 if in_table and not md_line.startswith("|"):
                     in_table = False
                 if in_table:
-                    md_line_split = md_line.split("|")
+                    md_line = md_line.replace('\|', '{ESCAPED_PIPE}')
+                    md_line_split = md_line.split('|')
+                    md_line_split = [sub.replace('{ESCAPED_PIPE}', '|') for sub in md_line_split] 
                     strokes = md_line_split[1].strip()
+                    strokes = strokes.replace("\|", "|")
                     translation = md_line_split[len(md_line_split) - 2].strip()
                     if strokes in strokes_dict:
                         sys.exit("defined more than once: " + strokes + " >>> ABORT")
                     else:
                         strokes_dict[strokes] = translation
                 
+        return strokes_dict
+
+    def build_from_md(self, md_file_path):
+        strokes_dict = self.get_dict_from_md(md_file_path)
+        self.write_dict(strokes_dict, md_file_path)
+                
+    def write_dict(self, strokes_dict, md_file_path):
         md_path = Path(md_file_path)
         generated_target_path = md_path.parent / "generated"
         if not os.path.exists(generated_target_path):
@@ -44,6 +55,7 @@ class DictBuilder(object):
 
             # replace redundantly escaped backslashes
             json_string = json_string.replace("\\\\", "\\")
+            json_string = json_string.replace('\\"', '"')
 
             json_file.write(json_string)
 
@@ -58,5 +70,6 @@ class DictBuilder(object):
     
 
 if __name__ == '__main__':
+    stenodicts_root = sys.path[0]
     dict_builder = DictBuilder()
-    dict_builder.build_all_from_md("*/*.md", print_files=True)
+    dict_builder.build_all_from_md(stenodicts_root + "/*/*.md", print_files=True)

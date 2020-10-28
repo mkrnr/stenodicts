@@ -1,3 +1,5 @@
+# Commands
+
 ## Text Manipulation
 
 | Stroke  | Description         | Translation             |
