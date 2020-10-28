@@ -5,4 +5,5 @@ __pycache__
 
 common/inbox.json
 common/generated
+plover/generated
 */.*
