@@ -79,6 +79,7 @@
 | PW-FT   | 9           | {}{^9}      |
 | PW-PT   | 0           | {}{^0}      |
 | PW-FPLT | 0           | {}{^0}      |
+| PW-D    | 0           | {}{^0}      |
 
 ## F-Keys
 
@@ -113,6 +114,7 @@
 | Stroke  | Description                        | Translation |
 |---------|------------------------------------|-------------|
 | APBD    | And                                | {^&^}       |
+| T-PLS   | Asterisk (times)                   | {^*^}       |
 | TKPW-RT | Greater Than                       | {^>^}       |
 | S-RT    | Smaller Than                       | {^<^}       |
 | T-T     | At                                 | {^@^}       |
@@ -141,7 +143,6 @@
 | H-RB    | Hash                               | {^#^}       |
 | SK-L    | Semicolon                          | {^;^}       |
 | HR-RB   | Slash                              | {^/^}       |
-| AFT     | Star                               | {^*^}       |
 | HR-D    | Tilde                              | {^~^}       |
 | PR-FR   | Parenthesis Left                   | {^(^}       |
 | PR-FRP  | Parenthesis Left (Leading space)   | {(^}        |

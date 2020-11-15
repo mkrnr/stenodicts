@@ -6,6 +6,8 @@
 |-----------|-----------------------------------|----------------------------|
 | -FP       | Up                                | {#caps_lock(k)}            |
 | -RB       | Down                              | {#caps_lock(j)}            |
+| -FPL      | Up                                | {#caps_lock(k)}            |
+| -RBG      | Down                              | {#caps_lock(j)}            |
 | -FR       | Left                              | {#caps_lock(h)}            |
 | -LG       | Right                             | {#caps_lock(l)}            |
 | -RPG      | Page Up                           | {#Control_R(k)}            |
@@ -106,6 +108,8 @@
 | R-LG       | Move window right               | {#Super_L(Right)}                   |
 | R-FP       | Move window up                  | {#Super_L(Up)}                      |
 | R-RB       | Move window down                | {#Super_L(Down)}                    |
+| R-FPL      | Move window up                  | {#Super_L(Up)}                      |
+| R-RBG      | Move window down                | {#Super_L(Down)}                    |
 | R-FRPB     | Move window to screen left      | {#Super_L(Shift_L(left))}           |
 | R-PBLG     | Move window to screen right     | {#Super_L(Shift_L(right))}          |
 | PWRE       | Open Windows Explorer           | {#Super_L(e)}                       |
