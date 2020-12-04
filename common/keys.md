@@ -56,13 +56,13 @@
 | KWR-P  | Y           | {}{^Y}      |
 | -Z     | z           | {}{^z}      |
 | P-Z    | Z           | {}{^Z}      |
-| AE     | ä           | {}{^ä}      |
-| AEP    | Ä           | {}{^Ä}      |
-| OE     | ö           | {}{^ö}      |
-| OEP    | Ö           | {}{^Ö}      |
-| OU     | ü           | {}{^ü}      |
-| OUP    | Ü           | {}{^Ü}      |
-| SE     | ß           | {}{^ß}      |
+| AE     | ä           | {#alt_r(a)}      |
+| AEP    | Ä           | {#alt_r(shift(a))}      |
+| OE     | ö           | {#alt_r(o)}      |
+| OEP    | Ö           | {#alt_r(shift(o))}      |
+| OU     | ü           | {#alt_r(u)}      |
+| OUP    | Ü           | {#alt_r(shift(u))}      |
+| SE     | ß           | {#alt_r(s)}      |
 
 ## Numbers
 
