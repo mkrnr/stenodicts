@@ -100,14 +100,16 @@
 
 ## Special Keys
 
-| Stroke | Description | Translation     |
-|--------|-------------|-----------------|
-| -FRPB  | Backspace   | {#backspace}    |
-| TK-L   | Delete      | {#caps_lock(q)} |
-| H-F    | Escape      | {#escape}       |
-| TPH-RT | Insert      | {#insert}       |
-| T-B    | Tab         | {#caps_lock(z)} |
-| PWRO   | Windows     | {#windows}      |
+| Stroke | Description    | Translation     |
+|--------|----------------|-----------------|
+| -FRPB  | Backspace      | {#backspace}    |
+| TK-L   | Delete         | {#caps_lock(q)} |
+| H-F    | Escape         | {#escape}       |
+| TPH-RT | Insert         | {#insert}       |
+| T-B    | Tab            | {#caps_lock(z)} |
+| PWRO   | Windows        | {#windows}      |
+| KHR    | Toggle Control | {#alt_l(q)}     |
+| SHR    | Toggle Shift   | {#alt_l(w)}     |
 
 ## Special Characters
 
