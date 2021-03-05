@@ -1,10 +1,5 @@
 #!/usr/bin/env python3
 
-import codecs
-import glob
-import json
-import os
-from pathlib import Path
 import sys
 from build_dict import DictBuilder
 
