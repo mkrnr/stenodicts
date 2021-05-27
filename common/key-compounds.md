@@ -17,3 +17,6 @@
 | ST-P   | St          | {}{^St}     |
 | OEU    | eu          | {}{^eu}     |
 | POEU   | Eu          | {}{^Eu}     |
+| AU     | au          | {}{^au}     |
+| PAU    | Au          | {}{^Au}     |
+| AUP    | Au          | {}{^Au}     |
