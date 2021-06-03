@@ -6,8 +6,8 @@
 |-----------|-----------------------------------|----------------------------|
 | -FP       | Up                                | {#caps_lock(k)}            |
 | -RB       | Down                              | {#caps_lock(j)}            |
-| -FPL      | Up                                | {#caps_lock(k)}            |
-| -RBG      | Down                              | {#caps_lock(j)}            |
+| -FPL      | Up                                | {#up}            |
+| -RBG      | Down                              | {#down}            |
 | -FR       | Left                              | {#caps_lock(h)}            |
 | -LG       | Right                             | {#caps_lock(l)}            |
 | -RPG      | Page Up                           | {#Control_R(k)}            |
