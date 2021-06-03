@@ -4,10 +4,10 @@
 
 | Stroke    | Description                       | Translation                |
 |-----------|-----------------------------------|----------------------------|
-| -FP       | Up                                | {#caps_lock(k)}            |
-| -RB       | Down                              | {#caps_lock(j)}            |
-| -FPL      | Up                                | {#up}            |
-| -RBG      | Down                              | {#down}            |
+| -FP       | Up                                | {#Up}                      |
+| -RB       | Down                              | {#Down}                    |
+| -FPL      | Up                                | {#Up}                      |
+| -RBG      | Down                              | {#Down}                    |
 | -FR       | Left                              | {#caps_lock(h)}            |
 | -LG       | Right                             | {#caps_lock(l)}            |
 | -RPG      | Page Up                           | {#Control_R(k)}            |
