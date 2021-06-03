@@ -8,8 +8,8 @@
 | -RB       | Down                              | {#Down}                    |
 | -FPL      | Up                                | {#Up}                      |
 | -RBG      | Down                              | {#Down}                    |
-| -FR       | Left                              | {#caps_lock(h)}            |
-| -LG       | Right                             | {#caps_lock(l)}            |
+| -FR       | Left                              | {#Left}                    |
+| -LG       | Right                             | {#Right}                   |
 | -RPG      | Page Up                           | {#Control_R(k)}            |
 | -FBL      | Page Down                         | {#Control_R(j)}            |
 | SR-FP     | Volume Up                         | {#AudioRaiseVolume}        |
