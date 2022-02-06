@@ -2,145 +2,114 @@
 
 ## Navigation Keys
 
-| Stroke    | Description                       | Translation                |
-|-----------|-----------------------------------|----------------------------|
-| -FP       | Up                                | {#Up}                      |
-| -RB       | Down                              | {#Down}                    |
-| -FPL      | Up                                | {#Up}                      |
-| -RBG      | Down                              | {#Down}                    |
-| -FR       | Left                              | {#Left}                    |
-| -LG       | Right                             | {#Right}                   |
-| -RPG      | Page Up                           | {#Control_R(k)}            |
-| -FBL      | Page Down                         | {#Control_R(j)}            |
-| SR-FP     | Volume Up                         | {#AudioRaiseVolume}        |
-| SR-RB     | Volume Down                       | {#AudioLowerVolume}        |
-| SR-FRPB   | Volume Mute                       | {#AudioMute}               |
-| -FRB      | Move curser to word left          | {#Control_R(h)}            |
-| -BLG      | Move curser to word right         | {#Control_R(l)}            |
-| -FRP      | Home                              | {#Control_R(s)}            |
-| -PLG      | End                               | {#Control_R(g)}            |
-| -RPBG     | Move cursor to document beginning | {#Control_R(d)}            |
-| -FPBL     | Move cursor to document end       | {#Control_R(f)}            |
-| SPW-FR    | Mark last character               | {#shift(left)}             |
-| SPW-LG    | Mark next character               | {#shift(right)}            |
-| SKPW-FR   | Mark last word                    | {#control(shift(left))}    |
-| SKPW-LG   | Mark next word                    | {#control(shift(right))}   |
-| TKPW-F    | Control + F1                      | {#Control_R(F1)}           |
-| TKPW-P    | Control + F2                      | {#Control_R(F2)}           |
-| TKPW-FP   | Control + F3                      | {#Control_R(F3)}           |
-| TKPW-L    | Control + F4                      | {#Control_R(F4)}           |
-| TKPW-FL   | Control + F5                      | {#Control_R(F5)}           |
-| TKPW-PL   | Control + F6                      | {#Control_R(F6)}           |
-| TKPW-FPL  | Control + F7                      | {#Control_R(F7)}           |
-| TKPW-T    | Control + F8                      | {#Control_R(F8)}           |
-| TKPW-FT   | Control + F9                      | {#Control_R(F9)}           |
-| TKPW-PT   | Control + F10                     | {#Control_R(F10)}          |
-| TKPW-FPT  | Control + F11                     | {#Control_R(F11)}          |
-| TKPW-LT   | Control + F12                     | {#Control_R(F12)}          |
-| STPW-F    | Shift + F1                        | {#Shift_L(F1)}             |
-| STPW-P    | Shift + F2                        | {#Shift_L(F2)}             |
-| STPW-FP   | Shift + F3                        | {#Shift_L(F3)}             |
-| STPW-L    | Shift + F4                        | {#Shift_L(F4)}             |
-| STPW-FL   | Shift + F5                        | {#Shift_L(F5)}             |
-| STPW-PL   | Shift + F6                        | {#Shift_L(F6)}             |
-| STPW-FPL  | Shift + F7                        | {#Shift_L(F7)}             |
-| STPW-T    | Shift + F8                        | {#Shift_L(F8)}             |
-| STPW-FT   | Shift + F9                        | {#Shift_L(F9)}             |
-| STPW-PT   | Shift + F10                       | {#Shift_L(F10)}            |
-| STPW-FPT  | Shift + F11                       | {#Shift_L(F11)}            |
-| STPW-LT   | Shift + F12                       | {#Shift_L(F12)}            |
-| STKPW-F   | Control + Shift + F1              | {#Control_R(Shift_L(F1))}  |
-| STKPW-P   | Control + Shift + F2              | {#Control_R(Shift_L(F2))}  |
-| STKPW-FP  | Control + Shift + F3              | {#Control_R(Shift_L(F3))}  |
-| STKPW-L   | Control + Shift + F4              | {#Control_R(Shift_L(F4))}  |
-| STKPW-FL  | Control + Shift + F5              | {#Control_R(Shift_L(F5))}  |
-| STKPW-PL  | Control + Shift + F6              | {#Control_R(Shift_L(F6))}  |
-| STKPW-FPL | Control + Shift + F7              | {#Control_R(Shift_L(F7))}  |
-| STKPW-T   | Control + Shift + F8              | {#Control_R(Shift_L(F8))}  |
-| STKPW-FT  | Control + Shift + F9              | {#Control_R(Shift_L(F9))}  |
-| STKPW-PT  | Control + Shift + F10             | {#Control_R(Shift_L(F10))} |
-| STKPW-FPT | Control + Shift + F11             | {#Control_R(Shift_L(F11))} |
-| STKPW-LT  | Control + Shift + F12             | {#Control_R(Shift_L(F12))} |
+| Stroke    | Description                       | Translation             |
+|-----------|-----------------------------------|-------------------------|
+| -FP       | Up                                | {#up}                   |
+| -RB       | Down                              | {#down}                 |
+| -FPL      | Up                                | {#up}                   |
+| -RBG      | Down                              | {#down}                 |
+| -FR       | Left                              | {#left}                 |
+| -LG       | Right                             | {#right}                |
+| -RPG      | Page Up                           | {#page_up}              |
+| -FBL      | Page Down                         | {#page_down}            |
+| SR-FPL    | Volume Up                         | {#audioraisevolume}     |
+| SR-RBG    | Volume Down                       | {#audiolowervolume}     |
+| SR-FRPBLG | Volume Mute                       | {#audiomute}            |
+| -FRB      | Move curser to word left          | {#option(Left)}         |
+| -BLG      | Move curser to word right         | {#option(right)}        |
+| -FRP      | Home                              | {#home}                 |
+| -PLG      | End                               | {#end}                  |
+| -RPBG     | Move cursor to document beginning | {#command(up)}          |
+| -FPBL     | Move cursor to document end       | {#command(down)}        |
+| SPW-FR    | Mark last character               | {#shift(left)}          |
+| SPW-LG    | Mark next character               | {#shift(right)}         |
+| SKPW-FR   | Mark last word                    | {#option(shift(left))}  |
+| SKPW-LG   | Mark next word                    | {#option(shift(right))} |
+| TKPW-F    | Control + F1                      | {#control(f1)}          |
+| TKPW-P    | Control + F2                      | {#control(f2)}          |
+| TKPW-FP   | Control + F3                      | {#control(f3)}          |
+| TKPW-L    | Control + F4                      | {#control(f4)}          |
+| TKPW-FL   | Control + F5                      | {#control(f5)}          |
+| TKPW-PL   | Control + F6                      | {#control(f6)}          |
+| TKPW-FPL  | Control + F7                      | {#control(f7)}          |
+| TKPW-T    | Control + F8                      | {#control(f8)}          |
+| TKPW-FT   | Control + F9                      | {#control(f9)}          |
+| TKPW-PT   | Control + F10                     | {#control(f10)}         |
+| TKPW-FPT  | Control + F11                     | {#control(f11)}         |
+| TKPW-LT   | Control + F12                     | {#control(f12)}         |
+| STPW-F    | Shift + F1                        | {#shift(f1)}            |
+| STPW-P    | Shift + F2                        | {#shift(f2)}            |
+| STPW-FP   | Shift + F3                        | {#shift(f3)}            |
+| STPW-L    | Shift + F4                        | {#shift(f4)}            |
+| STPW-FL   | Shift + F5                        | {#shift(f5)}            |
+| STPW-PL   | Shift + F6                        | {#shift(f6)}            |
+| STPW-FPL  | Shift + F7                        | {#shift(f7)}            |
+| STPW-T    | Shift + F8                        | {#shift(f8)}            |
+| STPW-FT   | Shift + F9                        | {#shift(f9)}            |
+| STPW-PT   | Shift + F10                       | {#shift(f10)}           |
+| STPW-FPT  | Shift + F11                       | {#shift(f11)}           |
+| STPW-LT   | Shift + F12                       | {#shift(f12)}           |
+| STKPW-F   | Control + Shift + F1              | {#control(shift(f1))}   |
+| STKPW-P   | Control + Shift + F2              | {#control(shift(f2))}   |
+| STKPW-FP  | Control + Shift + F3              | {#control(shift(f3))}   |
+| STKPW-L   | Control + Shift + F4              | {#control(shift(f4))}   |
+| STKPW-FL  | Control + Shift + F5              | {#control(shift(f5))}   |
+| STKPW-PL  | Control + Shift + F6              | {#control(shift(f6))}   |
+| STKPW-FPL | Control + Shift + F7              | {#control(shift(f7))}   |
+| STKPW-T   | Control + Shift + F8              | {#control(shift(f8))}   |
+| STKPW-FT  | Control + Shift + F9              | {#control(shift(f9))}   |
+| STKPW-PT  | Control + Shift + F10             | {#control(shift(f10))}  |
+| STKPW-FPT | Control + Shift + F11             | {#control(shift(f11))}  |
+| STKPW-LT  | Control + Shift + F12             | {#control(shift(f12))}  |
 
 ## Window Navigation
 
-| Stroke     | Description                     | Translation                         |
-|------------|---------------------------------|-------------------------------------|
-| KPWR-F     | Switch to desktop 1             | {#Caps_Lock(u)}                     |
-| KPWR-P     | Switch to desktop 2             | {#Caps_Lock(i)}                     |
-| KPWR-FP    | Switch to desktop 3             | {#Caps_Lock(o)}                     |
-| KPWR-L     | Switch to desktop 4             | {#Caps_Lock(p)}                     |
-| KPWR-FL    | Switch to desktop 5             | {#Caps_Lock(bracketleft)}           |
-| KPWR-PL    | Switch to desktop 6             | {#Caps_Lock(n)}                     |
-| KPWR-FPL   | Switch to desktop 7             | {#Caps_Lock(m)}                     |
-| KPWR-T     | Switch to desktop 8             | {#Caps_Lock(comma)}                 |
-| KPWR-FT    | Switch to desktop 9             | {#Caps_Lock(period)}                |
-| KPWR-PT    | Switch to desktop 10            | {#Caps_Lock(slash)}                 |
-| KPWR-FR    | Switch to desktop left          | {#Control_L(Super_L(Left))}         |
-| KPWR-LG    | Switch to desktop right         | {#Control_L(Super_L(Right))}        |
-| KPW-F      | Control + 1                     | {#Control_L(1)}                     |
-| KPW-P      | Control + 2                     | {#Control_L(2)}                     |
-| KPW-FP     | Control + 3                     | {#Control_L(3)}                     |
-| KPW-L      | Control + 4                     | {#Control_L(4)}                     |
-| KPW-FL     | Control + 5                     | {#Control_L(5)}                     |
-| KPW-PL     | Control + 6                     | {#Control_L(6)}                     |
-| KPW-FPL    | Control + 7                     | {#Control_L(7)}                     |
-| KPW-T      | Control + 8                     | {#Control_L(8)}                     |
-| KPW-FT     | Control + 9                     | {#Control_L(9)}                     |
-| KPW-PPT    | Control + 0                     | {#Control_L(0)}                     |
-| KPW-BGS    | Close Window                    | {#Control_L(w)}                     |
-| KPW-FR     | Switch to tab left              | {#Caps_Lock(s)}                     |
-| KPW-LG     | Switch to tab right             | {#Caps_Lock(g)}                     |
-| PWR-F      | Switch to window 1              | {#Super_L(1)}                       |
-| PWR-P      | Switch to window 2              | {#Super_L(2)}                       |
-| PWR-FP     | Switch to window 3              | {#Super_L(3)}                       |
-| PWR-L      | Switch to window 4              | {#Super_L(4)}                       |
-| PWR-FL     | Switch to window 5              | {#Super_L(5)}                       |
-| PWR-PL     | Switch to window 6              | {#Super_L(6)}                       |
-| PWR-FPL    | Switch to window 7              | {#Super_L(7)}                       |
-| PWR-T      | Switch to window 8              | {#Super_L(8)}                       |
-| PWR-FT     | Switch to window 9              | {#Super_L(9)}                       |
-| PWR-FPT    | Switch to window 10             | {#Super_L(0)}                       |
-| PWR-FR     | Switch to window left           | {#Super_L(Prior)}                   |
-| PWR-LG     | Switch to window right          | {#Super_L(Next)}                    |
-| PWR-BGS    | Close window                    | {#Super_L(c)}                       |
-| R-FR       | Move window left                | {#Super_L(Left)}                    |
-| R-LG       | Move window right               | {#Super_L(Right)}                   |
-| R-FP       | Move window up                  | {#Super_L(Up)}                      |
-| R-RB       | Move window down                | {#Super_L(Down)}                    |
-| R-FPL      | Move window up                  | {#Super_L(Up)}                      |
-| R-RBG      | Move window down                | {#Super_L(Down)}                    |
-| R-FRPB     | Move window to screen left      | {#Super_L(Shift_L(left))}           |
-| R-PBLG     | Move window to screen right     | {#Super_L(Shift_L(right))}          |
-| PWRE       | Open Windows Explorer           | {#Super_L(e)}                       |
-| SKPWR-F    | Move window to desktop 1        | {#Super_L(shift(u))}                |
-| SKPWR-P    | Move window to desktop 2        | {#Super_L(shift(i))}                |
-| SKPWR-FP   | Move window to desktop 3        | {#Super_L(shift(o))}                |
-| SKPWR-L    | Move window to desktop 4        | {#Super_L(shift(p))}                |
-| SKPWR-FL   | Move window to desktop 5        | {#Super_L(shift(bracketleft))}      |
-| SKPWR-PL   | Move window to desktop 6        | {#Super_L(shift(n))}                |
-| SKPWR-FPL  | Move window to desktop 7        | {#Super_L(shift(m))}                |
-| SKPWR-T    | Move window to desktop 8        | {#Super_L(shift(comma))}            |
-| SKPWR-FT   | Move window to desktop 9        | {#Super_L(shift(period))}           |
-| SKPWR-PT   | Move window to desktop 10       | {#Super_L(shift(slash))}            |
-| SKPWR-FPLT | Move window to desktop 10       | {#Super_L(shift(slash))}            |
-| SKPWR-FR   | Move window to desktop left     | {#Super_L(Control_L(shift(left)))}  |
-| SKPWR-LG   | Move window to desktop right    | {#Super_L(Control_L(shift(right)))} |
-| H-FR       | Move history left               | {#Back}                             |
-| H-LG       | Move history right              | {#Forward}                          |
-| TPWR       |                                 | {#Super_L(Tab)}                     |
-| PWR-B      | Windows + Enter (Open Terminal) | {#Super_L(return)}                  |
-
+| Stroke   | Description                 | Translation                        |
+|----------|-----------------------------|------------------------------------|
+| H-FR     | Move history left           | {#command(bracketleft)}            |
+| H-LG     | Move history right          | {#command(bracketright)}           |
+| PWR-F    | Switch to tab 1             | {#command(1)}                      |
+| PWR-P    | Switch to tab 2             | {#command(2)}                      |
+| PWR-FP   | Switch to tab 3             | {#command(3)}                      |
+| PWR-L    | Switch to tab 4             | {#command(4)}                      |
+| PWR-FL   | Switch to tab 5             | {#command(5)}                      |
+| PWR-PL   | Switch to tab 6             | {#command(6)}                      |
+| PWR-FPL  | Switch to tab 7             | {#command(7)}                      |
+| PWR-T    | Switch to tab 8             | {#command(8)}                      |
+| PWR-FT   | Switch to last tab          | {#command(9)}                      |
+| PWR-FR   | Switch to tab left          | {#control(shift(tab))}             |
+| PWR-LG   | Switch to tab right         | {#control(tab)}                    |
+| TPWR     | Switch to last application  | {#command(tab)}                    |
+| PR-G     | Open program                | {#command(space)}                  |
+| PWR-BGS  | Close window                | {#command(w)}                      |
+| PWR-FBGS | Close application           | {#command(q)}                      |
+| KPW-PPT  | Control + 0                 | {#control(0)}                      |
+| KPW-F    | Control + 1                 | {#control(1)}                      |
+| KPW-P    | Control + 2                 | {#control(2)}                      |
+| KPW-FP   | Control + 3                 | {#control(3)}                      |
+| KPW-L    | Control + 4                 | {#control(4)}                      |
+| KPW-FL   | Control + 5                 | {#control(5)}                      |
+| KPW-PL   | Control + 6                 | {#control(6)}                      |
+| KPW-FPL  | Control + 7                 | {#control(7)}                      |
+| KPW-T    | Control + 8                 | {#control(8)}                      |
+| KPW-FT   | Control + 9                 | {#control(9)}                      |
+| R-FRPB   | Move window to screen left  | {#control(option(command(left)))}  |
+| R-PBLG   | Move window to screen right | {#control(option(command(right)))} |
+| R-RB     | Move window down            | {#control(option(down))}           |
+| R-RBG    | Move window down            | {#control(option(down))}           |
+| R-FR     | Move window left            | {#control(option(left))}           |
+| R-LG     | Move window right           | {#control(option(right))}          |
+| R-FP     | Move window up              | {#control(option(up))}             |
+| R-FPL    | Move window up              | {#control(option(up))}             |
 
 ## Program Navigation
 
-| Stroke | Description | Translation     |
-|--------|-------------|-----------------|
-| KPW-PB | New tab     | {#Control_L(t)} |
-| KPWE   | Control + e | {#Control_L(e)} |
-| KPW-R  | Cut         | {#Control_L(x)} |
-| KPW-B  | Copy        | {#Control_L(c)} |
-| KPW-G  | Paste       | {#Control_L(v)} |
+| Stroke | Description | Translation   |
+|--------|-------------|---------------|
+| PWR-PB | New tab     | {#command(t)} |
+| KPW-R  | Cut         | {#command(x)} |
+| KPW-B  | Copy        | {#command(c)} |
+| KPW-G  | Paste       | {#command(v)} |
 
 
 
@@ -150,10 +119,9 @@
 |--------|-----------------------------------|---------------------|
 
 
-## Eclipse
+## IntelliJ / PyCharm
 
 | Stroke  | Description    | Translation                   |
 |---------|----------------|-------------------------------|
-| STP-L   | Open file      | {#Control_L(Shift(r))}        |
-| SK-LS   | Open class     | {#Control_L(Shift(t))}        |
-| SP-PBLG | Search project | {#Control_L(Alt_L(Shift(p)))} |
+| STP-L   | Open file      | {#command(shift(o))}          |
+| SK-LS   | Open class     | {#command(o)}                 |

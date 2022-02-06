@@ -22,9 +22,9 @@
 
 ## Open Applications
 
-| Stroke | Description                     | Translation        |
-|--------|---------------------------------|--------------------|
-| KPWR-R | Windows + Enter (Open Terminal) | {#Super_L(return)} |
+| Stroke | Description   | Translation                                                                  |
+|--------|---------------|------------------------------------------------------------------------------|
+| T-RPL  | Open Terminal | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt iTerm iTerm2} |
 
 
 
