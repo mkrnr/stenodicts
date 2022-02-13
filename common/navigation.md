@@ -101,6 +101,7 @@
 | R-LG     | Move window right           | {#control(option(right))}          |
 | R-FP     | Move window up              | {#control(option(up))}             |
 | R-FPL    | Move window up              | {#control(option(up))}             |
+| TK-FP    | Focus the dock              | {#control(F3)}                     |
 
 ## Program Navigation
 

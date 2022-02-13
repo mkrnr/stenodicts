@@ -25,7 +25,7 @@
 | Stroke | Description   | Translation                                                                  |
 |--------|---------------|------------------------------------------------------------------------------|
 | T-RPL  | Open Terminal | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt iTerm iTerm2} |
-
+| AFL    | Open Alfred   | {#command(space)}                                                            |
 
 
 "KHR-BG": "{#Control_L(c)}",
