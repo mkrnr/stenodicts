@@ -13,7 +13,7 @@ print(repo_path)
 
 print("sort all json files in any subfolder of this project")
 sorter = Sorter()
-sorter.sort_all(repo_path+'/*.json', print_files=True)
+sorter.sort_all(os.path.join(repo_path,'*/*.json'), print_files=True)
 
 print("check for dictionary changes in " + repo_path)
 
