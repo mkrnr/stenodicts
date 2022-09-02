@@ -4,6 +4,8 @@ __pycache__
 *.pyc
 .idea/
 
+*.swp
+
 .DS_Store
 
 common/inbox.json
