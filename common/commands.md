@@ -4,9 +4,9 @@
 
 | Stroke  | Description         | Translation             |
 |---------|---------------------|-------------------------|
-| KWA     | Copy                | {#Control_L(c)}         |
-| KWAO    | Cut                 | {#Control_L(x)}         |
-| KWO     | Paste               | {#Control_L(v)}         |
+| RA     | Copy                | {#command(c)}           |
+| RAO    | Cut                 | {#command(x)}           |
+| RO     | Paste               | {#command(v)}           |
 | -BLG    | Delete              | {#Delete}               |
 | -FRB    | Backspace           | {#Backspace}            |
 | KHR-BLG | Control + Delete    | {#Control_L(Delete)}    |
@@ -18,14 +18,14 @@
 |--------|-------------------|--------------------------|
 | TKUPT  | Add Translation   | {PLOVER:ADD_TRANSLATION} |
 | PHRUP  | Lookup Word       | {PLOVER:LOOKUP}          |
-| KR-PL  | Reconnect machine | {#Super_L(y)}            |
 
 ## Open Applications
 
 | Stroke | Description   | Translation                                                                  |
 |--------|---------------|------------------------------------------------------------------------------|
 | T-RPL  | Open Terminal | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt iTerm iTerm2} |
-| AFL    | Open Alfred   | {#command(space)}                                                            |
+| PR-G   | Open program  | {#command(space)}                                                            |
+| SREU   | Toggle Siri   | {#control(space)}                                                            |
 
 
 "KHR-BG": "{#Control_L(c)}",

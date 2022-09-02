@@ -4,12 +4,12 @@
 
 | Stroke    | Description                       | Translation             |
 |-----------|-----------------------------------|-------------------------|
-| -FP       | Up                                | {#up}                   |
-| -RB       | Down                              | {#down}                 |
-| -FPL      | Up                                | {#up}                   |
-| -RBG      | Down                              | {#down}                 |
-| -FR       | Left                              | {#left}                 |
-| -LG       | Right                             | {#right}                |
+| -FP       | Up                                | {}{#up}                   |
+| -RB       | Down                              | {}{#down}                 |
+| -FPL      | Up                                | {}{#up}                   |
+| -RBG      | Down                              | {}{#down}                 |
+| -FR       | Left                              | {}{#left}                 |
+| -LG       | Right                             | {}{#right}                |
 | -RPG      | Page Up                           | {#page_up}              |
 | -FBL      | Page Down                         | {#page_down}            |
 | SR-FPL    | Volume Up                         | {#audioraisevolume}     |
@@ -79,7 +79,11 @@
 | PWR-FT   | Switch to last tab          | {#command(9)}                      |
 | PWR-FR   | Switch to tab left          | {#control(shift(tab))}             |
 | PWR-LG   | Switch to tab right         | {#control(tab)}                    |
-| TPWR     | Switch to last application  | {#command(tab)}                    |
+| TW       | Switch to last application  | {#command(tab)}                    |
+| W-FR     | Switch to prev app window   | {#command(quoteleft)}              |
+| W-FPL    | Switch to prev app window   | {#command(quoteleft)}              |
+| W-LG     | Switch to next app window   | {#command(shift(quoteleft))}       |
+| W-RBG    | Switch to next app window   | {#command(shift(quoteleft))}       |
 | PR-G     | Open program                | {#command(space)}                  |
 | PWR-BGS  | Close window                | {#command(w)}                      |
 | PWR-FBGS | Close application           | {#command(q)}                      |
@@ -101,17 +105,15 @@
 | R-LG     | Move window right           | {#control(option(right))}          |
 | R-FP     | Move window up              | {#control(option(up))}             |
 | R-FPL    | Move window up              | {#control(option(up))}             |
-| TK-FP    | Focus the dock              | {#control(F3)}                     |
+| R-FRPBLG | Move window full screen     | {#control(option(return))}         |
+| TK-FP    | Focus dock (Dock change)    | {#control(F3)}                     |
+
 
 ## Program Navigation
 
 | Stroke | Description | Translation   |
 |--------|-------------|---------------|
 | PWR-PB | New tab     | {#command(t)} |
-| KPW-R  | Cut         | {#command(x)} |
-| KPW-B  | Copy        | {#command(c)} |
-| KPW-G  | Paste       | {#command(v)} |
-
 
 
 ## File Navigation
@@ -126,3 +128,11 @@
 |---------|----------------|-------------------------------|
 | STP-L   | Open file      | {#command(shift(o))}          |
 | SK-LS   | Open class     | {#command(o)}                 |
+
+
+## Terminal
+
+| Stroke | Description     | Translation       |
+|--------|-----------------|-------------------|
+| H-PLS  | Home with slash | {^~/^}            |
+| H-RPL  | Home with enter | {^cd ~^}{#return} |
