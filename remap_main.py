@@ -15,9 +15,10 @@ class MainRemapper(object):
     replace_dict = {}
     
     def __init__(self):
-        self.add_replacement('common/keys.md')
-        self.add_replacement('common/key-compounds.md')
-    
+        path = os.path.dirname(sys.argv[0])
+        self.add_replacement(os.path.join(path,'common/keys.md'))
+        self.add_replacement(os.path.join(path,'common/key-compounds.md'))
+
     def remap(self, main_path, output_path):
         new_strokes_dict = {}
         with codecs.open(main_path, "r", "utf-8") as json_file:    

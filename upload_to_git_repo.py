@@ -19,21 +19,16 @@ print("check for dictionary changes in " + repo_path)
 
 repo = Repo(repo_path)
 
-files_to_commit = []
 
 changed_files = [item.a_path for item in repo.index.diff(None) ]
 changed_files.extend(repo.untracked_files)
 
-for changed_file in changed_files:
-    if re.search(r'.*/.*(\.json|\.md)', str(changed_file)):
-        files_to_commit.append(changed_file)
-    
-if len(files_to_commit) > 0:
+if len(changed_files) > 0:
     print('files to be committed:')
-    for md_file_string in files_to_commit:
+    for md_file_string in changed_files:
         print('\t' + md_file_string)
    
-    repo.index.add(files_to_commit)
+    repo.index.add(changed_files)
     repo.index.commit('Update dicts')
     origin = repo.remote(name='origin')
     origin.push()

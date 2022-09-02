@@ -1,6 +1,7 @@
 .project
 .pydevproject
 __pycache__
+venv/
 *.pyc
 .idea/
 
