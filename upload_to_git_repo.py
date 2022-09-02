@@ -36,7 +36,6 @@ if len(files_to_commit) > 0:
     repo.index.add(files_to_commit)
     repo.index.commit('Update dicts')
     origin = repo.remote(name='origin')
-    origin.pull()
     origin.push()
     print("changes were committed and pushed")
     

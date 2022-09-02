@@ -30,6 +30,7 @@ class DictBuilder(object):
                     strokes = md_line_split[1].strip()
                     strokes = strokes.replace("\|", "|")
                     translation = md_line_split[len(md_line_split) - 2].strip()
+                    translation = translation.replace("\*","*")
                     if strokes in strokes_dict:
                         sys.exit("defined more than once: " + strokes + " >>> ABORT")
                     else:
