@@ -4,9 +4,9 @@
 
 | Stroke  | Description         | Translation             |
 |---------|---------------------|-------------------------|
-| RA     | Copy                | {#command(c)}           |
-| RAO    | Cut                 | {#command(x)}           |
-| RO     | Paste               | {#command(v)}           |
+| RA      | Copy                | {#command(c)}           |
+| RAO     | Cut                 | {#command(x)}           |
+| RO      | Paste               | {#command(v)}           |
 | -BLG    | Delete              | {#Delete}               |
 | -FRB    | Backspace           | {#Backspace}            |
 | KHR-BLG | Control + Delete    | {#Control_L(Delete)}    |
@@ -14,10 +14,12 @@
 
 ## Plover Commands
 
-| Stroke | Description       | Translation              |
-|--------|-------------------|--------------------------|
-| TKUPT  | Add Translation   | {PLOVER:ADD_TRANSLATION} |
-| PHRUP  | Lookup Word       | {PLOVER:LOOKUP}          |
+| Stroke | Description     | Translation              |
+|--------|-----------------|--------------------------|
+| TKUPT  | Add Translation | {PLOVER:ADD_TRANSLATION} |
+| PHRUP  | Lookup Word     | {PLOVER:LOOKUP}          |
+| PHRUP  | Lookup Word     | {PLOVER:LOOKUP}          |
+
 
 ## Open Applications
 

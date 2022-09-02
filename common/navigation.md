@@ -4,12 +4,12 @@
 
 | Stroke    | Description                       | Translation             |
 |-----------|-----------------------------------|-------------------------|
-| -FP       | Up                                | {}{#up}                   |
-| -RB       | Down                              | {}{#down}                 |
-| -FPL      | Up                                | {}{#up}                   |
-| -RBG      | Down                              | {}{#down}                 |
-| -FR       | Left                              | {}{#left}                 |
-| -LG       | Right                             | {}{#right}                |
+| -FP       | Up                                | {}{#up}                 |
+| -RB       | Down                              | {}{#down}               |
+| -FPL      | Up                                | {}{#up}                 |
+| -RBG      | Down                              | {}{#down}               |
+| -FR       | Left                              | {}{#left}               |
+| -LG       | Right                             | {}{#right}              |
 | -RPG      | Page Up                           | {#page_up}              |
 | -FBL      | Page Down                         | {#page_down}            |
 | SR-FPL    | Volume Up                         | {#audioraisevolume}     |
