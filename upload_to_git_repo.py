@@ -6,12 +6,12 @@ from git import Repo
 
 from sort import Sorter
 
-print("sort all json files in any subfolder of this project")
-sorter = Sorter()
-sorter.sort_all('*/*.json', print_files=False)
-
 # repo path needs to have trailing slash
 repo_path = sys.argv[1]
+
+print("sort all json files in any subfolder of this project")
+sorter = Sorter()
+sorter.sort_all(repo_path+'/*.json', print_files=True)
 
 print("check for dictionary changes in " + repo_path)
 
