@@ -84,7 +84,6 @@
 | W-FPL    | Switch to prev app window   | {#command(quoteleft)}              |
 | W-LG     | Switch to next app window   | {#command(shift(quoteleft))}       |
 | W-RBG    | Switch to next app window   | {#command(shift(quoteleft))}       |
-| PR-G     | Open program                | {#command(space)}                  |
 | PWR-BGS  | Close window                | {#command(w)}                      |
 | PWR-FBGS | Close application           | {#command(q)}                      |
 | KPW-PPT  | Control + 0                 | {#control(0)}                      |

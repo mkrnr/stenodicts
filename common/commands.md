@@ -18,7 +18,6 @@
 |--------|-----------------|--------------------------|
 | TKUPT  | Add Translation | {PLOVER:ADD_TRANSLATION} |
 | PHRUP  | Lookup Word     | {PLOVER:LOOKUP}          |
-| PHRUP  | Lookup Word     | {PLOVER:LOOKUP}          |
 
 
 ## Open Applications
@@ -26,7 +25,7 @@
 | Stroke | Description   | Translation                                                                  |
 |--------|---------------|------------------------------------------------------------------------------|
 | T-RPL  | Open Terminal | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt iTerm iTerm2} |
-| PR-G   | Open program  | {#command(space)}                                                            |
+| AFL    | Open program  | {#command(space)}                                                            |
 | SREU   | Toggle Siri   | {#control(space)}                                                            |
 
 
