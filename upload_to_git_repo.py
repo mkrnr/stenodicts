@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 
+import os
 import sys
 
 from git import Repo
@@ -7,7 +8,8 @@ from git import Repo
 from sort import Sorter
 
 # repo path needs to have trailing slash
-repo_path = sys.argv[1]
+repo_path=os.path.dirname(os.path.realpath(sys.argv[0]))
+print(repo_path)
 
 print("sort all json files in any subfolder of this project")
 sorter = Sorter()
