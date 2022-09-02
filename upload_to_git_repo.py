@@ -29,7 +29,7 @@ if len(changed_files) > 0:
         print('\t' + md_file_string)
    
     repo.index.add(changed_files)
-    repo.index.commit('Update dicts')
+    repo.index.commit('Update files')
     origin = repo.remote(name='origin')
     origin.push()
     print("changes were committed and pushed")

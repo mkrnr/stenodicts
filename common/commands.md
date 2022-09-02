@@ -25,7 +25,7 @@
 | Stroke | Description   | Translation                                                                  |
 |--------|---------------|------------------------------------------------------------------------------|
 | T-RPL  | Open Terminal | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt iTerm iTerm2} |
-| AFL   | Open program  | {#command(space)}                                                            |
+| PR-G   | Open program  | {#command(space)}                                                            |
 | SREU   | Toggle Siri   | {#control(space)}                                                            |
 
 
