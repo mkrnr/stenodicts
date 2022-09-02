@@ -69,12 +69,12 @@ class MainRemapper(object):
         new_stroke = ''
         saw_vowel = False
         for letter in stroke:
-            if letter is "A" or letter is "O":
+            if letter == "A" or letter == "O":
                 saw_vowel = True
             elif letter in self.left_consonant_keys:
                 if "*" not in new_stroke and saw_vowel:
                     new_stroke += "*"
-            elif letter in self.right_consonant_keys or letter is "E" or letter is "U" and '*' not in new_stroke:
+            elif letter in self.right_consonant_keys or letter == "E" or letter == "U" and '*' not in new_stroke:
                 new_stroke += "*"
             new_stroke += letter
         if '*' not in new_stroke:

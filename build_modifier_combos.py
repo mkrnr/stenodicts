@@ -15,13 +15,10 @@ class ModifierCombosBuilder(object):
         modifier_keys_dict = dict_builder.get_dict_from_md(modifier_keys_path)
         modifier_combos_dict = {}
         for modifier_key in modifier_keys_dict:
-            print(modifier_key)
             modifier_combos_dict[modifier_key.replace("/?", "")] = "{#}"
             for key in cleaned_key_strokes_dict:
                 inserted_modifier_key = modifier_key.replace("?", key)
-                print(inserted_modifier_key)
                 inserted_stroke = modifier_keys_dict[modifier_key].replace("?", cleaned_key_strokes_dict[key])
-                print(inserted_stroke)
                 modifier_combos_dict[inserted_modifier_key] = inserted_stroke
         dict_builder.write_dict(modifier_combos_dict, modifier_keys_path.replace("-keys", "-combos"))
     
