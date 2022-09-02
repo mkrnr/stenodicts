@@ -4,24 +4,24 @@ import codecs
 import json
 import os
 import sys
+
 from build_dict import DictBuilder
 
 
 class MainRemapper(object):
-
     left_consonant_keys = ['S', 'T', 'K', 'P', 'W', 'H', 'R']
     right_consonant_keys = ['F', 'R', 'P', 'B', 'L', 'G', 'T', 'S', 'D', 'Z']
-    
+
     replace_dict = {}
-    
+
     def __init__(self):
         path = os.path.dirname(sys.argv[0])
-        self.add_replacement(os.path.join(path,'common/keys.md'))
-        self.add_replacement(os.path.join(path,'common/key-compounds.md'))
+        self.add_replacement(os.path.join(path, 'common/keys.md'))
+        self.add_replacement(os.path.join(path, 'common/key-compounds.md'))
 
     def remap(self, main_path, output_path):
         new_strokes_dict = {}
-        with codecs.open(main_path, "r", "utf-8") as json_file:    
+        with codecs.open(main_path, "r", "utf-8") as json_file:
             main_dict = json.load(json_file)
             print(len(main_dict))
             for key in main_dict:
@@ -30,20 +30,21 @@ class MainRemapper(object):
                 new_strokes_string = '/'.join(new_strokes)
                 if new_strokes_string != key and new_strokes_string in main_dict:
                     if main_dict[key] != main_dict[new_strokes_string]:
-                        print('' + new_strokes_string + ':"' + main_dict[new_strokes_string] + '" --> "' + main_dict[key] + '"')
-                        
+                        print('' + new_strokes_string + ':"' + main_dict[new_strokes_string] + '" --> "' + main_dict[
+                            key] + '"')
+
                 new_strokes_dict[new_strokes_string] = main_dict[key]
 
         os.makedirs(os.path.dirname(output_path), exist_ok=True)
-        with codecs.open(output_path, "w", "utf-8") as json_file:    
+        with codecs.open(output_path, "w", "utf-8") as json_file:
             json_string = json.dumps(new_strokes_dict, ensure_ascii=False, sort_keys=True,
-                      indent=0, separators=(',', ': '))
+                                     indent=0, separators=(',', ': '))
 
             json_file.write(json_string)
 
             # adds a new line at the end of the file because json.dump doesn't
-            json_file.write("\n") 
-    
+            json_file.write("\n")
+
     def replace_strokes(self, strokes):
         new_strokes = []
         for stroke in strokes:
@@ -58,11 +59,11 @@ class MainRemapper(object):
 
     def add_replacement(self, keys_path):
         dict_builder = DictBuilder()
-        
+
         key_strokes_dict = dict_builder.get_dict_from_md(keys_path)
         for stroke_to_be_replaced in key_strokes_dict:
             self.replace_dict[stroke_to_be_replaced] = self.add_asterisk(stroke_to_be_replaced)
-    
+
     def add_asterisk(self, stroke):
         # TODO: run only once for every file 
         if '-' in stroke:
@@ -80,7 +81,7 @@ class MainRemapper(object):
             new_stroke += letter
         if '*' not in new_stroke:
             new_stroke += "*"
-            
+
         return new_stroke
 
 

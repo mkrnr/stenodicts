@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
 import sys
+
 from build_dict import DictBuilder
 
 
@@ -8,7 +9,7 @@ class ModifierCombosBuilder(object):
 
     def build(self, modifier_keys_path, keys_path):
         dict_builder = DictBuilder()
-        
+
         key_strokes_dict = dict_builder.get_dict_from_md(keys_path)
         cleaned_key_strokes_dict = self.clean_key_strokes(key_strokes_dict)
 
@@ -21,7 +22,7 @@ class ModifierCombosBuilder(object):
                 inserted_stroke = modifier_keys_dict[modifier_key].replace("?", cleaned_key_strokes_dict[key])
                 modifier_combos_dict[inserted_modifier_key] = inserted_stroke
         dict_builder.write_dict(modifier_combos_dict, modifier_keys_path.replace("-keys", "-combos"))
-    
+
     def clean_key_strokes(self, key_strokes_dict):
         cleaned_key_strokes_dict = {}
 
