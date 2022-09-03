@@ -87,5 +87,7 @@ class MainRemapper(object):
 
 if __name__ == '__main__':
     main_path = sys.argv[1]
+    output_path = sys.argv[2]
     main_remapper = MainRemapper()
-    main_remapper.remap(main_path, 'plover/generated/main.json')
+    main_remapper.remap(main_path, output_path)
+
