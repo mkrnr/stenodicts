@@ -22,11 +22,12 @@
 
 ## Open Applications
 
-| Stroke | Description   | Translation                                                                  |
-|--------|---------------|------------------------------------------------------------------------------|
-| T-RPL  | Open Terminal | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt iTerm iTerm2} |
-| PR-G   | Open program  | {#command(space)}                                                            |
-| SREU   | Toggle Siri   | {#control(space)}                                                            |
+| Stroke | Description   | Translation                                                                       |
+|--------|---------------|-----------------------------------------------------------------------------------|
+| T-RPL  | Open Terminal | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt iTerm iTerm2}      |
+| PW-S   | Open Obsidian | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt Obsidian Obsidian} |
+| PR-G   | Open program  | {#command(space)}                                                                 |
+| SREU   | Toggle Siri   | {#control(space)}                                                                 |
 
 
 "KHR-BG": "{#Control_L(c)}",

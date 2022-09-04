@@ -110,52 +110,60 @@
 
 ## Special Characters
 
-| Stroke  | Description                          | Translation |
-|---------|--------------------------------------|-------------|
-| APBD    | And                                  | {^&^}       |
-| T-PLS   | Asterisk (times)                     | {^\*^}      |
-| TKPW-RT | Greater Than                         | {^>^}       |
-| S-RT    | Smaller Than                         | {^<^}       |
-| T-T     | At                                   | {^@^}       |
-| PW-RB   | Backslash                            | {^\\^}      |
-| KPR-FR  | Brace Left                           | {^\\{^}     |
-| KPR-FRP | Brace Left (Leading space)           | {\\{^}      |
-| KPR-FRB | Brace Left (Trailing space)          | {^\\{}      |
-| KPR-LG  | Brace Right                          | {^\\}^}     |
-| KPR-PLG | Brace Right (Leading space)          | {\\}^}      |
-| KPR-BLG | Brace Right (Trailing space)         | {^\\}}      |
-| SPR-FR  | Bracket Left                         | {^[^}       |
-| SPR-FRP | Bracket Left (Leading space)         | {[^}        |
-| SPR-FRB | Bracket Left (Trailing space)        | {^[}        |
-| SPR-LG  | Bracket Right                        | {^]^}       |
-| SPR-PLG | Bracket Right (Leading space)        | {]^}        |
-| SPR-BLG | Bracket Right (Trailing space)       | {^]}        |
-| KPR     | Caret                                | {^^^}       |
-| K-L     | Colon                                | {^:^}       |
-| TWH     | Dollar                               | {^$^}       |
-| KW-L    | Equal                                | {^=^}       |
-| KWR-R   | Euro                                 | {^€^}       |
-| H-PB    | Hyphen                               | {^-^}       |
-| P-RS    | Percent                              | {^%^}       |
-| PHR-S   | Plus                                 | {^+^}       |
-| H-RB    | Hash                                 | {^#^}       |
-| SK-L    | Semicolon                            | {^;^}       |
-| HR-RB   | Slash                                | {^/^}       |
-| HR-D    | Tilde                                | {^~^}       |
-| H-PL    | Tilde                                | {^~^}       |
-| PR-FR   | Parenthesis Left                     | {^(^}       |
-| PR-FRP  | Parenthesis Left (Leading space)     | {(^}        |
-| PR-FRB  | Parenthesis Left (Trailing space)    | {^(}        |
-| PR-LG   | Parenthesis Right                    | {^)^}       |
-| PR-PLG  | Parenthesis Right (Leading space)    | {)^}        |
-| PR-BLG  | Parenthesis Right (Trailing space)   | {^)}        |
-| TKWO    | Quote Double                         | {^\"}       |
-| TKWOP   | Quote Double (Leading space)         | {\"^}       |
-| TKWOB   | Quote Double (Trailing space)        | {^\"}       |
-| PR-PG   | Quote Left                           | {^`^}       |
-| KWO     | Quote Single                         | {^'^}       |
-| KWOP    | Quote Single (Leading space)         | {'^}        |
-| KWOB    | Quote Single (Trailing space)        | {^'}        |
-| P       | Space                                | {^ ^}       |
-| S-BG    | Underscore                           | {^_^}       |
-| SR-B    | Vertical Bar (should not be escaped) | {^\|^}      |
+| Stroke  | Description                                   | Translation |
+|---------|-----------------------------------------------|-------------|
+| APBD    | And                                           | {^&^}       |
+| T-PLS   | Asterisk (times)                              | {^\*^}      |
+| TKPW-RT | Greater Than                                  | {^>^}       |
+| S-RT    | Smaller Than                                  | {^<^}       |
+| T-T     | At                                            | {^@^}       |
+| PW-RB   | Backslash                                     | {^\\^}      |
+| KPR-FR  | Brace Left                                    | {^\\{^}     |
+| KPR-FRP | Brace Left (Leading space)                    | {\\{^}      |
+| KPR-FRB | Brace Left (Trailing space)                   | {^\\{}      |
+| KPR-LG  | Brace Right                                   | {^\\}^}     |
+| KPR-PLG | Brace Right (Leading space)                   | {\\}^}      |
+| KPR-BLG | Brace Right (Trailing space)                  | {^\\}}      |
+| SPR-FR  | Bracket Left                                  | {^[^}       |
+| SPR-FRP | Bracket Left (Leading space)                  | {[^}        |
+| SPR-FRB | Bracket Left (Trailing space)                 | {^[}        |
+| SPR-LG  | Bracket Right                                 | {^]^}       |
+| SPR-PLG | Bracket Right (Leading space)                 | {]^}        |
+| SPR-BLG | Bracket Right (Trailing space)                | {^]}        |
+| KPR     | Caret                                         | {^^^}       |
+| K-L     | Colon                                         | {^:^}       |
+| TWH     | Dollar                                        | {^$^}       |
+| KW-L    | Equal                                         | {^=^}       |
+| KWR-R   | Euro                                          | {^€^}       |
+| T-BG    | Exclamation Mark                              | {^!^}       |
+| TP-BG   | Exclamation Mark (Leading and trailing space) | {!}         |
+| H-PB    | Hyphen                                        | {^-^}       |
+| P-RS    | Percent                                       | {^%^}       |
+| PHR-S   | Plus                                          | {^+^}       |
+| H-RB    | Hash                                          | {^#^}       |
+| SK-L    | Semicolon                                     | {^;^}       |
+| HR-RB   | Slash                                         | {^/^}       |
+| HR-D    | Tilde                                         | {^~^}       |
+| H-PL    | Tilde                                         | {^~^}       |
+| PR-FR   | Parenthesis Left                              | {^(^}       |
+| PR-FRP  | Parenthesis Left (Leading space)              | {(^}        |
+| PR-FRB  | Parenthesis Left (Trailing space)             | {^(}        |
+| PR-LG   | Parenthesis Right                             | {^)^}       |
+| PR-PLG  | Parenthesis Right (Leading space)             | {)^}        |
+| PR-BLG  | Parenthesis Right (Trailing space)            | {^)}        |
+| T-PL    | Period                                        | {^.^}       |
+| TP-PL   | Period (Leading and trailing space)           | {.}         |
+| K-BG    | Comma                                         | {^,^}       |
+| KW-BG   | Comma (Leading and trailing space)            | {,}         |
+| K-PL    | Question Mark                                 | {^?^}       |
+| KW-PL   | Question Mark (Leading and trailing space)    | {?}         |
+| TKWO    | Quote Double                                  | {^\"^}      |
+| TKWOP   | Quote Double (Leading space)                  | {\"^}       |
+| TKWOB   | Quote Double (Trailing space)                 | {^\"}       |
+| TW-PG   | Quote Left                                    | {^`^}       |
+| KWO     | Quote Single                                  | {^'^}       |
+| KWOP    | Quote Single (Leading space)                  | {'^}        |
+| KWOB    | Quote Single (Trailing space)                 | {^'}        |
+| P       | Space                                         | {^ ^}       |
+| S-BG    | Underscore                                    | {^_^}       |
+| SR-B    | Vertical Bar (should not be escaped)          | {^\|^}      |
