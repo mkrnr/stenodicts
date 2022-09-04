@@ -136,8 +136,8 @@
 | SK-BGS | Show context actions         | {#option(return)}     |
 | R-BLG  | Run code                     | {#shift(control(r))}  |
 | TK-BLG | Debug code                   | {#shift(control(d))}  |
-| PR-PB | Activate Project Window                   | {#shift(command(p))}  |
-| TR-PB | Activate Terminal Window                   | {#option(F12)}  |
+| PR-PB  | Activate Project Window      | {#shift(command(p))}  |
+| TR-PB  | Activate Terminal Window     | {#option(F12)}        |
 
 
 ## Terminal
