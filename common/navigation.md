@@ -86,7 +86,7 @@
 | W-RBG    | Switch to next app window   | {#command(shift(quoteleft))}       |
 | PWR-BGS  | Close window                | {#command(w)}                      |
 | PWR-FBGS | Close application           | {#command(q)}                      |
-| KPW-PPT  | Control + 0                 | {#control(0)}                      |
+| KPW-D    | Control + 0                 | {#control(0)}                      |
 | KPW-F    | Control + 1                 | {#control(1)}                      |
 | KPW-P    | Control + 2                 | {#control(2)}                      |
 | KPW-FP   | Control + 3                 | {#control(3)}                      |
@@ -112,7 +112,9 @@
 
 | Stroke | Description | Translation   |
 |--------|-------------|---------------|
-| PWR-PB | New tab     | {#command(t)} |
+| PWR-PB | New window  | {#command(n)} |
+| TPWR   | New tab     | {#command(t)} |
+| PR-P   | Open program preferences     | {#command(comma)} |
 
 
 ## File Navigation
@@ -123,10 +125,19 @@
 
 ## IntelliJ / PyCharm
 
-| Stroke  | Description    | Translation                   |
-|---------|----------------|-------------------------------|
-| STP-L   | Open file      | {#command(shift(o))}          |
-| SK-LS   | Open class     | {#command(o)}                 |
+| Stroke | Description                  | Translation           |
+|--------|------------------------------|-----------------------|
+| STP-L  | Go to File...                | {#command(shift(o))}  |
+| SK-LS  | Go to Class...               | {#command(o)}         |
+| S-FPL  | Go to Symbol...              | {#option(command(o))} |
+| TP-BGS | Find Action...               | {#shift(command(a))}  |
+| TKPWU  | Go to declarations or usages | {#command(b)}         |
+| TKPWEU | Go to implementations        | {#option(command(b))} |
+| SK-BGS | Show context actions         | {#option(return)}     |
+| R-BLG  | Run code                     | {#shift(control(r))}  |
+| TK-BLG | Debug code                   | {#shift(control(d))}  |
+| PR-PB | Activate Project Window                   | {#shift(command(p))}  |
+| TR-PB | Activate Terminal Window                   | {#option(F12)}  |
 
 
 ## Terminal

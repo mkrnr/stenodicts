@@ -11,7 +11,7 @@ repo_path = sys.argv[1]
 
 print("building jekyll and uploading to webspace")
 
-stenodicts_website_path = Path(repo_path + "../stenodicts-website")
+stenodicts_website_path = Path(repo_path + "/../stenodicts-website")
 if stenodicts_website_path.exists():
 
     print("generate .md files with headers")
@@ -29,11 +29,11 @@ if stenodicts_website_path.exists():
                 output_file.write(md_file.read())
 
     print("build jekyll files")
-    os.system('cd ' + repo_path + '../stenodicts-website && JEKYLL_ENV=production bundle exec jekyll build')
+    os.system('cd ' + repo_path + '/../stenodicts-website && JEKYLL_ENV=production bundle exec jekyll build')
 
     print("upload to webspace")
     os.system(
-        'rsync -avh ' + repo_path + '../stenodicts-website/_site/ webspace:/www/htdocs/\\*/mkrnr.com/stenodicts --delete')
+        'rsync -avh ' + repo_path + '/../stenodicts-website/_site/ webspace:/www/htdocs/\\*/mkrnr.com/stenodicts --delete')
 
 else:
     print('path does not exist: ' + str(stenodicts_website_path))
