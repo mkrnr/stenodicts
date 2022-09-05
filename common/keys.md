@@ -106,6 +106,7 @@
 | TK-L   | Delete      | {#delete}    |
 | H-F    | Escape      | {#escape}    |
 | TPH-RT | Insert      | {#insert}    |
+| R-R    | Return      | {#return}    |
 | T-B    | Tab         | {#tab}       |
 
 ## Special Characters
@@ -166,4 +167,5 @@
 | KWOB    | Quote Single (Trailing space)                 | {^'}        |
 | P       | Space                                         | {^ ^}       |
 | S-BG    | Underscore                                    | {^_^}       |
+| S-BGS   | Underscore                                    | {^_^}       |
 | SR-B    | Vertical Bar (should not be escaped)          | {^\|^}      |
