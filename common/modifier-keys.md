@@ -11,7 +11,7 @@ The question marks will be replaced by strokes and translations for all applicab
 | KPWRA/?  | Option+Control+Command       | {#option(control(command(?)))}        |
 | SPWA/?   | Option+Shift                 | {#option(shift(?))}                   |
 | SPWRA/?  | Option+Shift+Command         | {#option(shift(command(?)))}          |
-| PWRA/?   | Option+Command               | {#option(command(?)}                  |
+| PWRA/?   | Option+Command               | {#option(command(?))}                  |
 | KPW/?    | Control                      | {#control(?)}                         |
 | SKPW/?   | Control+Shift                | {#control(shift(?))}                  |
 | SKPWR/?  | Control+Shift+Command        | {#control(shift(command(?)))}         |
