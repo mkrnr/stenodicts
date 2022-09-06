@@ -2,19 +2,21 @@
 
 ## Text Manipulation
 
-| Stroke  | Description                | Translation             |
-|---------|----------------------------|-------------------------|
-| RA      | Copy                       | {#command(c)}           |
-| RAO     | Cut                        | {#command(x)}           |
-| RO      | Paste                      | {#command(v)}           |
-| KR-FR   | Undo                       | {#command(z)}           |
-| KR-LG   | Redo                       | {#command(y)}           |
-| -BLG    | Delete                     | {#Delete}               |
-| -FRB    | Backspace                  | {#Backspace}            |
-| KHR-BLG | Control + Delete           | {#Control_L(Delete)}    |
-| KHR-FRB | Control + Backspace        | {#Control_L(Backspace)} |
-| AFPS    | Retroactively add space    | {\*?}                   |
-| TK-FPS  | Retroactively delete space | {\*!}                   |
+| Stroke  | Description                | Translation           |
+|---------|----------------------------|-----------------------|
+| RA      | Copy                       | {#command(c)}         |
+| RAO     | Cut                        | {#command(x)}         |
+| RO      | Paste                      | {#command(v)}         |
+| KR-FR   | Undo                       | {#command(z)}         |
+| KR-LG   | Redo                       | {#command(y)}         |
+| -BLG    | Delete                     | {#delete}             |
+| -FRB    | Backspace                  | {#backspace}          |
+| KHR-BLG | Control + Delete           | {#control(delete)}    |
+| KHR-FRB | Control + Backspace        | {#control(backspace)} |
+| R-RPB   | Option + Enter (new line)  | {#option(return)}     |
+| AFPS    | Retroactively add space    | {\*?}                 |
+| TK-FPS  | Retroactively delete space | {\*!}                 |
+
 
 ## Plover Commands
 
