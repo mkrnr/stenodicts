@@ -8,7 +8,7 @@
 | RAO     | Cut                        | {#command(x)}         |
 | RO      | Paste                      | {#command(v)}         |
 | KR-FR   | Undo                       | {#command(z)}         |
-| KR-LG   | Redo                       | {#command(y)}         |
+| KR-LG   | Redo                       | {#command(shift(z))}  |
 | -BLG    | Delete                     | {#delete}             |
 | -FRB    | Backspace                  | {#backspace}          |
 | KHR-BLG | Control + Delete           | {#control(delete)}    |
@@ -34,6 +34,7 @@
 | PW-S   | Open Obsidian | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt Obsidian Obsidian} |
 | SHR-BG | Open Slack    | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt Slack Slack}       |
 | SAOPL  | Open Zoom     | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt zoom.us zoom.us}   |
+| KHR-R  | Open Calendar | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt Calendar Calendar} |
 | PR-G   | Open program  | {#command(space)}                                                                 |
 | SREU   | Toggle Siri   | {#control(space)}                                                                 |
 
