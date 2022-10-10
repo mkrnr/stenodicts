@@ -142,11 +142,12 @@
 
 ## Obsidian
 
-| Stroke | Description                  | Translation           |
-|--------|------------------------------|-----------------------|
-/|   | Open quick switcher              |  {#command(o)}    |
-TODO Replace KR-PBT with stroke for open quick switcher
-| KR-PBT/PWR-PBZ   | Create note in Bronze folder                |Bronze/     |
+| Stroke  | Description                  | Translation   |
+|---------|------------------------------|---------------|
+| SW-FP   | Open quick switcher          | {#command(o)} |
+| PWR-PBZ | Create note in Bronze folder | Bronze/       |
+| TPKW-LD | Create note in Gold folder   | Gold/         |
+| S-FRL   | Create note in Silver folder | Silver/       |
 /|   | Create note in quick switcher                |{#shift(return)}     |
 /|   | Pin note                  |  {#command(shift(e))} |
 /|   | Follow link under cursor                | {#command(return)}  |
