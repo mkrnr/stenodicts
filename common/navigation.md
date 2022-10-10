@@ -142,15 +142,15 @@
 
 ## Obsidian
 
-| Stroke  | Description                  | Translation   |
-|---------|------------------------------|---------------|
-| SW-FP   | Open quick switcher          | {#command(o)} |
-| PWR-PBZ | Create note in Bronze folder | Bronze/       |
-| TPKW-LD | Create note in Gold folder   | Gold/         |
-| S-FRL   | Create note in Silver folder | Silver/       |
-/|   | Create note in quick switcher                |{#shift(return)}     |
-/|   | Pin note                  |  {#command(shift(e))} |
-/|   | Follow link under cursor                | {#command(return)}  |
+| Stroke  | Description                   | Translation          |
+|---------|-------------------------------|----------------------|
+| SW-FP   | Open quick switcher           | {#command(o)}        |
+| PWR-PBZ | Create note in Bronze folder  | {^Bronze/^}          |
+| TKPW-LD | Create note in Gold folder    | {^Gold/}             |
+| S-FRL   | Create note in Silver folder  | {^Silver/}           |
+| KR-PBT  | Create note in quick switcher | {#shift(return)}     |
+| P-NT    | Pin note                      | {#command(shift(e))} |
+| TPHR    | Follow link under cursor      | {#option(return)}    |
 
 ## Terminal
 
