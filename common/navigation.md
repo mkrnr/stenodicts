@@ -164,4 +164,4 @@
 | Stroke | Description  | Translation   |
 |--------|--------------|---------------|
 | SR-L   | Visual line  | {#shift(v)}   |
-| SR-LG  | Visual block | {#control(v)} |
+| SR-BG  | Visual block | {#control(v)} |
