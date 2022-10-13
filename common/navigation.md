@@ -158,3 +158,10 @@
 |--------|-----------------|-------------------|
 | H-PLS  | Home with slash | {^~/^}            |
 | H-RPL  | Home with enter | {^cd ~^}{#return} |
+
+## Vim
+
+| Stroke | Description  | Translation   |
+|--------|--------------|---------------|
+| SR-L   | Visual line  | {#shift(v)}   |
+| SR-LG  | Visual block | {#control(v)} |
