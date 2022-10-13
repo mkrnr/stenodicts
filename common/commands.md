@@ -37,4 +37,5 @@
 | SAOPL  | Open Zoom     | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt zoom.us zoom.us}   |
 | A-FL   | Open Alfred   | {#command(space)}                                                                 |
 | SREU   | Toggle Siri   | {#control(space)}                                                                 |
+| SREU   | Toggle Siri   | {#control(space)}                                                                 |
 
