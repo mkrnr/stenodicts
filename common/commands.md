@@ -25,6 +25,12 @@
 | TKUPT  | Add Translation | {PLOVER:ADD_TRANSLATION} |
 | PHRUP  | Lookup Word     | {PLOVER:LOOKUP}          |
 
+## Terminal Commands
+
+| Stroke | Description                  | Translation |
+|--------|------------------------------|-------------|
+| SR-PL  | Type vim with trailing space | {^}vim{^ ^} |
+
 
 ## Open Applications
 

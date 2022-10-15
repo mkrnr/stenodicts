@@ -131,7 +131,7 @@
 | SPR-LG  | Bracket Right                                 | {^]^}       |
 | SPR-PLG | Bracket Right (Leading space)                 | {]^}        |
 | SPR-BLG | Bracket Right (Trailing space)                | {^]}        |
-| KPR     | Caret                                         | {^^^}       |
+| KR-T    | Caret                                         | {^^^}       |
 | K-L     | Colon                                         | {^:^}       |
 | TWH     | Dollar                                        | {^$^}       |
 | KW-L    | Equal                                         | {^=^}       |
