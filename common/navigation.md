@@ -146,8 +146,8 @@
 |---------|-------------------------------|----------------------|
 | SW-FP   | Open quick switcher           | {#command(o)}        |
 | PWR-PBZ | Create note in Bronze folder  | {^Bronze/^}          |
-| TKPW-LD | Create note in Gold folder    | {^Gold/}             |
-| S-FRL   | Create note in Silver folder  | {^Silver/}           |
+| TKPW-LD | Create note in Gold folder    | {^Gold/^}            |
+| S-FRL   | Create note in Silver folder  | {^Silver/^}          |
 | KR-PBT  | Create note in quick switcher | {#shift(return)}     |
 | P-NT    | Pin note                      | {#command(shift(e))} |
 | TPHR    | Follow link under cursor      | {#option(return)}    |
