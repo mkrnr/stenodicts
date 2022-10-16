@@ -27,9 +27,11 @@
 
 ## Terminal Commands
 
-| Stroke | Description                  | Translation |
-|--------|------------------------------|-------------|
-| SR-PL  | Type vim with trailing space | {^}vim{^ ^} |
+| Stroke | Description                                | Translation |
+|--------|--------------------------------------------|-------------|
+| SR-PL  | Type vim with trailing space               | {^}vim{^ ^} |
+| KR-D   | Type cd with trailing space                | {^}cd{^ ^}  |
+| TKUP   | Type ../ with no leading or trailing space | {^../^}     |
 
 
 ## Open Applications
