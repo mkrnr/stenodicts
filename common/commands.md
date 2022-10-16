@@ -27,11 +27,13 @@
 
 ## Terminal Commands
 
-| Stroke | Description                                | Translation |
-|--------|--------------------------------------------|-------------|
-| SR-PL  | Type vim with trailing space               | {^}vim{^ ^} |
-| KR-D   | Type cd with trailing space                | {^}cd{^ ^}  |
-| TKUP   | Type ../ with no leading or trailing space | {^../^}     |
+| Stroke | Description                                | Translation       |
+|--------|--------------------------------------------|-------------------|
+| SR-PL  | Type vim with trailing space               | {^}vim{^ ^}       |
+| KR-D   | Type cd with trailing space                | {^}cd{^ ^}        |
+| H-PLS  | Home with slash                            | {^~/^}            |
+| H-RPL  | Home with enter                            | {^cd ~^}{#return} |
+| TKUP   | Type ../ with no leading or trailing space | {^../^}           |
 
 
 ## Open Applications

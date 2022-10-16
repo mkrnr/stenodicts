@@ -154,14 +154,13 @@
 
 ## Terminal
 
-| Stroke | Description     | Translation       |
-|--------|-----------------|-------------------|
-| H-PLS  | Home with slash | {^~/^}            |
-| H-RPL  | Home with enter | {^cd ~^}{#return} |
+| Stroke | Description     | Translation   |
+|--------|-----------------|---------------|
+| KPW-R  | backward search | {#control(r)} |
+| KPW-S  | forward search  | {#control(r)} |
 
 ## Vim
 
 | Stroke | Description  | Translation   |
 |--------|--------------|---------------|
-| SR-L   | Visual line  | {#shift(v)}   |
 | SR-BG  | Visual block | {#control(v)} |
