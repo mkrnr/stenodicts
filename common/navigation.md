@@ -157,7 +157,7 @@
 | Stroke | Description     | Translation   |
 |--------|-----------------|---------------|
 | KPW-R  | backward search | {#control(r)} |
-| KPW-S  | forward search  | {#control(r)} |
+| KPW-S  | forward search  | {#control(s)} |
 
 ## Vim
 
