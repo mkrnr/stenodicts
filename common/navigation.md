@@ -25,42 +25,6 @@
 | SPW-LG    | Mark next character               | {#shift(right)}         |
 | SKPW-FR   | Mark last word                    | {#option(shift(left))}  |
 | SKPW-LG   | Mark next word                    | {#option(shift(right))} |
-| TKPW-F    | Control + F1                      | {#control(f1)}          |
-| TKPW-P    | Control + F2                      | {#control(f2)}          |
-| TKPW-FP   | Control + F3                      | {#control(f3)}          |
-| TKPW-L    | Control + F4                      | {#control(f4)}          |
-| TKPW-FL   | Control + F5                      | {#control(f5)}          |
-| TKPW-PL   | Control + F6                      | {#control(f6)}          |
-| TKPW-FPL  | Control + F7                      | {#control(f7)}          |
-| TKPW-T    | Control + F8                      | {#control(f8)}          |
-| TKPW-FT   | Control + F9                      | {#control(f9)}          |
-| TKPW-PT   | Control + F10                     | {#control(f10)}         |
-| TKPW-FPT  | Control + F11                     | {#control(f11)}         |
-| TKPW-LT   | Control + F12                     | {#control(f12)}         |
-| STPW-F    | Shift + F1                        | {#shift(f1)}            |
-| STPW-P    | Shift + F2                        | {#shift(f2)}            |
-| STPW-FP   | Shift + F3                        | {#shift(f3)}            |
-| STPW-L    | Shift + F4                        | {#shift(f4)}            |
-| STPW-FL   | Shift + F5                        | {#shift(f5)}            |
-| STPW-PL   | Shift + F6                        | {#shift(f6)}            |
-| STPW-FPL  | Shift + F7                        | {#shift(f7)}            |
-| STPW-T    | Shift + F8                        | {#shift(f8)}            |
-| STPW-FT   | Shift + F9                        | {#shift(f9)}            |
-| STPW-PT   | Shift + F10                       | {#shift(f10)}           |
-| STPW-FPT  | Shift + F11                       | {#shift(f11)}           |
-| STPW-LT   | Shift + F12                       | {#shift(f12)}           |
-| STKPW-F   | Control + Shift + F1              | {#control(shift(f1))}   |
-| STKPW-P   | Control + Shift + F2              | {#control(shift(f2))}   |
-| STKPW-FP  | Control + Shift + F3              | {#control(shift(f3))}   |
-| STKPW-L   | Control + Shift + F4              | {#control(shift(f4))}   |
-| STKPW-FL  | Control + Shift + F5              | {#control(shift(f5))}   |
-| STKPW-PL  | Control + Shift + F6              | {#control(shift(f6))}   |
-| STKPW-FPL | Control + Shift + F7              | {#control(shift(f7))}   |
-| STKPW-T   | Control + Shift + F8              | {#control(shift(f8))}   |
-| STKPW-FT  | Control + Shift + F9              | {#control(shift(f9))}   |
-| STKPW-PT  | Control + Shift + F10             | {#control(shift(f10))}  |
-| STKPW-FPT | Control + Shift + F11             | {#control(shift(f11))}  |
-| STKPW-LT  | Control + Shift + F12             | {#control(shift(f12))}  |
 
 ## Window Navigation
 
