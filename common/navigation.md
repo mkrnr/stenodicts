@@ -102,6 +102,9 @@
 | TK-BLG | Debug code                   | {#shift(control(d))}  |
 | PR-PB  | Activate Project Window      | {#shift(command(p))}  |
 | TR-PB  | Activate Terminal Window     | {#option(F12)}        |
+| -RPL   | Rename                       | {#shift(F6)}          |
+
+
 
 
 ## Obsidian
