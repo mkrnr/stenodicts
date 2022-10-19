@@ -115,7 +115,7 @@
 |---------|-----------------------------------------------|-------------|
 | APBD    | And                                           | {^&^}       |
 | T-PLS   | Asterisk (times)                              | {^\*^}      |
-| TKPW-RT | Greater Than                                  | {^>^}       |
+| PW-RT   | Bigger Than                                   | {^>^}       |
 | S-RT    | Smaller Than                                  | {^<^}       |
 | T-T     | At                                            | {^@^}       |
 | PW-RB   | Backslash                                     | {^\\^}      |
