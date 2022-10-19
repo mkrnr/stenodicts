@@ -26,6 +26,7 @@
 | SKPW-FR   | Mark last word                    | {#option(shift(left))}  |
 | SKPW-LG   | Mark next word                    | {#option(shift(right))} |
 
+
 ## Window Navigation
 
 | Stroke   | Description                 | Translation                        |
@@ -105,8 +106,6 @@
 | -RPL   | Rename                       | {#shift(F6)}          |
 
 
-
-
 ## Obsidian
 
 | Stroke  | Description                   | Translation          |
@@ -119,12 +118,14 @@
 | P-NT    | Pin note                      | {#command(shift(e))} |
 | TPHR    | Follow link under cursor      | {#option(return)}    |
 
+
 ## Terminal
 
 | Stroke | Description     | Translation   |
 |--------|-----------------|---------------|
 | KPW-R  | backward search | {#control(r)} |
 | KPW-S  | forward search  | {#control(s)} |
+
 
 ## Vim
 

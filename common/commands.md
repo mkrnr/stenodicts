@@ -27,18 +27,19 @@
 
 ## Terminal Commands
 
-| Stroke       | Description                                   | Translation             |
-|--------------|-----------------------------------------------|-------------------------|
-| SR-PL        | Type vim with trailing space                  | {^}vim{^ ^}             |
-| KR-D         | Type cd with trailing space                   | {^}cd{^ ^}              |
-| TKPW-T       | Type git with no leading or trailing space    | {^git^}                 |
-| TKPW-T/ST-TS | Type git status                               | {^git status^}{#return} |
-| TKPW-T/PUL   | Type git pull                                 | {^git pull^}{#return}   |
-| TKPW-T/PURB  | Type git push                                 | {^git push^}{#return}   |
-| TKPW-TS      | Type ~/git/ with no leading or trailing space | {^~/git/^}              |
-| H-PLS        | Home with slash                               | {^~/^}                  |
-| H-RPL        | Home with enter                               | {^cd ~^}{#return}       |
-| TKUP         | Type ../ with no leading or trailing space    | {^../^}                 |
+| Stroke       | Description                                   | Translation               |
+|--------------|-----------------------------------------------|---------------------------|
+| SR-PL        | Type vim with trailing space                  | {}{^vim ^}                |
+| KR-D         | Type cd with trailing space                   | {}{^cd ^}                 |
+| TKPW-T       | Type git with no leading or trailing space    | {}{^git}                  |
+| TKPW-T/ST-TS | Type git status                               | {}{^git status^}{#return} |
+| TKPW-T/PUL   | Type git pull                                 | {}{^git pull^}{#return}   |
+| TKPW-T/PURB  | Type git push                                 | {}{^git push^}{#return}   |
+| TKPW-T/HROG  | Type git log                                  | {}{^git log^}{#return}    |
+| TKPW-TS      | Type ~/git/ with no leading or trailing space | {}{^~/git/^}              |
+| H-PLS        | Home with slash                               | {}{^~/^}                  |
+| H-RPL        | Home with enter                               | {}{^cd ~^}{#return}       |
+| TKUP         | Type ../ with no leading or trailing space    | {}{^../^}                 |
 
 
 ## Open Applications
