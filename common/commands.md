@@ -20,10 +20,12 @@
 
 ## Plover Commands
 
-| Stroke | Description     | Translation              |
-|--------|-----------------|--------------------------|
-| TKUPT  | Add Translation | {PLOVER:ADD_TRANSLATION} |
-| PHRUP  | Lookup Word     | {PLOVER:LOOKUP}          |
+| Stroke | Description              | Translation                              |
+|--------|--------------------------|------------------------------------------|
+| TKUPT  | Add Translation          | {PLOVER:ADD_TRANSLATION}                 |
+| PHRUP  | Lookup Word              | {PLOVER:LOOKUP}                          |
+| R-F    | Switch to English system | {PLOVER:SWITCH_SYSTEM:English Stenotype} |
+| H-R    | Switch to German system  | {PLOVER:SWITCH_SYSTEM:Regenpfeifer}      |
 
 ## Terminal Commands
 
