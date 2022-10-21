@@ -53,6 +53,7 @@
 | T-RPL  | Open Terminal | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt iTerm iTerm2}      |
 | SHR-BG | Open Slack    | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt Slack Slack}       |
 | SAOPL  | Open Zoom     | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt zoom.us zoom.us}   |
+| TP-RPB | Open Finder   | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt Finder Finder}     |
 | A-FL   | Open Alfred   | {#command(space)}                                                                 |
 | SREU   | Toggle Siri   | {#control(space)}                                                                 |
 

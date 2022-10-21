@@ -82,12 +82,6 @@
 | PR-P   | Open program preferences | {#command(comma)} |
 
 
-## File Navigation
-
-| Stroke | Description                       | Translation         |
-|--------|-----------------------------------|---------------------|
-
-
 ## IntelliJ / PyCharm
 
 | Stroke | Description                  | Translation           |

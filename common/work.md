@@ -9,3 +9,9 @@
 | PW-R   | Open Browser  | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt \"Google Chrome\" \"Google Chrome\"} |
 | TK-G   | Open DataGrip | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt DataGrip DataGrip}                   |
 
+## Chrome
+
+| Stroke | Description        | Translation          |
+|--------|--------------------|----------------------|
+| -BGT   | Open Okta selector | {#command(shift(o))} |
+
