@@ -81,6 +81,12 @@
 | TPWR   | New tab                  | {#command(t)}     |
 | PR-P   | Open program preferences | {#command(comma)} |
 
+## Browser
+
+| Stroke | Description                 | Translation   |
+|--------|-----------------------------|---------------|
+| KP-LT  | Open GitHub command palette | {#command(k)} |
+
 
 ## IntelliJ / PyCharm
 
