@@ -121,6 +121,8 @@
 "RA*EUF/-S": "raves",
 "RA*EUFD": "raved",
 "RA*EUFS": "raves",
+"RA/RA": "{#command(c)}",
+"RA/RA/RA": "{#command(c)}",
 "RAEUF": "raise",
 "RAEUF/-D": "raised",
 "RAEUF/-S": "raises",
