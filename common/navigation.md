@@ -104,7 +104,7 @@
 | PR-PB  | Activate Project Window      | {#shift(command(p))}  |
 | TR-PB  | Activate Terminal Window     | {#option(F12)}        |
 | -RPL   | Rename                       | {#shift(F6)}          |
-| THR-PL | Toggle comments              | {#command(slash)}     |
+| THR-BG | Toggle comments              | {#command(slash)}     |
 
 
 ## Obsidian
