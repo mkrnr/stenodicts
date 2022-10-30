@@ -24,7 +24,7 @@
 |--------|--------------------------|-------------------------------------------------------------------------------------------------|
 | TKUPT  | Add Translation          | {PLOVER:ADD_TRANSLATION}                                                                        |
 | PHRUP  | Lookup Word              | {PLOVER:LOOKUP}                                                                                 |
-| R-F    | Switch to English system | {PLOVER:SWITCH_SYSTEM:English Stenotype}{PLOVER:SHELL:~/git/dotfiles/scripts/sphero/english.sh} |
+| R-F    | Switch to English system | {PLOVER:SWITCH_SYSTEM:Plover Mod-Z}{PLOVER:SHELL:~/git/dotfiles/scripts/sphero/english.sh} |
 | H-R    | Switch to German system  | {PLOVER:SWITCH_SYSTEM:Regenpfeifer}{PLOVER:SHELL:~/git/dotfiles/scripts/sphero/german.sh}       |
 
 ## Terminal Commands
