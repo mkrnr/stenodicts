@@ -86,6 +86,8 @@
 | Stroke | Description                 | Translation   |
 |--------|-----------------------------|---------------|
 | KP-LT  | Open GitHub command palette | {#command(k)} |
+| OL     | open link                   | {#option(j)}  |
+| OLT    | open link in new tab        | {#option(l)}  |
 
 
 ## IntelliJ / PyCharm
