@@ -76,11 +76,15 @@
 
 ## Program Navigation
 
-| Stroke | Description              | Translation       |
-|--------|--------------------------|-------------------|
-| PWR-PB | New window               | {#command(n)}     |
-| TPWR   | New tab                  | {#command(t)}     |
-| PR-P   | Open program preferences | {#command(comma)} |
+| Stroke  | Description                | Translation               |
+|---------|----------------------------|---------------------------|
+| PWR-PB  | New window                 | {#command(n)}             |
+| TPWR    | New tab                    | {#command(t)}             |
+| PR-P    | Open program preferences   | {#command(comma)}         |
+| PWROFR  | Switch to left tab group   | {#command(option(left))}  |
+| PWROLG  | Switch to right tab group  | {#command(option(right))} |
+| PWROFPL | Switch to top tab group    | {#command(option(up))}    |
+| PWRORBG | Switch to bottom tab group | {#command(option(down))}  |
 
 ## Browser
 
