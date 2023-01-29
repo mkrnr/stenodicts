@@ -20,12 +20,13 @@
 
 ## Plover Commands
 
-| Stroke | Description              | Translation                                                                                     |
-|--------|--------------------------|-------------------------------------------------------------------------------------------------|
-| TKUPT  | Add Translation          | {PLOVER:ADD_TRANSLATION}                                                                        |
-| PHRUP  | Lookup Word              | {PLOVER:LOOKUP}                                                                                 |
+| Stroke | Description              | Translation                                                                                |
+|--------|--------------------------|--------------------------------------------------------------------------------------------|
+| TKUPT  | Add Translation          | {PLOVER:ADD_TRANSLATION}                                                                   |
+| PHRUP  | Lookup Word              | {PLOVER:LOOKUP}                                                                            |
 | R-F    | Switch to English system | {PLOVER:SWITCH_SYSTEM:Plover Mod-Z}{PLOVER:SHELL:~/git/dotfiles/scripts/sphero/english.sh} |
-| H-R    | Switch to German system  | {PLOVER:SWITCH_SYSTEM:Regenpfeifer}{PLOVER:SHELL:~/git/dotfiles/scripts/sphero/german.sh}       |
+| H-R    | Switch to German system  | {PLOVER:SWITCH_SYSTEM:Regenpfeifer}{PLOVER:SHELL:~/git/dotfiles/scripts/sphero/german.sh}  |
+| HR-FR  | Switch to Raw system     | {PLOVER:SWITCH_SYSTEM:Plover Mod-Z Raw}{PLOVER:SHELL:~/git/dotfiles/scripts/sphero/raw.sh} |
 
 ## Terminal Commands
 
