@@ -54,3 +54,5 @@
 | A-FL   | Open Alfred   | {#command(space)}                                                                 |
 | SREU   | Toggle Siri   | {#control(space)}                                                                 |
 
+
+
