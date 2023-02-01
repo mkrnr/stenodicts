@@ -17,4 +17,4 @@ There are a few more scripts:
 * [remap_main.py](remap_main.py) to remap entries in the Plover main dictionary based on the custom strokes, for example
   the fingerspelling for both hands defined in [common/keys.md](common/keys.md)
 * [sort.py](../dotfiles/scripts/sort.py) to sort the JSON dictionary files
-* [upload.py](upload.py) to upload the Markdown files to my webspace
+* [upload_to_website.py](upload_to_website.py) to upload the Markdown files to my webspace
