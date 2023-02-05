@@ -103,8 +103,6 @@
 | SK-LS  | Go to Class...               | {#command(o)}         |
 | S-FPL  | Go to Symbol...              | {#option(command(o))} |
 | TP-BGS | Find Action...               | {#shift(command(a))}  |
-| TKPWU  | Go to declarations or usages | {#command(b)}         |
-| TKPWEU | Go to implementations        | {#option(command(b))} |
 | SK-BGS | Show context actions         | {#option(return)}     |
 | R-BLG  | Run code                     | {#shift(control(r))}  |
 | TK-BLG | Debug code                   | {#shift(control(d))}  |
