@@ -2,10 +2,6 @@
 
 | Stroke | Description | Translation |
 |--------|-------------|-------------|
-| AOEU   | ie          | {}{^ie}     |
-| AOEUP  | Ie          | {}{^Ie}     |
-| AEU    | ei          | {}{^ei}     |
-| AEUP   | Ei          | {}{^Ei}     |
 | KH     | ch          | {}{^ch}     |
 | KH-P   | Ch          | {}{^Ch}     |
 | KR-BG  | ck          | {}{^ck}     |
@@ -15,8 +11,4 @@
 | SP-P   | Sp          | {}{^Sp}     |
 | ST     | st          | {}{^st}     |
 | ST-P   | St          | {}{^St}     |
-| OEU    | eu          | {}{^eu}     |
-| POEU   | Eu          | {}{^Eu}     |
-| AU     | au          | {}{^au}     |
-| PAU    | Au          | {}{^Au}     |
-| AUP    | Au          | {}{^Au}     |
+
