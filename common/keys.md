@@ -62,7 +62,7 @@
 | OEP    | Ö           | {#alt_r(shift(o))} |
 | OU     | ü           | {#alt_r(u)}        |
 | OUP    | Ü           | {#alt_r(shift(u))} |
-| SE     | ß           | {#alt_r(s)}        |
+| S-S    | ß           | {#alt_r(s)}        |
 
 ## Numbers
 
