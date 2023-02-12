@@ -4,9 +4,9 @@
 
 | Stroke  | Description                | Translation                   |
 |---------|----------------------------|-------------------------------|
-| RA      | Copy                       | {#command(c)}                 |
-| RAO     | Cut                        | {#command(x)}                 |
-| RO      | Paste with Pure Paste                      | {#control(command(shift(v)))} |
+| KWRA    | Copy                       | {#command(c)}                 |
+| KWRAO   | Cut                        | {#command(x)}                 |
+| KWRRO   | Paste with Pure Paste      | {#control(command(shift(v)))} |
 | KR-FR   | Undo                       | {#command(z)}                 |
 | KR-LG   | Redo                       | {#command(shift(z))}          |
 | -BLG    | Delete                     | {#delete}                     |
@@ -54,6 +54,5 @@
 | R-RS   | Open Reminders | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt Reminders Reminders} |
 | A-FL   | Open Alfred    | {#command(space)}                                                                   |
 | SREU   | Toggle Siri    | {#control(space)}                                                                   |
-
 
 
