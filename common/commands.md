@@ -6,7 +6,7 @@
 |---------|----------------------------|-------------------------------|
 | KWRA    | Copy                       | {#command(c)}                 |
 | KWRAO   | Cut                        | {#command(x)}                 |
-| KWRRO   | Paste with Pure Paste      | {#control(command(shift(v)))} |
+| KWRO    | Paste with Pure Paste      | {#control(command(shift(v)))} |
 | KR-FR   | Undo                       | {#command(z)}                 |
 | KR-LG   | Redo                       | {#command(shift(z))}          |
 | -BLG    | Delete                     | {#delete}                     |
