@@ -15,6 +15,6 @@ translations = {}
 for row in rows:
     if row[1]:
         translations[row[1].strip()] = row[0].strip()
-with open(output_file_path, "w") as json_file:
-    json.dump(dict(sorted(translations.items())), json_file, indent=2)
+with open(output_file_path, "w", encoding="utf-8") as json_file:
+    json.dump(dict(sorted(translations.items())), json_file, indent=2, ensure_ascii=False)
     json_file.write("\n")  # Add newline cause Py JSON does not
