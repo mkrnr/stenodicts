@@ -2,31 +2,34 @@
 
 ## Text Manipulation
 
-| Stroke  | Description                | Translation                   |
-|---------|----------------------------|-------------------------------|
-| KWRA    | Copy                       | {#command(c)}                 |
-| KWRAO   | Cut                        | {#command(x)}                 |
-| KWRO    | Paste with Pure Paste      | {#control(command(shift(v)))} |
-| KR-FR   | Undo                       | {#command(z)}                 |
-| KR-LG   | Redo                       | {#command(shift(z))}          |
-| -BLG    | Delete                     | {#delete}                     |
-| -FRB    | Backspace                  | {#backspace}                  |
-| KHR-BLG | Control + Delete           | {#control(delete)}            |
-| KHR-FRB | Control + Backspace        | {#control(backspace)}         |
-| R-RPB   | Option + Enter (new line)  | {#option(return)}             |
-| AFPS    | Retroactively add space    | {\*?}                         |
-| TK-FPS  | Retroactively delete space | {\*!}                         |
+| Stroke  | Description                  | Translation                      |
+|---------|------------------------------|----------------------------------|
+| KWRA    | Copy                         | {#command(c)}                    |
+| KWRAO   | Cut                          | {#command(x)}                    |
+| KWRO    | Paste with Pure Paste        | {#control(command(shift(v)))}    |
+| KR-FR   | Undo                         | {#command(z)}                    |
+| KR-LG   | Redo                         | {#command(shift(z))}             |
+| -BLG    | Delete                       | {#delete}                        |
+| -FRB    | Backspace                    | {#backspace}                     |
+| KHR-BLG | Control + Delete             | {#control(delete)}               |
+| KHR-FRB | Control + Backspace          | {#control(backspace)}            |
+| R-RPB   | Option + Enter (new line)    | {#option(return)}                |
+| AFPS    | Retroactively add space      | {\*?}                            |
+| TK-FPS  | Retroactively delete space   | {\*!}                            |
+| KPR     | Capitalize, no leading space | {^}{:case:cap_first_word}        |
+| KP      | Capitalize                   | {}{:case:cap_first_word}         |
+| R       | no leading space             | {^}{:case:case:lower_first_char} |
 
 
 ## Plover Commands
 
-| Stroke | Description              | Translation                                                                                |
-|--------|--------------------------|--------------------------------------------------------------------------------------------|
-| TKUPT  | Add Translation          | {PLOVER:ADD_TRANSLATION}                                                                   |
-| PHRUP  | Lookup Word              | {PLOVER:LOOKUP}                                                                            |
-| R-F    | Switch to English system | {PLOVER:SWITCH_SYSTEM:Plover Mod-Z}{PLOVER:SHELL:~/git/dotfiles/scripts/sphero/english.sh} |
-| H-R    | Switch to German system  | {PLOVER:SWITCH_SYSTEM:Regenpfeifer}{PLOVER:SHELL:~/git/dotfiles/scripts/sphero/german.sh}  |
-| HR-FR  | Switch to Raw system     | {PLOVER:SWITCH_SYSTEM:Plover Mod-Z Raw}{PLOVER:SHELL:~/git/dotfiles/scripts/sphero/raw.sh} |
+| Stroke | Description                  | Translation                                                                                |
+|--------|------------------------------|--------------------------------------------------------------------------------------------|
+| TKUPT  | Add Translation              | {PLOVER:ADD_TRANSLATION}                                                                   |
+| PHRUP  | Lookup Word                  | {PLOVER:LOOKUP}                                                                            |
+| R-F    | Switch to English system     | {PLOVER:SWITCH_SYSTEM:Plover Mod-Z}{PLOVER:SHELL:~/git/dotfiles/scripts/sphero/english.sh} |
+| H-R    | Switch to German system      | {PLOVER:SWITCH_SYSTEM:Regenpfeifer}{PLOVER:SHELL:~/git/dotfiles/scripts/sphero/german.sh}  |
+| HR-FR  | Switch to Raw system         | {PLOVER:SWITCH_SYSTEM:Plover Mod-Z Raw}{PLOVER:SHELL:~/git/dotfiles/scripts/sphero/raw.sh} |
 
 ## Terminal Commands
 
