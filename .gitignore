@@ -12,4 +12,5 @@ venv/
 common/inbox.json
 common/generated
 plover/generated
+regenpfeifer/generated
 */.*

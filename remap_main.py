@@ -7,17 +7,24 @@ import sys
 
 from build_dict import DictBuilder
 
+ignored_files = ["modifier-keys.md"]
+
 
 class MainRemapper(object):
-    left_consonant_keys = ['S', 'T', 'K', 'P', 'W', 'H', 'R']
+    left_consonant_keys = ['Z', 'S', 'T', 'K', 'P', 'W', 'H', 'R']
     right_consonant_keys = ['F', 'R', 'P', 'B', 'L', 'G', 'T', 'S', 'D', 'Z']
 
     replace_dict = {}
 
-    def __init__(self):
+    def __init__(self, specific_language_path):
+        self.add_replacements_in_dir("common")
+        self.add_replacements_in_dir(specific_language_path)
+
+    def add_replacements_in_dir(self, directory):
         path = os.path.dirname(sys.argv[0])
-        self.add_replacement(os.path.join(path, 'common/keys.md'))
-        self.add_replacement(os.path.join(path, 'common/key-compounds.md'))
+        for file in os.listdir(os.path.join(path, directory)):
+            if file.endswith(".md") and file not in ignored_files:
+                self.add_replacement(os.path.join(path, directory, file))
 
     def remap(self, main_path, output_path):
         new_strokes_dict = {}
@@ -65,7 +72,6 @@ class MainRemapper(object):
             self.replace_dict[stroke_to_be_replaced] = self.add_asterisk(stroke_to_be_replaced)
 
     def add_asterisk(self, stroke):
-        # TODO: run only once for every file 
         if '-' in stroke:
             return stroke.replace('-', '*')
         new_stroke = ''
@@ -87,7 +93,7 @@ class MainRemapper(object):
 
 if __name__ == '__main__':
     main_path = sys.argv[1]
-    output_path = sys.argv[2]
-    main_remapper = MainRemapper()
+    specific_language_path = sys.argv[2]
+    output_path = sys.argv[3]
+    main_remapper = MainRemapper(specific_language_path)
     main_remapper.remap(main_path, output_path)
-
