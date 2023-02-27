@@ -52,7 +52,7 @@
 | PW-S   | Open Obsidian  | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt Obsidian Obsidian}   |
 | T-RPL  | Open Terminal  | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt iTerm iTerm2}        |
 | SHR-BG | Open Slack     | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt Slack Slack}         |
-| SAOPL  | Open Zoom      | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt zoom.us zoom.us}     |
+| Z-PL   | Open Zoom      | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt zoom.us zoom.us}     |
 | TP-RPB | Open Finder    | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt Finder Finder}       |
 | R-RS   | Open Reminders | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt Reminders Reminders} |
 | A-FL   | Open Alfred    | {#command(space)}                                                                   |
