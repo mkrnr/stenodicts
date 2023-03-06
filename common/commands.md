@@ -18,7 +18,7 @@
 | TK-FPS  | Retroactively delete space   | {\*!}                            |
 | KPR     | Capitalize, no leading space | {^}{:case:cap_first_word}        |
 | KP      | Capitalize                   | {}{:case:cap_first_word}         |
-| R       | no leading space             | {^}{:case:case:lower_first_char} |
+| R       | no leading space             | {^}{:case:lower_first_char} |
 
 
 ## Plover Commands
