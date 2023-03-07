@@ -56,6 +56,6 @@
 | TP-RPB | Open Finder    | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt Finder Finder}       |
 | R-RS   | Open Reminders | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt Reminders Reminders} |
 | A-FL   | Open Alfred    | {#command(space)}                                                                   |
-| SREU   | Toggle Siri    | {#control(space)}                                                                   |
+| S-R    | Toggle Siri    | {#control(space)}                                                                   |
 
 
