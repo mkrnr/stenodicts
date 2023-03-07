@@ -88,11 +88,12 @@
 
 ## Browser
 
-| Stroke | Description                 | Translation   |
-|--------|-----------------------------|---------------|
-| KP-LT  | Open GitHub command palette | {#command(k)} |
-| OL     | open link                   | {#option(j)}  |
-| OLT    | open link in new tab        | {#option(l)}  |
+| Stroke  | Description                 | Translation          |
+|---------|-----------------------------|----------------------|
+| KP-LT   | Open GitHub command palette | {#command(k)}        |
+| OL      | Open link                   | {#option(j)}         |
+| OLT     | Open link in new tab        | {#option(l)}         |
+| STPH-PB | Sign in with Okta plugin    | {#shift(command(o))} |
 
 
 ## IntelliJ / PyCharm
