@@ -25,7 +25,6 @@
 | SPW-LG    | Mark next character               | {#shift(right)}         |
 | SKPW-FR   | Mark last word                    | {#option(shift(left))}  |
 | SKPW-LG   | Mark next word                    | {#option(shift(right))} |
-| PWR-R     | Command Return                    | {#command(return)}      |
 
 
 ## Window Navigation

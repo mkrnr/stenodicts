@@ -6,6 +6,6 @@
 |--------|---------------|--------------------------------------------------------------------------------------------------------|
 | P-RPL  | Open PyCharm  | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt \"PyCharm CE\" PyCharm}                 |
 | T-PBLG | Open IntelliJ | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt \"IntelliJ IDEA CE\" \"IntelliJ IDEA\"} |
-| PW-R   | Open Browser  | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt Safari Safari}                          |
+| PWR-R  | Open Browser  | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt Safari Safari}                          |
 | PH-L   | Open Mail     | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt Mail Mail}                              |
 
