@@ -9,6 +9,13 @@
 | PW-R   | Open Browser  | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt \"Google Chrome\" \"Google Chrome\"} |
 | TK-G   | Open DataGrip | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt DataGrip DataGrip}                   |
 
+## Run Scripts
+
+| Stroke | Description       | Translation                                        |
+|--------|-------------------|----------------------------------------------------|
+| WHR-PB | Webcam Lights On  | {PLOVER:SHELL:shortcuts run \"Webcam Lights On\"}  |
+| WHR-F  | Webcam Lights Off | {PLOVER:SHELL:shortcuts run \"Webcam Lights Off\"} |
+
 ## Chrome
 
 | Stroke | Description        | Translation          |
