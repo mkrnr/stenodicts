@@ -97,19 +97,19 @@
 
 ## IntelliJ / PyCharm
 
-| Stroke | Description                  | Translation           |
-|--------|------------------------------|-----------------------|
-| STP-L  | Go to File...                | {#command(shift(o))}  |
-| SK-LS  | Go to Class...               | {#command(o)}         |
-| S-FPL  | Go to Symbol...              | {#option(command(o))} |
-| TP-BGS | Find Action...               | {#shift(command(a))}  |
-| SK-BGS | Show context actions         | {#option(return)}     |
-| R-BLG  | Run code                     | {#shift(control(r))}  |
-| TK-BLG | Debug code                   | {#shift(control(d))}  |
-| PR-PB  | Activate Project Window      | {#shift(command(p))}  |
-| TR-PB  | Activate Terminal Window     | {#option(F12)}        |
-| -RPL   | Rename                       | {#shift(F6)}          |
-| THR-BG | Toggle comments              | {#command(slash)}     |
+| Stroke | Description              | Translation           |
+|--------|--------------------------|-----------------------|
+| STP-L  | Go to File...            | {#command(shift(o))}  |
+| SK-LS  | Go to Class...           | {#command(o)}         |
+| S-FPL  | Go to Symbol...          | {#option(command(o))} |
+| TP-BGS | Find Action...           | {#shift(command(a))}  |
+| SK-BGS | Show context actions     | {#option(return)}     |
+| R-BG   | Run code                 | {#shift(control(r))}  |
+| TK-BG  | Debug code               | {#shift(control(d))}  |
+| PR-PB  | Activate Project Window  | {#shift(command(p))}  |
+| TR-PB  | Activate Terminal Window | {#option(F12)}        |
+| -RPL   | Rename                   | {#shift(F6)}          |
+| THR-BG | Toggle comments          | {#command(slash)}     |
 
 
 ## Obsidian
