@@ -96,19 +96,22 @@
 
 ## IntelliJ / PyCharm
 
-| Stroke | Description              | Translation           |
-|--------|--------------------------|-----------------------|
-| STP-L  | Go to File...            | {#command(shift(o))}  |
-| SK-LS  | Go to Class...           | {#command(o)}         |
-| S-FPL  | Go to Symbol...          | {#option(command(o))} |
-| TP-BGS | Find Action...           | {#shift(command(a))}  |
-| SK-BGS | Show context actions     | {#option(return)}     |
-| R-BG   | Run code                 | {#shift(control(r))}  |
-| TK-BG  | Debug code               | {#shift(control(d))}  |
-| PR-PB  | Activate Project Window  | {#shift(command(p))}  |
-| TR-PB  | Activate Terminal Window | {#option(F12)}        |
-| -RPL   | Rename                   | {#shift(F6)}          |
-| THR-BG | Toggle comments          | {#command(slash)}     |
+| Stroke  | Description                 | Translation                  |
+|---------|-----------------------------|------------------------------|
+| STP-L   | Go to File...               | {#command(shift(o))}         |
+| SK-LS   | Go to Class...              | {#command(o)}                |
+| S-FPL   | Go to Symbol...             | {#option(command(o))}        |
+| TP-BGS  | Find Action...              | {#shift(command(a))}         |
+| SK-BGS  | Show context actions        | {#option(return)}            |
+| R-BG    | Run code                    | {#shift(control(r))}         |
+| TK-BG   | Debug code                  | {#shift(control(d))}         |
+| KPH-PB  | Activate Commit tool window | {#option(F5)}                |
+| TKPW-PB | Activate Git tool window    | {#option(F4)}                |
+| PR-PB   | Activate Project tool windo | {#shift(command(p))}         |
+| SK-PL   | Show Context Menu           | {#command(option(shift(k)))} |
+| TP-PBT  | Fully Expand Tree Node      | {#command(option(shift(t)))} |
+| -RPL    | Rename                      | {#shift(F6)}                 |
+| THR-BG  | Toggle comments             | {#command(slash)}            |
 
 
 ## Obsidian
