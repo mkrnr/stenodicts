@@ -2,23 +2,24 @@
 
 ## Text Manipulation
 
-| Stroke  | Description                  | Translation                      |
-|---------|------------------------------|----------------------------------|
-| KWRA    | Copy                         | {#command(c)}                    |
-| KWRAO   | Cut                          | {#command(x)}                    |
-| KWRO    | Paste with Pure Paste        | {#control(command(shift(v)))}    |
-| KR-FR   | Undo                         | {#command(z)}                    |
-| KR-LG   | Redo                         | {#command(shift(z))}             |
-| -BLG    | Delete                       | {#delete}                        |
-| -FRB    | Backspace                    | {#backspace}                     |
-| KHR-BLG | Control + Delete             | {#control(delete)}               |
-| KHR-FRB | Control + Backspace          | {#control(backspace)}            |
-| R-RPB   | Option + Enter (new line)    | {#option(return)}                |
-| AFPS    | Retroactively add space      | {\*?}                            |
-| TK-FPS  | Retroactively delete space   | {\*!}                            |
-| KPR     | Capitalize, no leading space | {^}{:case:cap_first_word}        |
-| KP      | Capitalize                   | {}{:case:cap_first_word}         |
-| R       | no leading space             | {^}{:case:lower_first_char} |
+| Stroke  | Description                  | Translation                   |
+|---------|------------------------------|-------------------------------|
+| KWRA    | Copy                         | {#command(c)}                 |
+| KWRAO   | Cut                          | {#command(x)}                 |
+| KWRO    | Paste                        | {#command(v)}                 |
+| KWROP   | Paste with Pure Paste        | {#control(command(shift(v)))} |
+| KR-FR   | Undo                         | {#command(z)}                 |
+| KR-LG   | Redo                         | {#command(shift(z))}          |
+| -BLG    | Delete                       | {#delete}                     |
+| -FRB    | Backspace                    | {#backspace}                  |
+| KHR-BLG | Control + Delete             | {#control(delete)}            |
+| KHR-FRB | Control + Backspace          | {#control(backspace)}         |
+| R-RPB   | Option + Enter (new line)    | {#option(return)}             |
+| AFPS    | Retroactively add space      | {\*?}                         |
+| TK-FPS  | Retroactively delete space   | {\*!}                         |
+| KPR     | Capitalize, no leading space | {^}{:case:cap_first_word}     |
+| KP      | Capitalize                   | {}{:case:cap_first_word}      |
+| R       | no leading space             | {^}{:case:lower_first_char}   |
 
 
 ## Plover Commands
