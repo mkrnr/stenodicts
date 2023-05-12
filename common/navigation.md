@@ -101,6 +101,7 @@
 | STP-L   | Go to File...               | {#command(shift(o))}         |
 | SK-LS   | Go to Class...              | {#command(o)}                |
 | S-FPL   | Go to Symbol...             | {#option(command(o))}        |
+| STK-L   | Go to Declaration or Usages | {#command(b)}                |
 | TP-BGS  | Find Action...              | {#shift(command(a))}         |
 | SK-BGS  | Show context actions        | {#option(return)}            |
 | R-BG    | Run code                    | {#shift(control(r))}         |
