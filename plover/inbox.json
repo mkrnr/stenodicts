@@ -114,6 +114,7 @@
 "PWR-Z": "{#super(z)}",
 "PWULT": "but it",
 "R*UPBG": "rung",
+"R-FPG": "{^}READY_FOR_PROVISIONING",
 "R-P": "respect",
 "RA*EUF/-D": "raved",
 "RA*EUF/-S": "raves",
