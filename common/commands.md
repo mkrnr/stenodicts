@@ -60,3 +60,8 @@
 | S-R    | Toggle Siri    | {#control(space)}                                                                   |
 
 
+## Workflow Commands
+
+| Stroke | Description  | Translation                                                                                      |
+|--------|--------------|--------------------------------------------------------------------------------------------------|
+| TKR-R  | Add reminder | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt Reminders Reminders}{#command(n)} |

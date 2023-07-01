@@ -71,6 +71,9 @@
 | R-FPL    | Move window up              | {#control(option(up))}             |
 | R-FRPBLG | Move window full screen     | {#control(option(return))}         |
 | TK-FP    | Focus dock (Dock change)    | {#control(F3)}                     |
+| PWR-R    | Command + Return            | {#option(return)}                  |
+| KPH-R    | Clipboard History           | {#shift(command(v))}               |
+
 
 
 ## Program Navigation
@@ -119,13 +122,15 @@
 
 | Stroke  | Description                   | Translation          |
 |---------|-------------------------------|----------------------|
-| SW-FP   | Open quick switcher           | {#command(o)}        |
+| SW-FP   | Open quick switcher           | {#command(e)}        |
 | PWR-PBZ | Create note in Bronze folder  | {^Bronze/^}          |
 | TKPW-LD | Create note in Gold folder    | {^Gold/^}            |
 | S-FRL   | Create note in Silver folder  | {^Silver/^}          |
 | KR-PBT  | Create note in quick switcher | {#shift(return)}     |
 | P-NT    | Pin note                      | {#command(shift(e))} |
 | TPHR    | Follow link under cursor      | {#option(return)}    |
+
+
 
 
 ## Terminal
@@ -141,3 +146,10 @@
 | Stroke | Description  | Translation   |
 |--------|--------------|---------------|
 | SR-BG  | Visual block | {#control(v)} |
+
+## Reminders
+
+| Stroke | Description            | Translation          |
+|--------|------------------------|----------------------|
+| PHR-BG | Mark reminder complete | {#shift(command(c))} |
+
