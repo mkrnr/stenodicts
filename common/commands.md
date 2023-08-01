@@ -57,6 +57,7 @@
 | Z-PL   | Open Zoom      | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt zoom.us zoom.us}     |
 | TP-RPB | Open Finder    | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt Finder Finder}       |
 | R-RS   | Open Reminders | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt Reminders Reminders} |
+| TPH-TS | Open Notes     | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt Notes Notes}         |
 | A-FL   | Open Alfred    | {#command(space)}                                                                   |
 | S-R    | Toggle Siri    | {#control(space)}                                                                   |
 
