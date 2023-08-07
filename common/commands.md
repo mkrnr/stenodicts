@@ -1,5 +1,12 @@
 # Commands
 
+## Media keys
+
+| Stroke | Description     | Translation |
+|--------|-----------------|-------------|
+| PH-T   | Mute Microphone | {#}         |
+
+
 ## Text Manipulation
 
 | Stroke  | Description                  | Translation                   |
