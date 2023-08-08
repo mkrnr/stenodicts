@@ -1,12 +1,5 @@
 # Commands
 
-## Media keys
-
-| Stroke | Description     | Translation |
-|--------|-----------------|-------------|
-| PH-T   | Mute Microphone | {#}         |
-
-
 ## Text Manipulation
 
 | Stroke  | Description                  | Translation                   |
@@ -67,6 +60,12 @@
 | TPH-TS | Open Notes     | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt Notes Notes}         |
 | A-FL   | Open Alfred    | {#command(space)}                                                                   |
 | S-R    | Toggle Siri    | {#control(space)}                                                                   |
+
+## Zoom
+
+| Stroke | Description     | Translation          |
+|--------|-----------------|----------------------|
+| PH-T   | Mute Microphone | {#command(shift(a))} |
 
 
 ## Workflow Commands
