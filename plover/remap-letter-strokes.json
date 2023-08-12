@@ -7,7 +7,6 @@
 "A/U": "{}{^au}",
 "AOEU": "I",
 "AOUP": "up",
-"EUF": "if",
 "EUS": "is",
 "H*P": "HP",
 "HA": "had",
@@ -25,6 +24,7 @@
 "SR*P": "VP",
 "THAD": "that'd",
 "TKEU": "did",
+"TP": "if",
 "W*P": "WordPress",
 "W-F": "with",
 "W-L": "will"
