@@ -21,4 +21,5 @@
 | Stroke | Description        | Translation          |
 |--------|--------------------|----------------------|
 | -BGT   | Open Okta selector | {#command(shift(o))} |
+| PH-L   | Open Mail (first tab) |{PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt \"Google Chrome\" \"Google Chrome\"}{#command(1)} |
 
