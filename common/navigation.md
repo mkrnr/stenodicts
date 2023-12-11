@@ -23,6 +23,8 @@
 | -FPBL     | Move cursor to document end       | {#command(down)}        |
 | SPW-FR    | Mark last character               | {#shift(left)}          |
 | SPW-LG    | Mark next character               | {#shift(right)}         |
+| SPW-FPL   | Shift up                          | {#shift(up)}            |
+| SPW-RBG   | Shift down                        | {#shift(down)}          |
 | SKPW-FR   | Mark last word                    | {#option(shift(left))}  |
 | SKPW-LG   | Mark next word                    | {#option(shift(right))} |
 
