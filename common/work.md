@@ -17,13 +17,13 @@
 
 ## Chrome
 
-| Stroke | Description           | Translation                                                                                                      |
-|--------|-----------------------|------------------------------------------------------------------------------------------------------------------|
-| -BGT   | Open Okta selector    | {#command(shift(o))}                                                                                             |
-| PH-L   | Open Mail (first chrome tab) | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt \"Google Chrome\" \"Google Chrome\"}{#command(1)} |
+| Stroke | Description                       | Translation                                                                                                      |
+|--------|-----------------------------------|------------------------------------------------------------------------------------------------------------------|
+| -BGT   | Open Okta selector                | {#command(shift(o))}                                                                                             |
+| PH-L   | Open Mail (first chrome tab)      | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt \"Google Chrome\" \"Google Chrome\"}{#command(1)} |
 | KHR-R  | Open Calendar (second chrome tab) | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt \"Google Chrome\" \"Google Chrome\"}{#command(2)} |
-| SKWR-R  | Open Jira (third chrome tab) | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt \"Google Chrome\" \"Google Chrome\"}{#command(3)} |
-|  PW-RPB  | Insert password with bitwarden | {#command(shift(l))} |
+| SKWR-R | Open Jira (third chrome tab)      | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt \"Google Chrome\" \"Google Chrome\"}{#command(3)} |
+| TPHR-P | Insert password with bitwarden    | {#command(shift(l))}                                                                                             |
 
 
 ## Mattermost
