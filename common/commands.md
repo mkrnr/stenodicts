@@ -65,17 +65,9 @@
 
 ## Zoom
 
-| Stroke | Description     | Translation          |
-|--------|-----------------|----------------------|
-| PH-T   | Mute Microphone | {#command(shift(a))} |
-
-## Mattermost
-
-| Stroke | Description           | Translation                                                                                        |
-|--------|-----------------------|----------------------------------------------------------------------------------------------------|
-| PH-F   | Mattermost Find       | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt Mattermost Mattermost}{#command(k)} |
-| PH-R   | React to last message | {#command(shift(backslash))}                                                                       |
-
+| Stroke | Description     | Translation                                                                                         |
+|--------|-----------------|-----------------------------------------------------------------------------------------------------|
+| PH-T   | Mute Microphone | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt zoom.us zoom.us}{#command(shift(a))} |
 
 ## Workflow Commands
 

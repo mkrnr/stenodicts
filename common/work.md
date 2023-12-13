@@ -25,3 +25,10 @@
 | SKWR-R  | Open Jira (third chrome tab) | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt \"Google Chrome\" \"Google Chrome\"}{#command(3)} |
 |  PW-RPB  | Insert password with bitwarden | {#command(shift(l))} |
 
+
+## Mattermost
+
+| Stroke | Description           | Translation                                                                                        |
+|--------|-----------------------|----------------------------------------------------------------------------------------------------|
+| PH-F   | Mattermost Find       | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt Mattermost Mattermost}{#command(k)} |
+| PH-R   | React to last message | {#command(shift(backslash))}                                                                       |
