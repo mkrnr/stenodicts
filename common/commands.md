@@ -65,9 +65,9 @@
 
 ## Zoom
 
-| Stroke | Description     | Translation                                                                                         |
-|--------|-----------------|-----------------------------------------------------------------------------------------------------|
-| PH-T   | Mute Microphone | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt zoom.us zoom.us}{#command(shift(a))} |
+| Stroke | Description     | Translation                  |
+|--------|-----------------|------------------------------|
+| PH-T   | Mute Microphone | {#command(shift(option(m)))} |
 
 ## Workflow Commands
 
