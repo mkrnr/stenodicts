@@ -48,20 +48,20 @@
 
 ## Open Applications
 
-| Stroke | Description     | Translation                                                                           |
-|--------|-----------------|---------------------------------------------------------------------------------------|
-| KHR-R  | Open Calendar   | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt Calendar Calendar}     |
-| PW-S   | Open Obsidian   | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt Obsidian Obsidian}     |
-| T-RPL  | Open Terminal   | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt iTerm iTerm2}          |
-| SHR-BG | Open Slack      | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt Slack Slack}           |
-| PH-PL  | Open Mattermost | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt Mattermost Mattermost} |
-| Z-PL   | Open Zoom       | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt zoom.us zoom.us}       |
-| TP-RPB | Open Finder     | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt Finder Finder}         |
-| R-RS   | Open Reminders  | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt Reminders Reminders}   |
-| TPH-TS | Open Notes      | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt Notes Notes}           |
-| SR-S   | Open VS Code    | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt Code Code}             |
-| A-FL   | Open Alfred     | {#command(space)}                                                                     |
-| S-R    | Toggle Siri     | {#control(space)}                                                                     |
+| Stroke | Description                      | Translation                                                                           |
+|--------|----------------------------------|---------------------------------------------------------------------------------------|
+| KHR-R  | Open Calendar                    | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt Calendar Calendar}     |
+| PW-S   | Open Obsidian                    | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt Obsidian Obsidian}     |
+| T-RPL  | Open Terminal                    | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt iTerm iTerm2}          |
+| SHR-BG | Open Slack                       | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt Slack Slack}           |
+| PH-PL  | Open Mattermost                  | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt Mattermost Mattermost} |
+| Z-PL   | Open Zoom                        | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt zoom.us zoom.us}       |
+| TP-RPB | Open Finder                      | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt Finder Finder}         |
+| R-RS   | Open Reminders                   | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt Reminders Reminders}   |
+| TPH-TS | Open Notes                       | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt Notes Notes}           |
+| SR-S   | Open VS Code                     | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt Code Code}             |
+| A-FL   | Open Alfred, suppress next space | {#command(space)}{^}                                                                  |
+| S-R    | Toggle Siri                      | {#control(space)}                                                                     |
 
 ## Zoom
 
