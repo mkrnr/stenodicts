@@ -26,6 +26,18 @@
 | TPHR-P | Insert password with bitwarden    | {#command(shift(l))}                                                                                             |
 
 
+## VS Code
+
+| Stroke | Description                            | Translation                                                                                                       |
+|--------|----------------------------------------|-------------------------------------------------------------------------------------------------------------------|
+| SR-FL  | Open provisioning-workspace-airflow    | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app-window.scpt Code \"provisioning-workspace-airflow\"}    |
+| SR-PBG | Open provisioning-workspace-spark      | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app-window.scpt Code \"provisioning-workspace-spark\"}      |
+| SR-PBL | Open provisioning-workspace-standalone | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app-window.scpt Code \"provisioning-workspace-standalone\"} |
+
+
+
+
+
 ## Mattermost
 
 | Stroke | Description           | Translation                                                                                        |
