@@ -33,6 +33,7 @@
 | SR-FL  | Open provisioning-workspace-airflow    | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app-window.scpt Code \"provisioning-workspace-airflow\"}    |
 | SR-PBG | Open provisioning-workspace-spark      | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app-window.scpt Code \"provisioning-workspace-spark\"}      |
 | SR-PBL | Open provisioning-workspace-standalone | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app-window.scpt Code \"provisioning-workspace-standalone\"} |
+| SR-L   | Open  dpe-provisioning-incremental     | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app-window.scpt Code \"dpe-provisioning-incremental\"}      |
 
 
 
