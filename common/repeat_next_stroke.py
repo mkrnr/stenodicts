@@ -15,9 +15,10 @@ NUMBER_STROKES={
     "PWH-R":0,
 }
 
-NAVIGATION_STROKES={
+STROKES={
     "-FPL":"{}{#up}",
-    "-RBG":"{}{#down}"
+    "-RBG":"{}{#down}",
+    "KWRO":"{#command(v)}",
 }
 
 
@@ -29,10 +30,10 @@ def lookup(key):
     if len(key) == 1:
         return ' '
     
-    if key[1] not in NAVIGATION_STROKES:
+    if key[1] not in STROKES:
         raise KeyError
     
     strokes=''
     for i in range(NUMBER_STROKES.get(key[0])):
-        strokes+=NAVIGATION_STROKES.get(key[1])
+        strokes+=STROKES.get(key[1])
     return strokes
