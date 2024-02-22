@@ -27,6 +27,8 @@
 | SPW-RBG   | Shift down                        | {#shift(down)}          |
 | SKPW-FR   | Mark last word                    | {#option(shift(left))}  |
 | SKPW-LG   | Mark next word                    | {#option(shift(right))} |
+| SPWR-FR   | Mark until beginning of line      | {#command(shift(left))}  |
+| SPWR-LG   | Mark until end of line            | {#command(shift(right))} |
 
 
 ## Window Navigation
