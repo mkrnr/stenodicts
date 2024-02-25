@@ -2,33 +2,38 @@
 
 ## Navigation Keys
 
-| Stroke    | Description                       | Translation             |
-|-----------|-----------------------------------|-------------------------|
-| -FP       | Up                                | {}{#up}                 |
-| -RB       | Down                              | {}{#down}               |
-| -FPL      | Up                                | {}{#up}                 |
-| -RBG      | Down                              | {}{#down}               |
-| -FR       | Left                              | {}{#left}               |
-| -LG       | Right                             | {}{#right}              |
-| -RPG      | Page Up                           | {#page_up}              |
-| -FBL      | Page Down                         | {#page_down}            |
-| SR-FPL    | Volume Up                         | {#audioraisevolume}     |
-| SR-RBG    | Volume Down                       | {#audiolowervolume}     |
-| SR-FRPBLG | Volume Mute                       | {#audiomute}            |
-| -FRB      | Move curser to word left          | {#option(Left)}         |
-| -BLG      | Move curser to word right         | {#option(right)}        |
-| -FRP      | Home                              | {#home}                 |
-| -PLG      | End                               | {#end}                  |
-| -RPBG     | Move cursor to document beginning | {#command(up)}          |
-| -FPBL     | Move cursor to document end       | {#command(down)}        |
-| SPW-FR    | Mark last character               | {#shift(left)}          |
-| SPW-LG    | Mark next character               | {#shift(right)}         |
-| SPW-FPL   | Shift up                          | {#shift(up)}            |
-| SPW-RBG   | Shift down                        | {#shift(down)}          |
-| SKPW-FR   | Mark last word                    | {#option(shift(left))}  |
-| SKPW-LG   | Mark next word                    | {#option(shift(right))} |
-| SPWR-FR   | Mark until beginning of line      | {#command(shift(left))}  |
-| SPWR-LG   | Mark until end of line            | {#command(shift(right))} |
+| Stroke    | Description                       | Translation                                                                     |
+|-----------|-----------------------------------|---------------------------------------------------------------------------------|
+| -FP       | Up                                | {}{#up}                                                                         |
+| -RB       | Down                              | {}{#down}                                                                       |
+| -FPL      | Up                                | {}{#up}                                                                         |
+| -RBG      | Down                              | {}{#down}                                                                       |
+| -FR       | Left                              | {}{#left}                                                                       |
+| -LG       | Right                             | {}{#right}                                                                      |
+| -RPG      | Page Up                           | {}{#page_up}                                                                    |
+| -FBL      | Page Down                         | {}{#page_down}                                                                  |
+| -RPBG     | Page cursor 30x up                | {}{PLOVER:SHELL:osascript ~/git/stenodicts/scripts/repeat-key-code.scpt 126 30} |
+| -FPBL     | Move cursor 30x down              | {}{PLOVER:SHELL:osascript ~/git/stenodicts/scripts/repeat-key-code.scpt 125 30} |
+| SR-FPL    | Volume Up                         | {#audioraisevolume}                                                             |
+| SR-RBG    | Volume Down                       | {#audiolowervolume}                                                             |
+| SR-FRPBLG | Volume Mute                       | {#audiomute}                                                                    |
+| -FRP      | Move curser to word left          | {#option(left)}                                                                 |
+| -PLG      | Move curser to word right         | {#option(right)}                                                                |
+| -FRB      | Move curser to beginning of line  | {#command(left)}                                                                |
+| -BLG      | Move curser to end of line        | {#command(right)}                                                               |
+| -FRPLG    | Move cursor to document beginning | {#command(up)}                                                                  |
+| -FRBLG    | Move cursor to document end       | {#command(down)}                                                                |
+| PH-FR     | Mark last character               | {#shift(left)}                                                                  |
+| PH-LG     | Mark next character               | {#shift(right)}                                                                 |
+| PH-FRP    | Mark last word                    | {#option(shift(left))}                                                          |
+| PH-PLG    | Mark next word                    | {#option(shift(right))}                                                         |
+| PH-P      | Mark word                         | {#option(left)}{#option(shift(right))}                                          |
+| PH-FRB    | Mark until beginning of line      | {#control(shift(left))}                                                         |
+| PH-BLG    | Mark until end of line            | {#control(shift(right))}                                                        |
+| PH-B      | Mark line                         | {#command(left)}{#command(shift(right))}                                        |
+| PH-FPL    | Mark line up                      | {#option(shift(up))}                                                            |
+| PH-RBG    | Mark line down                    | {#option(shift(down))}                                                          |
+| PH-FRPBLG | Mark all                          | {#command(a)}                                                                   |
 
 
 ## Window Navigation

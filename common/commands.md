@@ -7,13 +7,16 @@
 | KWRA    | Copy                         | {#command(c)}                 |
 | KWRAO   | Cut                          | {#command(x)}                 |
 | KWRO    | Paste                        | {#command(v)}                 |
-| KWROP   | Paste with Pure Paste        | {#control(command(shift(v)))} |
-| KR-FR   | Undo                         | {#command(z)}                 |
-| KR-LG   | Redo                         | {#command(shift(z))}          |
-| -BLG    | Delete                       | {#delete}                     |
-| -FRB    | Backspace                    | {#backspace}                  |
-| KHR-BLG | Control + Delete             | {#control(delete)}            |
-| KHR-FRB | Control + Backspace          | {#control(backspace)}         |
+| KWROP   | Paste and match style        | {#option(command(shift(v)))} |
+| K-FR   | Undo                         | {#command(z)}                 |
+| K-LG   | Redo                         | {#command(shift(z))}          |
+| TK-FR    | Delete last character                   | {#backspace}                  |
+| TK-LG    | Delete next character                       | {#delete}                     |
+| TK-FRP | Delete last word              | {#option(backspace)}            |
+| TK-PLG | Delete next word          | {#option(delete)}         |
+| TK-FRB | Delete until beginning of line              | {#command(backspace)}            |
+| TK-BLG | Delete until end of line          | {#control(k)}         |
+| TK-B | Delete line          | {#control(k)}         |
 | R-RPB   | Option + Enter (new line)    | {#option(return)}             |
 | AFPS    | Retroactively add space      | {\*?}                         |
 | TK-FPS  | Retroactively delete space   | {\*!}                         |
