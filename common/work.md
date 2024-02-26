@@ -17,14 +17,18 @@
 
 ## Chrome
 
-| Stroke | Description                       | Translation                                                                                                      |
-|--------|-----------------------------------|------------------------------------------------------------------------------------------------------------------|
-| -BGT   | Open Okta selector                | {#command(shift(o))}                                                                                             |
-| PH-L   | Open Mail (first chrome tab)      | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt \"Google Chrome\" \"Google Chrome\"}{#command(1)} |
-| KHR-R  | Open Calendar (second chrome tab) | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt \"Google Chrome\" \"Google Chrome\"}{#command(2)} |
-| SKWR-R | Open Jira (third chrome tab)      | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt \"Google Chrome\" \"Google Chrome\"}{#command(3)} |
-| PW-RPB | Open brain.fm (fourth chrome tab) | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt \"Google Chrome\" \"Google Chrome\"}{#command(4)} |
-| TPHR-P | Insert password with bitwarden    | {#command(shift(l))}                                                                                             |
+| Stroke  | Description                    | Translation                                                                                             |
+|---------|--------------------------------|---------------------------------------------------------------------------------------------------------|
+| -BGT    | Open Okta selector             | {#command(shift(o))}                                                                                    |
+| PH-L    | Open Gmail                     | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt \"Gmail\" \"Gmail\"}                     |
+| KHR-R   | Open Google Calendar           | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt \"Google Calendar\" \"Google Calendar\"} |
+| SKWR-R  | Open Jira                      | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt \"JIRA\" \"JIRA\"}                       |
+| PW-RPB  | Open brain.fm                  | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt \"Brain.fm App\" \"Brain.fm App\"}       |
+| TKPW-PL | Open Gemini                    | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt \"Gemini\" \"Gemini\"}                   |
+| TKPWH-B | Open Github                    | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt \"GitHub\" \"GitHub\"}                   |
+| HR-FL   | Open Localhost Airflow         | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt \"DAGs - Airflow\" \"DAGs - Airflow\"}   |
+| TPHR-P  | Insert password with bitwarden | {#command(shift(l))}                                                                                    |
+| KPH-P   | Open command palette (Github)  | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt \"GitHub\" \"GitHub\"}{#command(k)}      |
 
 
 ## VS Code
