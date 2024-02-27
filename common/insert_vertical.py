@@ -1,4 +1,3 @@
-import subprocess
 import re
 LONGEST_KEY = 4
 
@@ -34,15 +33,20 @@ def lookup(key):
     if key[0] not in INITIAL_STROKES:
         raise KeyError
 
+
+    # TODO detect and count row movement strokes
+    # TODO raise KeyError when aborting movement strokes
     if len(key) == 1:
         return INITIAL_STROKES.get(key[0])
-    if len(key) !=4:
-        raise KeyError
-
-    #TODO count how many lines down
     number_of_lines=2
+    
+    # last stroke is insert stroke
+    if key[len(key)-1]==INSERT_STROKE:
+        return "{#left}"
 
-    # TODO raise KeyError when none movement and none paste command
+    #TODO detect strokes between insert stroke and confirm/abort stroke
+    if len(key)==3:
+        return STROKES.get(key[len(key)-1])
 
     if key[len(key)-3]==INSERT_STROKE:
         #negative=up, positive=down
@@ -52,12 +56,13 @@ def lookup(key):
         #text=completed_process.stdout
         if key[len(key)-2] not in STROKES:
             raise KeyError
-        text=extract_text_from_plover_stroke(STROKES.get(key[len(key)-2]))
+        stroke=STROKES.get(key[len(key)-2])
+        text=extract_text_from_plover_stroke(stroke)
         length=len(text)
         #left repeat(paste len-paste-left down)
-        strokes="{#left}"
+        strokes=""
         for i in range(number_of_lines):
-            strokes+="{^}"+text
+            strokes+=stroke
             if i<number_of_lines-1:
                 for j in range(length):
                     strokes+="{#left}"
