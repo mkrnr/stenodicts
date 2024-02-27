@@ -5,7 +5,7 @@ LONGEST_KEY = 4
 INITIAL_STROKES = {'PH-RBG':'{#shift(down)}',
 'PH-FPL':'{#shift(up)}'}
 
-PASTE_STROKE="KWRO"
+INSERT_STROKE="R-T"
 
 NUMBER_STROKES={
     "PWH-F":1,
@@ -44,9 +44,7 @@ def lookup(key):
 
     # TODO raise KeyError when none movement and none paste command
 
-    
-    # TODO use different paste command
-    if key[len(key)-3]=="-PBS":
+    if key[len(key)-3]==INSERT_STROKE:
         #negative=up, positive=down
         rows=count_rows(key)
 
@@ -57,12 +55,13 @@ def lookup(key):
         text=extract_text_from_plover_stroke(STROKES.get(key[len(key)-2]))
         length=len(text)
         #left repeat(paste len-paste-left down)
-        strokes="{}{#left}"
+        strokes="{#left}"
         for i in range(number_of_lines):
             strokes+="{^}"+text
-            for j in range(length):
-                strokes+="{#left}"
-            strokes+="{#down}"
+            if i<number_of_lines-1:
+                for j in range(length):
+                    strokes+="{#left}"
+                strokes+="{#down}"
         return strokes
     
     raise KeyError

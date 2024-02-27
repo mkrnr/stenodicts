@@ -2,7 +2,6 @@
 
 ## Navigation Keys
 
-<<<<<<< HEAD
 | Stroke    | Description                       | Translation                                                                     |
 |-----------|-----------------------------------|---------------------------------------------------------------------------------|
 | -FP       | Up                                | {}{#up}                                                                         |
@@ -35,35 +34,6 @@
 | PH-FPL    | Mark line up                      | {#option(shift(up))}                                                            |
 | PH-RBG    | Mark line down                    | {#option(shift(down))}                                                          |
 | PH-FRPBLG | Mark all                          | {#command(a)}                                                                   |
-=======
-| Stroke    | Description                       | Translation              |
-|-----------|-----------------------------------|--------------------------|
-| -FP       | Up                                | {}{#up}                  |
-| -RB       | Down                              | {}{#down}                |
-| -FPL      | Up                                | {}{#up}                  |
-| -RBG      | Down                              | {}{#down}                |
-| -FR       | Left                              | {}{#left}                |
-| -LG       | Right                             | {}{#right}               |
-| -RPG      | Page Up                           | {#page_up}               |
-| -FBL      | Page Down                         | {#page_down}             |
-| SR-FPL    | Volume Up                         | {#audioraisevolume}      |
-| SR-RBG    | Volume Down                       | {#audiolowervolume}      |
-| SR-FRPBLG | Volume Mute                       | {#audiomute}             |
-| -FRB      | Move curser to word left          | {#option(Left)}          |
-| -BLG      | Move curser to word right         | {#option(right)}         |
-| -FRP      | Home                              | {#home}                  |
-| -PLG      | End                               | {#end}                   |
-| -RPBG     | Move cursor to document beginning | {#command(up)}           |
-| -FPBL     | Move cursor to document end       | {#command(down)}         |
-| SPW-FR    | Mark last character               | {#shift(left)}           |
-| SPW-LG    | Mark next character               | {#shift(right)}          |
-| SPW-FPL   | Shift up                          | {#shift(up)}             |
-| SPW-RBG   | Shift down                        | {#shift(down)}           |
-| SKPW-FR   | Mark last word                    | {#option(shift(left))}   |
-| SKPW-LG   | Mark next word                    | {#option(shift(right))}  |
-| SPWR-FR   | Mark until beginning of line      | {#command(shift(left))}  |
-| SPWR-LG   | Mark until end of line            | {#command(shift(right))} |
->>>>>>> 0b342e8 (Update files)
 
 
 ## Window Navigation

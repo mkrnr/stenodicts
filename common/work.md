@@ -23,7 +23,7 @@
 | PH-L    | Open Gmail                     | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt \"Gmail\" \"Gmail\"}                     |
 | KHR-R   | Open Google Calendar           | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt \"Google Calendar\" \"Google Calendar\"} |
 | SKWR-R  | Open Jira                      | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt \"JIRA\" \"JIRA\"}                       |
-| PH-PL  | Open Mattermost                  | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt Mattermost Mattermost} |
+| PH-PL   | Open Mattermost                | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt Mattermost Mattermost}                   |
 | PW-RPB  | Open brain.fm                  | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt \"Brain.fm App\" \"Brain.fm App\"}       |
 | TKPW-PL | Open Gemini                    | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt \"Gemini\" \"Gemini\"}                   |
 | TKPWH-B | Open Github                    | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt \"GitHub\" \"GitHub\"}                   |
