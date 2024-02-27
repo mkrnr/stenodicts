@@ -5,6 +5,7 @@
 | Stroke | Description   | Translation                                                                                         |
 |--------|---------------|-----------------------------------------------------------------------------------------------------|
 | T-PBLG | Open IntelliJ | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt \"IntelliJ IDEA\" \"IntelliJ IDEA\"} |
+| P-RPL  | Open PyCharm  | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt PyCharm PyCharm}                     |
 | W-B    | Open Browser  | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt \"Google Chrome\" \"Google Chrome\"} |
 | TK-G   | Open DataGrip | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt DataGrip DataGrip}                   |
 
@@ -51,3 +52,9 @@
 |--------|-----------------------|----------------------------------------------------------------------------------------------------|
 | PH-F   | Mattermost Find       | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt Mattermost Mattermost}{#command(k)} |
 | PH-R   | React to last message | {#command(shift(backslash))}                                                                       |
+
+## Zoom
+
+| Stroke | Description     | Translation                   |
+|--------|-----------------|-------------------------------|
+| PH-T   | Mute Microphone | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt zoom.us zoom.us}{#command(shift(a))} |

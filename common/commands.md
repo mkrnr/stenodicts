@@ -65,11 +65,6 @@
 | A-FL   | Open Alfred, suppress next space | {#command(space)}{^}                                                                  |
 | S-R    | Toggle Siri                      | {#control(space)}                                                                     |
 
-## Zoom
-
-| Stroke | Description     | Translation                                                                                         |
-|--------|-----------------|-----------------------------------------------------------------------------------------------------|
-| PH-T   | Mute Microphone | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt zoom.us zoom.us}{#command(shift(a))} |
 
 ## Workflow Commands
 
