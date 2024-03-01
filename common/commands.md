@@ -62,6 +62,7 @@
 | TPH-TS | Open Notes                       | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt Notes Notes}           |
 | SR-S   | Open VS Code                     | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt Code Code}             |
 | KP-BG  | Open XCode                       | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt Xcode Xcode}           |
+| PH-BG  | Open Music                       | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt Music Music}           |
 | A-FL   | Open Alfred, suppress next space | {#command(space)}{^}                                                                  |
 | S-R    | Toggle Siri                      | {#control(space)}                                                                     |
 

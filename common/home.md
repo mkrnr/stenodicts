@@ -8,15 +8,14 @@
 
 ## Open Applications
 
-| Stroke  | Description   | Translation                                                                                            |
-|---------|---------------|--------------------------------------------------------------------------------------------------------|
-| P-RPL   | Open PyCharm  | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt \"PyCharm CE\" PyCharm}                 |
-| T-PBLG  | Open IntelliJ | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt \"IntelliJ IDEA CE\" \"IntelliJ IDEA\"} |
-| W-B     | Open Browser  | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt Safari Safari}                          |
-| PH-L    | Open Mail     | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt Mail Mail}                              |
-| PW-RPB  | Open brain.fm | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt \"Brain.fm\" \"Brain.fm\"}              |
-| TKPWH-B | Open Github   | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt \"GitHub\" \"GitHub\"}                  |
-| SKWR-R  | Open Jira     | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt \"Jira\" \"Jira\"}                      |
+| Stroke | Description                  | Translation                                                                                            |
+|--------|------------------------------|--------------------------------------------------------------------------------------------------------|
+| P-RPL  | Open PyCharm                 | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt \"PyCharm CE\" PyCharm}                 |
+| T-PBLG | Open IntelliJ                | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt \"IntelliJ IDEA CE\" \"IntelliJ IDEA\"} |
+| W-B    | Open Browser                 | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt Safari Safari}                          |
+| PH-L   | Open Mail                    | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt Mail Mail}                              |
+| PW-RPB | Open brain.fm                | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt \"Brain.fm\" \"Brain.fm\"}              |
+| SKWR-R | Open Jira (first Safari tab) | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt Safari Safari}{#command(1)}             |
 
 
 ## Commands
