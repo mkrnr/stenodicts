@@ -2,28 +2,28 @@
 
 ## Text Manipulation
 
-| Stroke  | Description                  | Translation                   |
-|---------|------------------------------|-------------------------------|
-| KWRA    | Copy                         | {#command(c)}                 |
-| KWRAO   | Cut                          | {#command(x)}                 |
-| KWRO    | Paste                        | {#command(v)}                 |
-| KWROP   | Paste and match style        | {#option(command(shift(v)))} |
-| K-FR   | Undo                         | {#command(z)}                 |
-| K-LG   | Redo                         | {#command(shift(z))}          |
-| TK-FR    | Delete last character                   | {#backspace}                  |
-| TK-LG    | Delete next character                       | {#delete}                     |
-| TK-FRP | Delete last word              | {#option(backspace)}            |
-| TK-PLG | Delete next word          | {#option(delete)}         |
-| TK-FRB | Delete until beginning of line              | {#command(backspace)}            |
-| TK-BLG | Delete until end of line          | {#control(k)}         |
-| TK-B | Delete line          | {#control(k)}         |
-| R-RPB   | Option + Enter (new line)    | {#option(return)}             |
-| AFPS    | Retroactively add space      | {\*?}                         |
-| TK-FPS  | Retroactively delete space   | {\*!}                         |
-| KPR     | Capitalize, no leading space | {^}{:case:cap_first_word}     |
-| KP      | Capitalize                   | {}{:case:cap_first_word}      |
-| R       | no leading space             | {^}{:case:lower_first_char}   |
-| HR      | leading space                | {}{:case:lower_first_char}      |
+| Stroke | Description                    | Translation                  |
+|--------|--------------------------------|------------------------------|
+| KWRA   | Copy                           | {#command(c)}                |
+| KWRAO  | Cut                            | {#command(x)}                |
+| KWRO   | Paste                          | {#command(v)}                |
+| KWROP  | Paste and match style          | {#option(command(shift(v)))} |
+| K-FR   | Undo                           | {#command(z)}                |
+| K-LG   | Redo                           | {#command(shift(z))}         |
+| TK-FR  | Delete last character          | {#backspace}                 |
+| TK-LG  | Delete next character          | {#delete}                    |
+| TK-FRP | Delete last word               | {#option(backspace)}         |
+| TK-PLG | Delete next word               | {#option(delete)}            |
+| TK-FRB | Delete until beginning of line | {#command(backspace)}        |
+| TK-BLG | Delete until end of line       | {#control(k)}                |
+| TK-B   | Delete line                    | {#control(k)}                |
+| R-RPB  | Option + Enter (new line)      | {#option(return)}            |
+| AFPS   | Retroactively add space        | {\*?}                        |
+| TK-FPS | Retroactively delete space     | {\*!}                        |
+| KPR    | Capitalize, no leading space   | {^}{:case:cap_first_word}    |
+| KP     | Capitalize                     | {}{:case:cap_first_word}     |
+| R      | no leading space               | {^}{:case:lower_first_char}  |
+| HR     | leading space                  | {}{:case:lower_first_char}   |
 
 
 ## Plover Commands
@@ -51,21 +51,27 @@
 
 ## Open Applications
 
-| Stroke | Description                      | Translation                                                                           |
-|--------|----------------------------------|---------------------------------------------------------------------------------------|
-| KHR-R  | Open Calendar                    | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt Calendar Calendar}     |
-| PW-S   | Open Obsidian                    | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt Obsidian Obsidian}     |
-| T-RPL  | Open Terminal                    | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt iTerm iTerm2}          |
-| Z-PL   | Open Zoom                        | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt zoom.us zoom.us}       |
-| TP-RPB | Open Finder                      | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt Finder Finder}         |
-| R-RS   | Open Reminders                   | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt Reminders Reminders}   |
-| TPH-TS | Open Notes                       | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt Notes Notes}           |
-| SR-S   | Open VS Code                     | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt Code Code}             |
-| KP-BG  | Open XCode                       | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt Xcode Xcode}           |
-| PH-BG  | Open Music                       | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt Music Music}           |
-| A-FL   | Open Alfred, suppress next space | {#command(space)}{^}                                                                  |
-| S-R    | Toggle Siri                      | {#control(space)}                                                                     |
+| Stroke | Description                      | Translation                                                                                 |
+|--------|----------------------------------|---------------------------------------------------------------------------------------------|
+| KHR-R  | Open Calendar                    | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt Calendar Calendar}           |
+| PW-S   | Open Obsidian                    | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt Obsidian Obsidian}           |
+| T-RPL  | Open Terminal                    | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt iTerm iTerm2}                |
+| Z-PL   | Open Zoom                        | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt zoom.us zoom.us}             |
+| TP-RPB | Open Finder                      | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt Finder Finder}               |
+| R-RS   | Open Reminders                   | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt Reminders Reminders}         |
+| TPH-TS | Open Notes                       | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt Notes Notes}                 |
+| SR-S   | Open VS Code                     | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt \"Visual Studio Code\" Code} |
+| KP-BG  | Open XCode                       | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt Xcode Xcode}                 |
+| PH-BG  | Open Music                       | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt Music Music}                 |
+| A-FL   | Open Alfred, suppress next space | {#command(space)}{^}                                                                        |
+| S-R    | Toggle Siri                      | {#control(space)}                                                                           |
 
+
+## VS Code Commands
+
+| Stroke | Description                                                          | Translation                                                                                                                 |
+|--------|----------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------|
+| TR-RPL | Open integRated Terminal (Command: Terminal: Focus on Terminal View) | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt \"Visual Studio Code\" Code}{#control(shift(command(down)))} |
 
 ## Workflow Commands
 
