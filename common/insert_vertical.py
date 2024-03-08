@@ -1,10 +1,11 @@
 import re
-LONGEST_KEY = 4
+LONGEST_KEY = 20
 
-INITIAL_STROKES = {'PH-RBG':'{#shift(down)}',
+MARK_LINE_STROKES = {'PH-RBG':'{#shift(down)}',
 'PH-FPL':'{#shift(up)}'}
 
 INSERT_STROKE="R-T"
+SAVE_STROKE="R-S"
 
 NUMBER_STROKES={
     "PWH-F":1,
@@ -30,63 +31,77 @@ ROWS=0
 def lookup(key):
     assert len(key) <= LONGEST_KEY, '%d/%d' % (len(key), LONGEST_KEY)
     
-    if key[0] not in INITIAL_STROKES:
-        raise KeyError
+    last_stroke=key[len(key)-1]
 
-
-    # TODO detect and count row movement strokes
-    # TODO raise KeyError when aborting movement strokes
-    if len(key) == 1:
-        return INITIAL_STROKES.get(key[0])
-    number_of_lines=2
-    
-    # last stroke is insert stroke
-    if key[len(key)-1]==INSERT_STROKE:
-        return "{#left}"
-
-    #TODO detect strokes between insert stroke and confirm/abort stroke
-    if len(key)==3:
-        return STROKES.get(key[len(key)-1])
-
-    if key[len(key)-3]==INSERT_STROKE:
-        #negative=up, positive=down
-        rows=count_rows(key)
-
-        #completed_process=subprocess.run(["pbpaste","-Prefer","txt"],text=True,capture_output=True)
-        #text=completed_process.stdout
-        if key[len(key)-2] not in STROKES:
+    if last_stroke==INSERT_STROKE:
+        number_of_lines=_count_rows(key) 
+        if number_of_lines!=0:
+            return "{#left}"
+        else:
             raise KeyError
-        stroke=STROKES.get(key[len(key)-2])
-        text=extract_text_from_plover_stroke(stroke)
-        length=len(text)
-        #left repeat(paste len-paste-left down)
+        
+    elif last_stroke==SAVE_STROKE:
+        #negative=up, positive=down
+        number_of_lines=_count_rows(key)
+        if number_of_lines==0:
+            raise KeyError
+        
+        strokes_to_insert=_get_strokes_to_insert(key)
+
+        #TODO make sure that strokes are only individual keys
+        translated_strokes=[]
+        for stroke_to_insert in strokes_to_insert:
+            if stroke_to_insert in STROKES:
+                translated_strokes.append(STROKES[stroke_to_insert])
+
+        length=len(strokes_to_insert)
         strokes=""
+        #TODO handle moving up (negative number of lines)
         for i in range(number_of_lines):
-            strokes+=stroke
-            if i<number_of_lines-1:
+            if i<number_of_lines:
                 for j in range(length):
                     strokes+="{#left}"
                 strokes+="{#down}"
+            strokes+="".join(translated_strokes)
         return strokes
+
+
     
     raise KeyError
 
-def extract_text_from_plover_stroke(stroke):
-    stroke=re.sub("^{\^","",stroke)
-    stroke=re.sub("^{","",stroke)
-    stroke=re.sub("}$","",stroke)
-    return stroke
-
-def count_rows(key):
+def _count_rows(key):
     rows=0
-    current_multiplier=1
-    for stroke in key:
-        if stroke=='SPW-RBG':
-            rows+=1
-        elif stroke=='SPW-FPL':
-            rows-=1
+    found_insert_stroke=False
+    for stroke in reversed(key):
+        if stroke==INSERT_STROKE:
+            if found_insert_stroke:
+                break
+            else:
+                found_insert_stroke=True
+        elif found_insert_stroke:
+            if stroke=='PH-RBG':
+                rows+=1
+            elif stroke=='PH-FPL':
+                rows-=1
+            #TODO add repeated strokes
+            else:
+                break
     return rows
     
+
+def _get_strokes_to_insert(key):
+    found_save_stroke=False
+    strokes_to_insert=[]
+    for stroke in reversed(key):
+        if stroke==SAVE_STROKE:
+            if found_save_stroke:
+                return []
+            else:
+                found_save_stroke=True
+        elif stroke==INSERT_STROKE:
+            return strokes_to_insert
+        else:
+            strokes_to_insert.insert(0,stroke)
 
 
 
