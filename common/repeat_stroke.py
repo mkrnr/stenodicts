@@ -42,7 +42,5 @@ def lookup(key):
     elif len(key) == 3:
         if key[0] in NUMBER_STROKES and key[1] in NUMBER_STROKES and key[2] in STROKES:
             return get_repeated_stroke(int(str(NUMBER_STROKES.get(key[0]))+str(NUMBER_STROKES.get(key[1]))),STROKES.get(key[2]))
-        elif key[0] not in NUMBER_STROKES and key[1] in NUMBER_STROKES and key[2] in STROKES:
-            return get_repeated_stroke(NUMBER_STROKES.get(key[1]),STROKES.get(key[2]))
     #log.info("\tKeyError")  
     raise KeyError

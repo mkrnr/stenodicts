@@ -14,8 +14,8 @@ class TestInsertVertical(unittest.TestCase):
 
     def test_repeat_up_twice_two_times_in_a_row(self):
         key=["-FPL","PWH-P","-FPL"]
-        result=repeat_stroke.lookup(key)
-        self.assertEqual(result, '{}{#up}{}{#up}')
+        with self.assertRaises(KeyError): 
+            repeat_stroke.lookup(key)
 
 if __name__ == '__main__':
     unittest.main()

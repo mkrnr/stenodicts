@@ -1,13 +1,16 @@
-import re
+from os import listdir
+from pathlib import Path
+import json
+#from plover import log
+
 LONGEST_KEY = 20
 
-MARK_LINE_STROKES = {'PH-RBG':'{#shift(down)}',
-'PH-FPL':'{#shift(up)}'}
+MARK_LINE_STROKES = {'PH-RBG':'{#shift(down)}'}
 
 INSERT_STROKE="R-T"
 SAVE_STROKE="R-S"
 
-NUMBER_STROKES={
+REPEAT_NUMBER_STROKES={
     "PWH-F":1,
     "PWH-P":2,
     "PWH-FP":3,
@@ -20,35 +23,35 @@ NUMBER_STROKES={
     "PWH-R":0,
 }
 
-STROKES={
-    "H-RB":"{^#}",
-    "-RBG":"{}{#down}",
-}
+# TODO: find better way than hardcoding which also works with this plugin
+generated_dir=f"{Path.home()}/git/stenodicts/common/generated"
 
-ROWS=0
+STROKES={}
+for file in listdir(generated_dir):
+    with open(f"{generated_dir}/{file}", 'r') as f:
+        STROKES.update(json.load(f))
 
 
 def lookup(key):
     assert len(key) <= LONGEST_KEY, '%d/%d' % (len(key), LONGEST_KEY)
-    
+    #log.info(key) 
     last_stroke=key[len(key)-1]
 
     if last_stroke==INSERT_STROKE:
         number_of_lines=_count_rows(key) 
-        if number_of_lines!=0:
+        if number_of_lines>0:
+            #log.info("left") 
             return "{#left}"
         else:
             raise KeyError
         
     elif last_stroke==SAVE_STROKE:
-        #negative=up, positive=down
         number_of_lines=_count_rows(key)
         if number_of_lines==0:
             raise KeyError
         
         strokes_to_insert=_get_strokes_to_insert(key)
 
-        #TODO make sure that strokes are only individual keys
         translated_strokes=[]
         for stroke_to_insert in strokes_to_insert:
             if stroke_to_insert in STROKES:
@@ -56,36 +59,43 @@ def lookup(key):
 
         length=len(strokes_to_insert)
         strokes=""
-        #TODO handle moving up (negative number of lines)
+        strokes+="".join(translated_strokes)
         for i in range(number_of_lines):
             if i<number_of_lines:
                 for j in range(length):
                     strokes+="{#left}"
                 strokes+="{#down}"
             strokes+="".join(translated_strokes)
+        #log.info(strokes)
         return strokes
 
 
     
     raise KeyError
 
+
 def _count_rows(key):
     rows=0
-    found_insert_stroke=False
-    for stroke in reversed(key):
+    multiplier=1
+    for stroke in key:
         if stroke==INSERT_STROKE:
             if found_insert_stroke:
                 break
             else:
                 found_insert_stroke=True
-        elif found_insert_stroke:
+        elif not found_insert_stroke:
             if stroke=='PH-RBG':
-                rows+=1
+                rows+=multiplier*1
+                multiplier=1
             elif stroke=='PH-FPL':
-                rows-=1
-            #TODO add repeated strokes
+                rows-=multiplier*1
+                multiplier=1
+            elif stroke in REPEAT_NUMBER_STROKES:
+                multiplier=REPEAT_NUMBER_STROKES[stroke]
             else:
-                break
+                # only consider sequences where the first stroke is a movement related stroke
+                return 0
+
     return rows
     
 
