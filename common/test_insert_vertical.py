@@ -37,6 +37,22 @@ class TestInsertVertical(unittest.TestCase):
         key=["PWH-FP","PH-RBG","R-T","H-RB","H-RB","R-S"]
         result=insert_vertical.lookup(key)
         self.assertEqual(result, '{^#}{^#}{#left}{#left}{#down}{^#}{^#}{#left}{#left}{#down}{^#}{^#}{#left}{#left}{#down}{^#}{^#}')
+    def test_insert_two_hashes_repeated_twelve_times(self):
+        key=["PWH-F","PWH-P","PH-RBG","R-T","H-RB","H-RB","R-S"]
+        result=insert_vertical.lookup(key)
+        self.assertEqual(result,("{^#}{^#}{#left}{#left}{#down}"
+                                 "{^#}{^#}{#left}{#left}{#down}"
+                                 "{^#}{^#}{#left}{#left}{#down}"
+                                 "{^#}{^#}{#left}{#left}{#down}"
+                                 "{^#}{^#}{#left}{#left}{#down}"
+                                 "{^#}{^#}{#left}{#left}{#down}"
+                                 "{^#}{^#}{#left}{#left}{#down}"
+                                 "{^#}{^#}{#left}{#left}{#down}"
+                                 "{^#}{^#}{#left}{#left}{#down}"
+                                 "{^#}{^#}{#left}{#left}{#down}"
+                                 "{^#}{^#}{#left}{#left}{#down}"
+                                 "{^#}{^#}{#left}{#left}{#down}"
+                                 "{^#}{^#}"))
     
     def test_count_rows_simple_cases(self):
         self.assertEqual(1,insert_vertical._count_rows(["PH-RBG","R-T","H-RB","R-S"]))

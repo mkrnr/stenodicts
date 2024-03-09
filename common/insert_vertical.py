@@ -5,11 +5,11 @@ import json
 
 LONGEST_KEY = 20
 
-MARK_LINE_STROKES = {'PH-RBG':'{#shift(down)}'}
 
 INSERT_STROKE="R-T"
 SAVE_STROKE="R-S"
 
+MARK_LINE_STROKES = {'PH-RBG':1, 'PH-FPL':-1 }
 REPEAT_NUMBER_STROKES={
     "PWH-F":1,
     "PWH-P":2,
@@ -73,28 +73,36 @@ def lookup(key):
     
     raise KeyError
 
-
 def _count_rows(key):
-    rows=0
-    multiplier=1
-    for stroke in key:
+    found_insert_stroke=False
+    movement_strokes=[]
+    for stroke in reversed(key):
         if stroke==INSERT_STROKE:
             if found_insert_stroke:
                 break
             else:
                 found_insert_stroke=True
-        elif not found_insert_stroke:
-            if stroke=='PH-RBG':
-                rows+=multiplier*1
-                multiplier=1
-            elif stroke=='PH-FPL':
-                rows-=multiplier*1
-                multiplier=1
-            elif stroke in REPEAT_NUMBER_STROKES:
-                multiplier=REPEAT_NUMBER_STROKES[stroke]
+        elif found_insert_stroke:
+            if stroke in MARK_LINE_STROKES  or stroke in REPEAT_NUMBER_STROKES:
+                movement_strokes.insert(0,stroke)
             else:
                 # only consider sequences where the first stroke is a movement related stroke
                 return 0
+    rows=0
+    multiplier=None
+    for movement_stroke in movement_strokes:
+        if movement_stroke in REPEAT_NUMBER_STROKES:
+            if multiplier:
+                multiplier=int(str(multiplier)+str(REPEAT_NUMBER_STROKES[movement_stroke]))
+            else:
+                multiplier= REPEAT_NUMBER_STROKES[movement_stroke]
+        else:
+            if movement_stroke in MARK_LINE_STROKES:
+                if multiplier:
+                    rows+=multiplier*MARK_LINE_STROKES[movement_stroke]
+                    multiplier=None
+                else:
+                    rows+=MARK_LINE_STROKES[movement_stroke]
 
     return rows
     
