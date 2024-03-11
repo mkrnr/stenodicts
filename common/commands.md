@@ -69,9 +69,11 @@
 
 ## VS Code Commands
 
-| Stroke | Description                                                          | Translation                                                                                                                 |
-|--------|----------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------|
-| TR-RPL | Open integRated Terminal (Command: Terminal: Focus on Terminal View) | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt \"Visual Studio Code\" Code}{#control(shift(command(down)))} |
+| Stroke | Description                               | Translation                                                                                                                 |
+|--------|-------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------|
+| T-FS   | Command: Terminal: Focus on Terminal View | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt \"Visual Studio Code\" Code}{#control(shift(command(down)))} |
+| KP-FS  | Command: Explorer: Focus on Folders View  | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt \"Visual Studio Code\" Code}{#control(shift(command(left)))} |
+| TK-FS  | Command: View: Focus Active Editor Group  | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt \"Visual Studio Code\" Code}{#control(shift(command(up)))}   |
 
 ## Workflow Commands
 

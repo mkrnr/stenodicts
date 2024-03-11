@@ -32,7 +32,6 @@
 | TPHR-P  | Insert password with bitwarden | {#command(shift(l))}                                                                                    |
 | KPH-P   | Open command palette (Github)  | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt \"GitHub\" \"GitHub\"}{#command(k)}      |
 
-
 ## VS Code
 
 | Stroke | Description                            | Translation                                                                                                       |
@@ -41,10 +40,6 @@
 | SR-PBG | Open provisioning-workspace-spark      | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app-window.scpt Code \"provisioning-workspace-spark\"}      |
 | SR-PBL | Open provisioning-workspace-standalone | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app-window.scpt Code \"provisioning-workspace-standalone\"} |
 | SR-L   | Open  dpe-provisioning-incremental     | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app-window.scpt Code \"dpe-provisioning-incremental\"}      |
-
-
-
-
 
 ## Mattermost
 
