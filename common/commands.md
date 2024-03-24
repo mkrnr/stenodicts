@@ -64,6 +64,7 @@
 | KP-BG  | Open XCode                       | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt Xcode Xcode}                 |
 | PH-BG  | Open Music                       | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt Music Music}                 |
 | A-FL   | Open Alfred, suppress next space | {#command(space)}{^}                                                                        |
+| SR-PB   | Open VS Code window alfred workflow | {#command(space)}{PLOVER:DELAY:0.05}{^cw^}                                                                        |
 | S-R    | Toggle Siri                      | {#control(space)}                                                                           |
 
 
