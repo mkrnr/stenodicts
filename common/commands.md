@@ -66,6 +66,7 @@
 | A-FL   | Open Alfred, suppress next space | {#command(space)}{^}                                                                        |
 | SR-PB   | Open VS Code window alfred workflow | {#command(space)}{PLOVER:DELAY:0.05}{^cw^}                                                                        |
 | S-R    | Toggle Siri                      | {#control(space)}                                                                           |
+| KPH-P   | Open command palette (Github)  | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt \"GitHub\" \"GitHub\"}{#command(k)}      |
 
 
 ## VS Code Commands

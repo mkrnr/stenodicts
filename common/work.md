@@ -30,7 +30,6 @@
 | TKPWH-B | Open Github                    | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt \"GitHub\" \"GitHub\"}                   |
 | HR-FL   | Open Localhost Airflow         | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt \"DAGs - Airflow\" \"DAGs - Airflow\"}   |
 | TPHR-P  | Insert password with bitwarden | {#command(shift(l))}                                                                                    |
-| KPH-P   | Open command palette (Github)  | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt \"GitHub\" \"GitHub\"}{#command(k)}      |
 | H*P     | Hue                            | {^hadoop}{#tab}{^hadoop}{#return}                                                                       |
 
 ## VS Code
