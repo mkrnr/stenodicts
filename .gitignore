@@ -13,4 +13,6 @@ venv/
 common/generated
 plover/generated
 regenpfeifer/generated
+
+common/work.md
 */.*
