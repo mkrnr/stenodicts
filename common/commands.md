@@ -7,6 +7,7 @@
 | KWRA   | Copy                           | {#command(c)}                |
 | KWRAO  | Cut                            | {#command(x)}                |
 | KWRO   | Paste                          | {#command(v)}                |
+| KWHRO  | Past from history              | {#command(shift(v))}         |
 | KWROP  | Paste and match style          | {#option(command(shift(v)))} |
 | K-FR   | Undo                           | {#command(z)}                |
 | K-LG   | Redo                           | {#command(shift(z))}         |
