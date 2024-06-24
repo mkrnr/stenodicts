@@ -24,13 +24,13 @@ class DictBuilder(object):
                 if in_table and not md_line.startswith("|"):
                     in_table = False
                 if in_table:
-                    md_line = md_line.replace('\|', '{ESCAPED_PIPE}')
+                    md_line = md_line.replace('\\|', '{ESCAPED_PIPE}')
                     md_line_split = md_line.split('|')
                     md_line_split = [sub.replace('{ESCAPED_PIPE}', '|') for sub in md_line_split]
                     strokes = md_line_split[1].strip()
-                    strokes = strokes.replace("\|", "|")
+                    strokes = strokes.replace("\\|", "|")
                     translation = md_line_split[len(md_line_split) - 2].strip()
-                    translation = translation.replace("\*", "*")
+                    translation = translation.replace("\\*", "*")
                     if strokes in strokes_dict:
                         print("WARNING: defined more than once: " + strokes + " >>> ABORT")
                     else:

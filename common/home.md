@@ -16,6 +16,7 @@
 | PH-L   | Open Mail                    | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt Mail Mail}                              |
 | PW-RPB | Open brain.fm (Safari tab)   | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt Safari Safari}{#command(3)}             |
 | SKWR-R | Open Jira (first Safari tab) | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt Safari Safari}{#command(1)}             |
+| KH-B   | Open chat bot                | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt Safari Safari}{#command(4)}             |
 
 
 ## Commands
@@ -25,5 +26,4 @@
 | TW-B    | Toggle play pause in browser | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt Safari Safari}{#space}{#command(tab)} |
 | W-FRB   | Press left in browser        | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt Safari Safari}{#left}{#command(tab)}  |
 | W-BLG   | Press right in browser       | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt Safari Safari}{#right}{#command(tab)} |
-| TKPW-PT | Open macGPT                  | {#command(shift(control(c)))}                                                                        |
 
