@@ -82,8 +82,7 @@
 | TK-FP    | Focus dock (Dock change)    | {#control(F3)}                     |
 | PWR-R    | Command + Return            | {#option(return)}                  |
 | KPH-R    | Clipboard History           | {#shift(command(v))}               |
-| TP       | Follow Link via Homerow app | {#command(shift(control(h)))}      |
-| TP       | Follow Link via Homerow app | {#command(shift(control(h)))}      |
+| TP       | Follow Link via Homerow app | {#command(shift(control(f)))}      |
 
 
 ## Program Navigation
