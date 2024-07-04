@@ -52,22 +52,22 @@
 
 ## Open Applications
 
-| Stroke | Description                      | Translation                                                                                 |
-|--------|----------------------------------|---------------------------------------------------------------------------------------------|
-| KHR-R  | Open Calendar                    | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt Calendar Calendar}           |
-| PW-S   | Open Obsidian                    | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt Obsidian Obsidian}           |
-| T-RPL  | Open Terminal                    | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt iTerm iTerm2}                |
-| Z-PL   | Open Zoom                        | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt zoom.us zoom.us}             |
-| TP-RPB | Open Finder                      | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt Finder Finder}               |
-| R-RS   | Open Reminders                   | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt Reminders Reminders}         |
-| TPH-TS | Open Notes                       | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt Notes Notes}                 |
-| SR-S   | Open VS Code                     | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt \"Visual Studio Code\" Code} |
-| KP-BG  | Open XCode                       | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt Xcode Xcode}                 |
-| PH-BG  | Open Music                       | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt Music Music}                 |
-| A-FL   | Open Alfred, suppress next space | {#command(space)}{^}                                                                        |
-| SR-PB   | Open VS Code window alfred workflow | {#command(space)}{PLOVER:DELAY:0.05}{^cw^}                                                                        |
-| S-R    | Toggle Siri                      | {#control(space)}                                                                           |
-| KPH-P   | Open command palette (Github)  | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt \"GitHub\" \"GitHub\"}{#command(k)}      |
+| Stroke | Description                         | Translation                                                                                        |
+|--------|-------------------------------------|----------------------------------------------------------------------------------------------------|
+| KHR-R  | Open Calendar                       | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt Calendar Calendar}                  |
+| PW-S   | Open Obsidian                       | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt Obsidian Obsidian}                  |
+| T-RPL  | Open Terminal                       | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt iTerm iTerm2}                       |
+| Z-PL   | Open Zoom                           | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt zoom.us zoom.us}                    |
+| TP-RPB | Open Finder                         | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt Finder Finder}                      |
+| R-RS   | Open Reminders                      | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt Reminders Reminders}                |
+| TPH-TS | Open Notes                          | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt Notes Notes}                        |
+| SR-S   | Open VS Code                        | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt \"Visual Studio Code\" Code}        |
+| KP-BG  | Open XCode                          | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt Xcode Xcode}                        |
+| PH-BG  | Open Music                          | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt Music Music}                        |
+| A-FL   | Open Alfred, suppress next space    | {#command(space)}{^}                                                                               |
+| SR-PB  | Open VS Code window alfred workflow | {#command(space)}{PLOVER:DELAY:0.05}{^cw^}                                                         |
+| S-R    | Toggle Siri                         | {#control(space)}                                                                                  |
+| KPH-P  | Open command palette (Github)       | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt \"GitHub\" \"GitHub\"}{#command(k)} |
 
 
 ## VS Code Commands
