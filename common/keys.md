@@ -129,6 +129,11 @@
 | SPR-LG   | Bracket Right                        | {^]}        |
 | SPR-PLG  | Bracket Right (Leading space)        | {]}         |
 | SPR-FRLG | Bracket Left and Right               | {^[]^}      |
+| TPR-FR   | Triange Brace Left                   | {^<}        |
+| TPR-FRP  | Triange Brace Left (Leading space)   | {^ }{^<}    |
+| TPR-LG   | Triange Brace Right                  | {^>}        |
+| TPR-PLG  | Triange Brace Right (Leading space)  | {^ }{^>}    |
+| TPR-FRLG | Triange Brace Left and Right         | {^<>^}      |
 | KR-T     | Caret                                | {^}^        |
 | K-L      | Colon                                | {^:}        |
 | TWH      | Dollar                               | {^$}        |
