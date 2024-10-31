@@ -17,6 +17,9 @@
 | SR-FPL    | Volume Up                         | {#audioraisevolume}                                                             |
 | SR-RBG    | Volume Down                       | {#audiolowervolume}                                                             |
 | SR-FRPBLG | Volume Mute                       | {#audiomute}                                                                    |
+| PHR-P     | Audio Play                        | {#audioplay}                                                                    |
+| PHR-FR    | Audio Previous                    | {#audioprev}                                                                    |
+| PHR-LG    | Audio Next                        | {#audionext}                                                                    |
 | -FRP      | Move curser to word left          | {#option(left)}                                                                 |
 | -PLG      | Move curser to word right         | {#option(right)}                                                                |
 | -FRB      | Move curser to beginning of line  | {#command(left)}                                                                |
