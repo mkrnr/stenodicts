@@ -18,7 +18,7 @@
 | TK-FRB | Delete until beginning of line | {#command(backspace)}        |
 | TK-BLG | Delete until end of line       | {#control(k)}                |
 | TK-B   | Delete line                    | {#control(k)}                |
-| R-RPB  | Option + Enter (new line)      | {#option(return)}            |
+| R-RPB  | Shift + Enter (new line)       | {#shift(return)}             |
 | AFPS   | Retroactively add space        | {\*?}                        |
 | TK-FPS | Retroactively delete space     | {\*!}                        |
 | KPR    | Capitalize, no leading space   | {^}{:case:cap_first_word}    |
