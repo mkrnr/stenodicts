@@ -100,13 +100,13 @@
 
 | Stroke | Description | Translation   |
 |--------|-------------|---------------|
-| -FRPB  | Backspace   | {#backspace}  |
-| TK-L   | Delete      | {#delete}     |
-| H-F    | Escape      | {#escape}     |
-| TPH-RT | Insert      | {#insert}     |
-| R-R    | Return      | {#return}     |
-| T-B    | Tab         | {#tab}        |
-| ST-B   | Shift-Tab   | {#shift(tab)} |
+| -FRPB  | Backspace   | {}{#backspace}  |
+| TK-L   | Delete      | {}{#delete}     |
+| H-F    | Escape      | {}{#escape}     |
+| TPH-RT | Insert      | {}{#insert}     |
+| R-R    | Return      | {}{#return}     |
+| T-B    | Tab         | {}{#tab}        |
+| ST-B   | Shift-Tab   | {}{#shift(tab)} |
 
 ## Special Characters
 

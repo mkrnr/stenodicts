@@ -2,29 +2,29 @@
 
 ## Text Manipulation
 
-| Stroke | Description                    | Translation                  |
-|--------|--------------------------------|------------------------------|
-| KWRA   | Copy                           | {#command(c)}                |
-| KWRAO  | Cut                            | {#command(x)}                |
-| KWRO   | Paste                          | {#command(v)}                |
-| KWHRO  | Past from history              | {#command(shift(v))}         |
-| KPWHRO | Paste and match style          | {#option(command(shift(v)))} |
-| K-FR   | Undo                           | {#command(z)}                |
-| K-LG   | Redo                           | {#command(shift(z))}         |
-| TK-FR  | Delete last character          | {#backspace}                 |
-| TK-LG  | Delete next character          | {#delete}                    |
-| TK-FRP | Delete last word               | {#option(backspace)}         |
-| TK-PLG | Delete next word               | {#option(delete)}            |
-| TK-FRB | Delete until beginning of line | {#command(backspace)}        |
-| TK-BLG | Delete until end of line       | {#control(k)}                |
-| TK-B   | Delete line                    | {#control(k)}                |
-| R-RPB  | Shift + Enter (new line)       | {#shift(return)}             |
-| AFPS   | Retroactively add space        | {\*?}                        |
-| TK-FPS | Retroactively delete space     | {\*!}                        |
-| KPR    | Capitalize, no leading space   | {^}{:case:cap_first_word}    |
-| KP     | Capitalize                     | {}{:case:cap_first_word}     |
-| R      | no leading space               | {^}{:case:lower_first_char}  |
-| HR     | leading space                  | {}{:case:lower_first_char}   |
+| Stroke | Description                    | Translation                    |
+|--------|--------------------------------|--------------------------------|
+| KWRA   | Copy                           | {#command(c)}                  |
+| KWRAO  | Cut                            | {#command(x)}                  |
+| KWRO   | Paste                          | {}{#command(v)}                |
+| KWHRO  | Past from history              | {}{#command(shift(v))}         |
+| KPWHRO | Paste and match style          | {}{#option(command(shift(v)))} |
+| K-FR   | Undo                           | {}{#command(z)}                |
+| K-LG   | Redo                           | {}{#command(shift(z))}         |
+| TK-FR  | Delete last character          | {}{#backspace}                 |
+| TK-LG  | Delete next character          | {}{#delete}                    |
+| TK-FRP | Delete last word               | {}{#option(backspace)}         |
+| TK-PLG | Delete next word               | {}{#option(delete)}            |
+| TK-FRB | Delete until beginning of line | {}{#command(backspace)}        |
+| TK-BLG | Delete until end of line       | {}{#control(k)}                |
+| TK-B   | Delete line                    | {}{#control(k)}                |
+| R-RPB  | Shift + Enter (new line)       | {}{#shift(return)}             |
+| AFPS   | Retroactively add space        | {\*?}                          |
+| TK-FPS | Retroactively delete space     | {\*!}                          |
+| KPR    | Capitalize, no leading space   | {^}{:case:cap_first_word}      |
+| KP     | Capitalize                     | {}{:case:cap_first_word}       |
+| R      | no leading space               | {^}{:case:lower_first_char}    |
+| HR     | leading space                  | {}{:case:lower_first_char}     |
 
 
 ## Plover Commands
