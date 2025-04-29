@@ -2,9 +2,9 @@
 
 ## Special keys
 
-| Stroke | Description              | Translation                                                                     |
-|--------|--------------------------|---------------------------------------------------------------------------------|
-| H-F    | Escape, to fix XCode bug | {PLOVER:SHELL:osascript -e 'tell application \"System Events\" to key code 53'} |
+#| Stroke | Description              | Translation                                                                     |
+#|--------|--------------------------|---------------------------------------------------------------------------------|
+#| H-F    | Escape, to fix XCode bug | {PLOVER:SHELL:osascript -e 'tell application \"System Events\" to key code 53'} |
 
 ## Open Applications
 
