@@ -16,7 +16,8 @@ class MainRemapper(object):
 
     replace_dict = {}
 
-    def __init__(self, specific_language_path):
+    def __init__(self, specific_language_path, quiet=False):
+        self.quiet = quiet
         self.add_replacements_in_dir("common")
         self.add_replacements_in_dir(specific_language_path)
 
@@ -30,25 +31,23 @@ class MainRemapper(object):
         new_strokes_dict = {}
         with codecs.open(main_path, "r", "utf-8") as json_file:
             main_dict = json.load(json_file)
-            print(len(main_dict))
+            if not self.quiet:
+                print(len(main_dict))
             for key in main_dict:
                 strokes = key.split("/")
                 new_strokes = self.replace_strokes(strokes)
                 new_strokes_string = '/'.join(new_strokes)
                 if new_strokes_string != key and new_strokes_string in main_dict:
                     if main_dict[key] != main_dict[new_strokes_string]:
-                        print('' + new_strokes_string + ':"' + main_dict[new_strokes_string] + '" --> "' + main_dict[
-                            key] + '"')
-
+                        if not self.quiet:
+                            print('' + new_strokes_string + ':"' + main_dict[new_strokes_string] + '" --> "' + main_dict[key] + '"')
                 new_strokes_dict[new_strokes_string] = main_dict[key]
 
         os.makedirs(os.path.dirname(output_path), exist_ok=True)
         with codecs.open(output_path, "w", "utf-8") as json_file:
             json_string = json.dumps(new_strokes_dict, ensure_ascii=False, sort_keys=True,
                                      indent=0, separators=(',', ': '))
-
             json_file.write(json_string)
-
             # adds a new line at the end of the file because json.dump doesn't
             json_file.write("\n")
 
@@ -95,5 +94,6 @@ if __name__ == '__main__':
     main_path = sys.argv[1]
     specific_language_path = sys.argv[2]
     output_path = sys.argv[3]
-    main_remapper = MainRemapper(specific_language_path)
+    quiet = len(sys.argv) > 4 and sys.argv[4] == "--quiet"
+    main_remapper = MainRemapper(specific_language_path, quiet)
     main_remapper.remap(main_path, output_path)
