@@ -1,4 +1,5 @@
 from os import listdir
+ TKPWHR TKPWHR TKPWHR TKPWHR
 from pathlib import Path
 import json
 #from plover import log
