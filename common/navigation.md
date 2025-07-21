@@ -87,6 +87,7 @@
 | KPH-R    | Clipboard History           | {#shift(command(v))}                                                                                |
 | TP       | Follow Link via Homerow app | {#command(shift(control(f)))}                                                                       |
 | TP-PLS   | Toggle stenomouse links     | {}{PLOVER:SHELL:printf TOGGLE        \| /opt/homebrew/bin/socat - UNIX-SENDTO:/tmp/stenomouse.sock} |
+| ST-PLS   | Restart stenomouse links    | {}{PLOVER:SHELL:source ~/git/stenomouse/.venv/bin/activate && bash ~/git/stenomouse/start.sh}                                                     |
 
 
 ## Program Navigation
@@ -140,7 +141,7 @@
 | TKPW-LD | Create note in Gold folder    | {^Gold/^}            |
 | S-FRL   | Create note in Silver folder  | {^Silver/^}          |
 | KR-PBT  | Create note in quick switcher | {#shift(return)}     |
-| P-NT    | Pin note                      | {#command(shift(e))} |
+| P-PBT   | Pin note                      | {#command(shift(e))} |
 | TPHR    | Follow link under cursor      | {#option(return)}    |
 
 
