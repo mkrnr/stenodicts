@@ -85,8 +85,8 @@
 | TK-FP    | Focus dock (Dock change)    | {#control(F3)}                                                                                      |
 | PWR-R    | Command + Return            | {#option(return)}                                                                                   |
 | KPH-R    | Clipboard History           | {#shift(command(v))}                                                                                |
-| TPH-R    | Follow Link via Homerow app | {#command(shift(control(f)))}                                                                       |
-| TP       | Toggle stenomouse links     | {}{PLOVER:SHELL:printf TOGGLE        \| /opt/homebrew/bin/socat - UNIX-SENDTO:/tmp/stenomouse.sock} |
+| TP       | Follow Link via Homerow app | {#command(shift(control(f)))}                                                                       |
+| TP-PLS   | Toggle stenomouse links     | {}{PLOVER:SHELL:printf TOGGLE        \| /opt/homebrew/bin/socat - UNIX-SENDTO:/tmp/stenomouse.sock} |
 
 
 ## Program Navigation
