@@ -83,7 +83,7 @@
 | R-FPL    | Move window up              | {#control(option(up))}                                                                              |
 | R-FRPBLG | Move window full screen     | {#control(option(return))}                                                                          |
 | TK-FP    | Focus dock (Dock change)    | {#control(F3)}                                                                                      |
-| PWR-R    | Command + Return            | {#option(return)}                                                                                   |
+| PWR-R    | Command + Return            | {#command(return)}                                                                                  |
 | KPH-R    | Clipboard History           | {#shift(command(v))}                                                                                |
 | TP-RPL   | Follow Link via Homerow app | {#command(shift(control(f)))}                                                                       |
 | TP       | Toggle stenomouse links     | {}{PLOVER:SHELL:printf TOGGLE        \| /opt/homebrew/bin/socat - UNIX-SENDTO:/tmp/stenomouse.sock} |
