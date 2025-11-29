@@ -55,13 +55,14 @@
 | Stroke  | Description                         | Translation                                                                                        |
 |---------|-------------------------------------|----------------------------------------------------------------------------------------------------|
 | KHR-R   | Open Calendar                       | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt Calendar Calendar}                  |
+| KR-PL   | Open Google Chrome                  | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt \"Google Chrome\" Chrome}           |
 | PW-S    | Open Obsidian                       | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt Obsidian Obsidian}                  |
 | T-RPL   | Open Terminal                       | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt iTerm iTerm2}                       |
 | Z-PL    | Open Zoom                           | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt zoom.us zoom.us}                    |
 | TP-RPB  | Open Finder                         | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt Finder Finder}                      |
 | R-RS    | Open Reminders                      | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt Reminders Reminders}                |
 | TPH-TS  | Open Notes                          | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt Notes Notes}                        |
-| TPH-BS   | Open Numbers                          | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt Numbers Numbers}                        |
+| TPH-BS  | Open Numbers                        | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt Numbers Numbers}                    |
 | SR-S    | Open VS Code                        | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt \"Visual Studio Code\" Code}        |
 | KP-BG   | Open XCode                          | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt Xcode Xcode}                        |
 | PH-BG   | Open Music                          | {PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt Music Music}                        |
