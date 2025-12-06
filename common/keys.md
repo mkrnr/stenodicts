@@ -113,7 +113,7 @@
 | Stroke   | Description                          | Translation |
 |----------|--------------------------------------|-------------|
 | -PBD     | And                                  | {^&}        |
-| T-PLS    | Asterisk (times)                     | {^\*}       |
+| R-FBG    | Asterisk                             | {^\*}       |
 | PW-RT    | Bigger Than                          | {^>}        |
 | S-RT     | Smaller Than                         | {^<}        |
 | SPW-RT   | Smalle Than Bigger Than              | {^<>^}      |
