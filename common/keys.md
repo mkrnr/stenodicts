@@ -67,33 +67,33 @@ S-S: '{#alt_r(s)}' # ß
 ## Numbers
 
 ```yaml
-PW-F: '{^}1' # 1
-PW-P: '{^}2' # 2
-PW-FP: '{^}3' # 3
-PW-L: '{^}4' # 4
-PW-FL: '{^}5' # 5
-PW-PL: '{^}6' # 6
-PW-FPL: '{^}7' # 7
-PW-T: '{^}8' # 8
-PW-FT: '{^}9' # 9
-PW-R: '{^}0' # 0
+PW-R: '{^}1' # 1
+PW-B: '{^}2' # 2
+PW-G: '{^}3' # 3
+PW-FR: '{^}4' # 4
+PW-PB: '{^}5' # 5
+PW-LG: '{^}6' # 6
+PW-F: '{^}7' # 7
+PW-P: '{^}8' # 8
+PW-L: '{^}9' # 9
+PW-E: '{^}0' # 0
 ```
 
 ## F-Keys
 
 ```yaml
-TPW-F: '{#F1}' # F1
-TPW-P: '{#F2}' # F2
-TPW-FP: '{#F3}' # F3
-TPW-L: '{#F4}' # F4
-TPW-FL: '{#F5}' # F5
-TPW-PL: '{#F6}' # F6
-TPW-FPL: '{#F7}' # F7
-TPW-T: '{#F8}' # F8
-TPW-FT: '{#F9}' # F9
-TPW-PT: '{#F10}' # F10
-TPW-FPT: '{#F11}' # F11
-TPW-LT: '{#F12}' # F12
+TPW-R: '{#F1}' # F1
+TPW-B: '{#F2}' # F2
+TPW-G: '{#F3}' # F3
+TPW-FR: '{#F4}' # F4
+TPW-PB: '{#F5}' # F5
+TPW-LG: '{#F6}' # F6
+TPW-F: '{#F7}' # F7
+TPW-P: '{#F8}' # F8
+TPW-L: '{#F9}' # F9
+TPWEPB: '{#F10}' # F10 (FEN)
+TPWHR-L: '{#F11}' # F11 (FL-L)
+TPWHR-F: '{#F12}' # F12 (FL-F)
 ```
 
 ## Special Keys

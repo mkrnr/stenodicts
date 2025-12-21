@@ -108,10 +108,6 @@ class DictBuilder(object):
                 separators=(",", ": "),
             )
 
-            # replace redundantly escaped backslashes
-            json_string = json_string.replace("\\\\", "\\")
-            json_string = json_string.replace('\\"', '"')
-
             json_file.write(json_string)
 
             # adds a new line at the end of the file because json.dump doesn't

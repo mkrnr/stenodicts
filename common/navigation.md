@@ -44,17 +44,17 @@ PH-FRPBLG: '{#command(a)}' # Mark all
 ```yaml
 H-FR: '{#command(bracketleft)}' # Move history left
 H-LG: '{#command(bracketright)}' # Move history right
-PWR-F: '{#command(1)}' # Switch to tab 1
-PWR-P: '{#command(2)}' # Switch to tab 2
-PWR-FP: '{#command(3)}' # Switch to tab 3
-PWR-L: '{#command(4)}' # Switch to tab 4
-PWR-FL: '{#command(5)}' # Switch to tab 5
-PWR-PL: '{#command(6)}' # Switch to tab 6
-PWR-FPL: '{#command(7)}' # Switch to tab 7
-PWR-T: '{#command(8)}' # Switch to tab 8
-PWR-FT: '{#command(9)}' # Switch to last tab
-PWR-FR: '{#control(shift(tab))}' # Switch to tab left
-PWR-LG: '{#control(tab)}' # Switch to tab right
+PWR-R: '{#command(1)}' # Switch to tab 1
+PWR-B: '{#command(2)}' # Switch to tab 2
+PWR-G: '{#command(3)}' # Switch to tab 3
+PWR-FR: '{#command(4)}' # Switch to tab 4
+PWR-PB: '{#command(5)}' # Switch to tab 5
+PWR-LG: '{#command(6)}' # Switch to tab 6
+PWR-F: '{#command(7)}' # Switch to tab 7
+PWR-P: '{#command(8)}' # Switch to tab 8
+PWR-L: '{#command(9)}' # Switch to last tab
+PWR-FRPB: '{#control(shift(tab))}' # Switch to tab left
+PWR-PBLG: '{#control(tab)}' # Switch to tab right
 TW: '{#command(tab)}' # Switch to last application
 W-FR: '{#command(quoteleft)}' # Switch to prev app window
 W-FPL: '{#command(quoteleft)}' # Switch to prev app window
@@ -62,16 +62,16 @@ W-LG: '{#command(shift(quoteleft))}' # Switch to next app window
 W-RBG: '{#command(shift(quoteleft))}' # Switch to next app window
 PWR-BGS: '{#command(w)}' # Close window
 PWR-FBGS: '{#command(q)}' # Close application
-KPW-D: '{#control(0)}' # Control + 0
-KPW-F: '{#control(1)}' # Control + 1
-KPW-P: '{#control(2)}' # Control + 2
-KPW-FP: '{#control(3)}' # Control + 3
-KPW-L: '{#control(4)}' # Control + 4
-KPW-FL: '{#control(5)}' # Control + 5
-KPW-PL: '{#control(6)}' # Control + 6
-KPW-FPL: '{#control(7)}' # Control + 7
-KPW-T: '{#control(8)}' # Control + 8
-KPW-FT: '{#control(9)}' # Control + 9
+KPW-E: '{#control(0)}' # Control + 0
+KPW-R: '{#control(1)}' # Control + 1
+KPW-B: '{#control(2)}' # Control + 2
+KPW-G: '{#control(3)}' # Control + 3
+KPW-FR: '{#control(4)}' # Control + 4
+KPW-PB: '{#control(5)}' # Control + 5
+KPW-LG: '{#control(6)}' # Control + 6
+KPW-F: '{#control(7)}' # Control + 7
+KPW-P: '{#control(8)}' # Control + 8
+KPW-L: '{#control(9)}' # Control + 9
 R-FRPB: '{#control(option(command(left)))}' # Move window to screen left
 R-PBLG: '{#control(option(command(right)))}' # Move window to screen right
 R-RB: '{#control(option(down))}' # Move window down
@@ -82,7 +82,7 @@ R-FP: '{#control(option(up))}' # Move window up
 R-FPL: '{#control(option(up))}' # Move window up
 R-FRPBLG: '{#control(option(return))}' # Move window full screen
 TK-FP: '{#control(F3)}' # Focus dock (Dock change)
-PWR-R: '{#command(return)}' # Command + Return
+PWR-RPB: '{#command(return)}' # Command + Return
 KPH-R: '{#shift(command(v))}' # Clipboard History
 TP-RPL: '{#command(shift(control(f)))}' # Follow Link via Homerow app
 TP: '{}{PLOVER:SHELL:printf TOGGLE        | /opt/homebrew/bin/socat - UNIX-SENDTO:/tmp/stenomouse.sock}' # Toggle stenomouse links
@@ -93,7 +93,7 @@ ST-PLS: '{}{PLOVER:SHELL:source ~/git/stenomouse/.venv/bin/activate && bash ~/gi
 ## Program Navigation
 
 ```yaml
-PWR-PB: '{#command(n)}' # New window
+PWR/-PB: '{#command(n)}' # New window
 TPWR: '{#command(t)}' # New tab
 PR-P: '{#command(comma)}' # Open program preferences
 PWROFR: '{#command(option(left))}' # Switch to left tab group
@@ -145,13 +145,11 @@ TPHR: '{#option(return)}' # Follow link under cursor
 ```
 
 
-
-
 ## Terminal
 
 ```yaml
-KPW-R: '{#control(r)}' # backward search
-KPW-S: '{#control(s)}' # forward search
+SR-FR: '{#control(r)}' # backward search
+SR-LG: '{#control(s)}' # forward search
 ```
 
 
@@ -166,4 +164,3 @@ SR-BG: '{#control(v)}' # Visual block
 ```yaml
 PHR-BG: '{#shift(command(c))}' # Mark reminder complete
 ```
-
