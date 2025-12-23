@@ -44,17 +44,17 @@ PH-FRPBLG: '{#command(a)}' # Mark all
 ```yaml
 H-FR: '{#command(bracketleft)}' # Move history left
 H-LG: '{#command(bracketright)}' # Move history right
-PWR-R: '{#command(1)}' # Switch to tab 1
-PWR-B: '{#command(2)}' # Switch to tab 2
-PWR-G: '{#command(3)}' # Switch to tab 3
-PWR-FR: '{#command(4)}' # Switch to tab 4
-PWR-PB: '{#command(5)}' # Switch to tab 5
-PWR-LG: '{#command(6)}' # Switch to tab 6
-PWR-F: '{#command(7)}' # Switch to tab 7
-PWR-P: '{#command(8)}' # Switch to tab 8
-PWR-L: '{#command(9)}' # Switch to last tab
-PWR-FRPB: '{#control(shift(tab))}' # Switch to tab left
-PWR-PBLG: '{#control(tab)}' # Switch to tab right
+PWROR: '{#command(1)}' # Switch to tab 1
+PWROB: '{#command(2)}' # Switch to tab 2
+PWROG: '{#command(3)}' # Switch to tab 3
+PWROFR: '{#command(4)}' # Switch to tab 4
+PWROPB: '{#command(5)}' # Switch to tab 5
+PWROLG: '{#command(6)}' # Switch to tab 6
+PWROF: '{#command(7)}' # Switch to tab 7
+PWROP: '{#command(8)}' # Switch to tab 8
+PWROL: '{#command(9)}' # Switch to last tab
+PWR-FR: '{#control(shift(tab))}' # Switch to tab left
+PWR-LG: '{#control(tab)}' # Switch to tab right
 TW: '{#command(tab)}' # Switch to last application
 W-FR: '{#command(quoteleft)}' # Switch to prev app window
 W-FPL: '{#command(quoteleft)}' # Switch to prev app window
