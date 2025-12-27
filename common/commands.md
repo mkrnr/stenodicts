@@ -64,6 +64,7 @@ SR-S: '{PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt "Visual St
 KP-BG: '{PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt Xcode Xcode}' # Open XCode
 PH-BG: '{PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt Music Music}' # Open Music
 TPR-FPL: '{PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt Freeform Freeform}' # Open Freeform
+T-G: '{PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt Telegram Telegram}' # Open Telegram
 A-FL: '{#command(space)}{^}' # Open Alfred, suppress next space
 SR-PB: '{#command(space)}{PLOVER:DELAY:0.05}{^cw^}' # Open VS Code window alfred workflow
 S-R: '{#control(space)}' # Toggle Siri

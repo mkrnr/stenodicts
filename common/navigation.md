@@ -93,11 +93,11 @@ ST-PLS: '{}{PLOVER:SHELL:source ~/git/stenomouse/.venv/bin/activate && bash ~/gi
 ## Program Navigation
 
 ```yaml
-PWR/-PB: '{#command(n)}' # New window
+WR/-PB: '{#command(n)}' # New window
 TPWR: '{#command(t)}' # New tab
 PR-P: '{#command(comma)}' # Open program preferences
-PWROFR: '{#command(option(left))}' # Switch to left tab group
-PWROLG: '{#command(option(right))}' # Switch to right tab group
+#PWR-FR: '{#command(option(left))}' # Switch to left tab group
+#PWR-LG: '{#command(option(right))}' # Switch to right tab group
 PWROFPL: '{#command(option(up))}' # Switch to top tab group
 PWRORBG: '{#command(option(down))}' # Switch to bottom tab group
 ```

@@ -1,21 +1,21 @@
 # Modifier Keys
 
-The question marks will be replaced by strokes and translations for all applicable keyboard keys such as numbers, letters, and F-keys. This is done with the script `build_modifier_combos.py`.
+The `<key>` will be replaced by strokes and translations for all applicable keyboard keys using the `stenodict-cli` tool.
 
 ```yaml
-PWA/?: '{#option(?)}' # Option
-KPWA/?: '{#option(control(?))}' # Option+Control
-SKPWA/?: '{#option(control(shift(?)))}' # Option+Control+Shift
-SKPWRA/?: '{#option(control(shift(command(?))))}' # Option+Control+Shift+Command
-KPWRA/?: '{#option(control(command(?)))}' # Option+Control+Command
-SPWA/?: '{#option(shift(?))}' # Option+Shift
-SPWRA/?: '{#option(shift(command(?)))}' # Option+Shift+Command
-PWRA/?: '{#option(command(?))}' # Option+Command
-KPW/?: '{#control(?)}' # Control
-SKPW/?: '{#control(shift(?))}' # Control+Shift
-SKPWR/?: '{#control(shift(command(?)))}' # Control+Shift+Command
-KPWR/?: '{#control(command(?))}' # Control+Command
-SPW/?: '{#shift(?)}' # Shift
-SPWR/?: '{#shift(command(?))}' # Shift+Command
-PWR/?: '{#command(?)}' # Command
+PWA/<key>: '{#option(<key>)}' # Option
+KPWA/<key>: '{#option(control(<key>))}' # Option+Control
+SKPWA/<key>: '{#option(control(shift(<key>)))}' # Option+Control+Shift
+SKPWRA/<key>: '{#option(control(shift(command(<key>))))}' # Option+Control+Shift+Command
+KPWRA/<key>: '{#option(control(command(<key>)))}' # Option+Control+Command
+SPWA/<key>: '{#option(shift(<key>))}' # Option+Shift
+SPWRA/<key>: '{#option(shift(command(<key>)))}' # Option+Shift+Command
+PWRA/<key>: '{#option(command(<key>))}' # Option+Command
+KPW/<key>: '{#control(<key>)}' # Control
+SKPW/<key>: '{#control(shift(<key>))}' # Control+Shift
+SKPWR/<key>: '{#control(shift(command(<key>)))}' # Control+Shift+Command
+KPWR/<key>: '{#control(command(<key>))}' # Control+Command
+SPW/<key>: '{#shift(<key>)}' # Shift
+SPWR/<key>: '{#shift(command(<key>))}' # Shift+Command
+PWR/<key>: '{#command(<key>)}' # Command
 ```
