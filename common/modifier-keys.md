@@ -1,21 +1,22 @@
 # Modifier Keys
 
-The `<key>` will be replaced by strokes and translations for all applicable keyboard keys using the `stenodict-cli` tool.
+The `<outline>` and `<translation>` tags will be replaced by outlines and translations for all applicable keyboard keys using the `stenodict-cli` tool.
 
 ```yaml
-PWA/<key>: '{#option(<key>)}' # Option
-KPWA/<key>: '{#option(control(<key>))}' # Option+Control
-SKPWA/<key>: '{#option(control(shift(<key>)))}' # Option+Control+Shift
-SKPWRA/<key>: '{#option(control(shift(command(<key>))))}' # Option+Control+Shift+Command
-KPWRA/<key>: '{#option(control(command(<key>)))}' # Option+Control+Command
-SPWA/<key>: '{#option(shift(<key>))}' # Option+Shift
-SPWRA/<key>: '{#option(shift(command(<key>)))}' # Option+Shift+Command
-PWRA/<key>: '{#option(command(<key>))}' # Option+Command
-KPW/<key>: '{#control(<key>)}' # Control
-SKPW/<key>: '{#control(shift(<key>))}' # Control+Shift
-SKPWR/<key>: '{#control(shift(command(<key>)))}' # Control+Shift+Command
-KPWR/<key>: '{#control(command(<key>))}' # Control+Command
-SPW/<key>: '{#shift(<key>)}' # Shift
-SPWR/<key>: '{#shift(command(<key>))}' # Shift+Command
-PWR/<key>: '{#command(<key>)}' # Command
+PWA/<outline>: '{#option(<translation>)}' # Option
+KPWA/<outline>: '{#option(control(<translation>))}' # Option+Control
+SKPWA/<outline>: '{#option(control(shift(<translation>)))}' # Option+Control+Shift
+SKPWRA/<outline>: '{#option(control(shift(command(<translation>))))}' # Option+Control+Shift+Command
+KPWRA/<outline>: '{#option(control(command(<translation>)))}' # Option+Control+Command
+SPWA/<outline>: '{#option(shift(<translation>))}' # Option+Shift
+SPWRA/<outline>: '{#option(shift(command(<translation>)))}' # Option+Shift+Command
+PWRA/<outline>: '{#option(command(<translation>))}' # Option+Command
+KPW/<outline>: '{#control(<translation>)}' # Control
+SKPW/<outline>: '{#control(shift(<translation>))}' # Control+Shift
+SKPWR/<outline>: '{#control(shift(command(<translation>)))}' # Control+Shift+Command
+KPWR/<outline>: '{#control(command(<translation>))}' # Control+Command
+SPW/<outline>: '{#shift(<translation>)}' # Shift
+SPWR/<outline>: '{#shift(command(<translation>))}' # Shift+Command
+PWR/<outline>: '{#command(<translation>)}' # Command
 ```
+
