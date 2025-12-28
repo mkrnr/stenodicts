@@ -117,12 +117,12 @@ PW-RT: '{^>}' # Bigger Than
 S-RT: '{^<}' # Smaller Than
 SPW-RT: '{^<>^}' # Smalle Than Bigger Than
 T-T: '{^@}' # At
-PW-RB: '{^\\}' # Backslash
-KPR-FR: '{^\\{}' # Brace Left
-KPR-FRP: '{\\{}' # Brace Left (Leading space)
-KPR-LG: '{^\\}}' # Brace Right
-KPR-PLG: '{\\}}' # Brace Right (Leading space)
-KPR-FRLG: '{^\\{\\}^}' # Brace Left and Right
+PW-RB: '{^\}' # Backslash
+KPR-FR: '{^\{}' # Brace Left
+KPR-FRP: '{\{}' # Brace Left (Leading space)
+KPR-LG: '{^\}}' # Brace Right
+KPR-PLG: '{\}}' # Brace Right (Leading space)
+KPR-FRLG: '{^\{\}^}' # Brace Left and Right
 SPR-FR: '{^[}' # Bracket Left
 SPR-FRP: '{[}' # Bracket Left (Leading space)
 SPR-LG: '{^]}' # Bracket Right
