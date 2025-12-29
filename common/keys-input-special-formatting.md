@@ -3,7 +3,7 @@
 ## Special Characters
 
 ```yaml
-SPW-RT: '{^<>^}' # Smalle Than Bigger Than
+SPW-RT: '{^<>^}' # Smaller Than Bigger Than
 KPR-FRP: '{\{}' # Brace Left (Leading space)
 KPR-PLG: '{\}}' # Brace Right (Leading space)
 KPR-FRLG: '{^\{\}^}' # Brace Left and Right
