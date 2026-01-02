@@ -116,7 +116,6 @@ KW-PL: '?' # Question Mark
 TKWO: '"' # Quote Double
 TW-PG: '`' # Quote Left
 KWO: "'" # Quote Single
-P: ' ' # Space
 S-BG: '_' # Underscore
 SR-B: '|' # Vertical Bar
 ```

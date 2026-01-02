@@ -20,6 +20,7 @@ TPWHR-F: 'F12' # F12 (FL-F)
 ## Special Keys
 
 ```yaml
+P: 'space' # Space
 -FRPB: 'backspace' # Backspace
 TK-L: 'delete' # Delete
 H-F: 'escape' # Escape
