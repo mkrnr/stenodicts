@@ -48,7 +48,7 @@ PU: 'U' # U
 SR: 'v' # v
 SR-P: 'V' # V
 W: 'w' # w
-Using existing venv at /Users/martin/git/stenodict-cli/.venvW-P: 'W' # W
+W-P: 'W' # W
 -BGS: 'x' # x
 P-BGS: 'X' # X
 KWR: 'y' # y
