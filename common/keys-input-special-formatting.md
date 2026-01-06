@@ -1,5 +1,14 @@
 # Input Keys with Special Formatting
 
+## Punctuation
+
+```yaml
+TP-BG: '{!}' # Exclamation Mark
+TP-PL: '{.}' # Period
+KW-BG: '{,}' # Comma
+KW-PL: '{?}' # Question Mark
+```
+
 ## Special Characters
 
 ```yaml
@@ -13,13 +22,9 @@ SPR-FRLG: '{^[]^}' # Bracket Left and Right
 TPR-FRP: '{^ }{^<}' # Triange Brace Left (Leading space)
 TPR-PLG: '{^ }{^>}' # Triange Brace Right (Leading space)
 TPR-FRLG: '{^<>^}' # Triange Brace Left and Right
-TP-BG: '{!}' # Exclamation Mark (Leading space)
 PR-FRP: '{(}' # Parenthesis Left (Leading space)
 PR-PLG: '{)}' # Parenthesis Right (Leading space)
 PR-FRLG: '{^()^}' # Parenthesis Left and Right
-TP-PL: '{.}' # Period (Leading space)
-KW-BG: '{,}' # Comma (Leading space)
-KW-PL: '{?}' # Question Mark (Leading space)
 TKWOP: '{"}' # Quote Double (Leading space)
 KWOP: "{'}" # Quote Single (Leading space)
 ```

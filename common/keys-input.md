@@ -99,7 +99,6 @@ K-L: ':' # Colon
 TWH: '$' # Dollar
 KW-L: '=' # Equal
 KWR-R: '€' # Euro
-TP-BG: '!' # Exclamation Mark
 H-PB: '-' # Hyphen
 P-RS: '%' # Percent
 PHR-S: '+' # Plus
@@ -110,9 +109,6 @@ HR-D: '~' # Tilde
 H-PL: '~' # Tilde
 PR-FR: '(' # Parenthesis Left
 PR-LG: ')' # Parenthesis Right
-TP-PL: '.' # Period
-KW-BG: ',' # Comma
-KW-PL: '?' # Question Mark
 TKWO: '"' # Quote Double
 TW-PG: '`' # Quote Left
 KWO: "'" # Quote Single
