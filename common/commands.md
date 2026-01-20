@@ -54,7 +54,7 @@ TKUP: '{}{^../^}' # Type ../ with no leading or trailing space
 KHR-R: '{PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt Calendar Calendar}' # Open Calendar
 KR-PL: '{PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt "Google Chrome" Chrome}' # Open Google Chrome
 PW-S: '{PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt Obsidian Obsidian}' # Open Obsidian
-T-RPL: '{PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt iTerm iTerm2}' # Open Terminal
+T-RPL: '{PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt Ghostty Ghostty}' # Open Terminal
 Z-PL: '{PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt zoom.us zoom.us}' # Open Zoom
 TP-RPB: '{PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt Finder Finder}' # Open Finder
 R-RS: '{PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt Reminders Reminders}' # Open Reminders
