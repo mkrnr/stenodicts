@@ -19,5 +19,7 @@ KH-B: '{PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt ChatGPT Ch
 TW-B: '{PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt Safari Safari}{#space}{#command(tab)}' # Toggle play pause in browser
 W-FRB: '{PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt Safari Safari}{#left}{#command(tab)}' # Press left in browser
 W-BLG: '{PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt Safari Safari}{#right}{#command(tab)}' # Press right in browser
+TKHR-PB: '{PLOVER:SHELL:shortcuts run Desk-Lights-On}'
+TKHR-F: '{PLOVER:SHELL:shortcuts run Desk-Lights-Off}'
 ```
 
