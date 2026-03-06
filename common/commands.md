@@ -74,8 +74,8 @@ KPH-P: '{PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt "GitHub" 
 ## VS Code Commands
 
 ```yaml
-T-FS: '{PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt "Visual Studio Code" Code}{#command(option(t))}' # Command: Terminal: Focus on Terminal View
-HR-FS: '{PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt "Visual Studio Code" Code}{#control(shift(command(down)))}' # Command: Terminal: Focus on AI CLI View (L in CLI)
+T-FS: '{PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt "Visual Studio Code" Code}{#control(shift(command(down)))}' # Command: Terminal: Focus on Terminal View
+HR-FS: '{PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt "Visual Studio Code" Code}{#command(option(t))}' # Command: Terminal: Focus on AI CLI View (L in CLI)
 KP-FS: '{PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt "Visual Studio Code" Code}{#control(shift(command(left)))}' # Command: Explorer: Focus on Folders View
 TK-FS: '{PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt "Visual Studio Code" Code}{#control(shift(command(up)))}' # Command: View: Focus Active Editor Group
 ```
