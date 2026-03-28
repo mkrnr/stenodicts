@@ -61,6 +61,7 @@ R-RS: '{PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt Reminders 
 TPH-TS: '{PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt Notes Notes}' # Open Notes
 TPH-BS: '{PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt Numbers Numbers}' # Open Numbers
 SR-S: '{PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt "Visual Studio Code" Code}' # Open VS Code
+TKPW-F: '{PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt Antigravity Antigravity}' # Open Antigravity
 KP-BG: '{PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt Xcode Xcode}' # Open XCode
 PH-BG: '{PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt Music Music}' # Open Music
 TPR-FPL: '{PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt Freeform Freeform}' # Open Freeform
