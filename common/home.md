@@ -9,7 +9,7 @@ W-B: '{PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt Safari Safa
 PH-L: '{PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt Mail Mail}' # Open Mail
 PW-RPB: '{PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt Brain.fm Brain.fm}' # Open brain.fm (Safari tab)
 SKWR-R: '{PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt Jira Jira}' # Open Jira
-KH-B: '{PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt Gemini Gemini}' # Open chat bot
+KH-B: '{PLOVER:SHELL:osascript ~/git/stenodicts/scripts/open-app.scpt Claude Claude}' # Open chat bot
 ```
 
 
